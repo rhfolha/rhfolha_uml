@@ -696,6 +696,11 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_Tvi5MFAUEeagToDoaqErMw" name="FB.06 - Encerra a operação" isLeaf="true" incoming="_ZXHlsFAUEeagToDoaqErMw" outgoing="_cVA6MFAUEeagToDoaqErMw" inPartition="_OrTMkEN5EeafOLY1ymp-7g" body=""/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_aJSCcFAUEeagToDoaqErMw" name="Fim de Atividade" incoming="_cVA6MFAUEeagToDoaqErMw" inPartition="_OrTMkEN5EeafOLY1ymp-7g"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_c-avkGlaEea2uPijx-EkoQ" name="Actor1">
+          <eAnnotations xmi:id="_c-gPIGlaEea2uPijx-EkoQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_c-gPIWlaEea2uPijx-EkoQ" key="Human"/>
+          </eAnnotations>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_K0VSoD-2Eeaoa6yGG_FwFA" name="Estrutura">
         <packagedElement xmi:type="uml:Activity" xmi:id="_xq4qgD_MEeaoa6yGG_FwFA" name="Estrutura" useCase="_U10uQD_NEeaoa6yGG_FwFA _bJ9l0D_NEeaoa6yGG_FwFA _eskJ4D_NEeaoa6yGG_FwFA _iC0UAD_NEeaoa6yGG_FwFA _0GCB0D_NEeaoa6yGG_FwFA">
@@ -966,14 +971,27 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_GVSpkD-4Eeaoa6yGG_FwFA" name="Auditoria"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_uE2RcEO9EeaRnrYFrIkXNQ" name="Atores">
-      <packagedElement xmi:type="uml:Actor" xmi:id="_qKyGMD-4Eeaoa6yGG_FwFA" name="Operador de RH"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_qKyGMD-4Eeaoa6yGG_FwFA" name="Operador de RH">
+        <eAnnotations xmi:id="_AIOnYGlaEea2uPijx-EkoQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_AIQckGlaEea2uPijx-EkoQ" key="Human"/>
+        </eAnnotations>
+      </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_zT2jgD-4Eeaoa6yGG_FwFA" name="UCRH">
+        <eAnnotations xmi:id="_H8Ch8GlaEea2uPijx-EkoQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_H8DJAGlaEea2uPijx-EkoQ" key="Human"/>
+        </eAnnotations>
         <generalization xmi:id="_A3mcYD-5Eeaoa6yGG_FwFA" general="_qKyGMD-4Eeaoa6yGG_FwFA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_2ZSqcD-4Eeaoa6yGG_FwFA" name="Setorial de RH">
+        <eAnnotations xmi:id="_CaXpIGlaEea2uPijx-EkoQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_CaXpIWlaEea2uPijx-EkoQ" key="Human"/>
+        </eAnnotations>
         <generalization xmi:id="_BWtaQD-5Eeaoa6yGG_FwFA" general="_qKyGMD-4Eeaoa6yGG_FwFA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_4WjoYD-4Eeaoa6yGG_FwFA" name="Subsetorial de RH">
+        <eAnnotations xmi:id="_E_kJwGlaEea2uPijx-EkoQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_E_kw0GlaEea2uPijx-EkoQ" key="Human"/>
+        </eAnnotations>
         <generalization xmi:id="_B3H_sD-5Eeaoa6yGG_FwFA" general="_qKyGMD-4Eeaoa6yGG_FwFA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_DkwvoEO-EeaRnrYFrIkXNQ" memberEnd="_DkwvoUO-EeaRnrYFrIkXNQ _DkwvokO-EeaRnrYFrIkXNQ">
@@ -2517,5 +2535,6 @@
     <packagedElement xmi:type="uml:StateMachine" xmi:id="_zdKj4E3XEeawn_P5QTRtmQ" name="StateMachine7" submachineState="_zdKj4U3XEeawn_P5QTRtmQ"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_fYpv4E3bEeawn_P5QTRtmQ" name="CicloVidaEventos"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_RPPdYFgcEeaaCY5Nh3KarA" name="Cargos"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_hn5cIGlaEea2uPijx-EkoQ" name="Lixeira"/>
   </packagedElement>
 </uml:Model>
