@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_nOHBED-1Eeaoa6yGG_FwFA" selectedViews="_nZRIMD-1Eeaoa6yGG_FwFA _nZfxsD-1Eeaoa6yGG_FwFA _nZqJwD-1Eeaoa6yGG_FwFA _nZyFkD-1Eeaoa6yGG_FwFA _nZ9EsD-1Eeaoa6yGG_FwFA _na2ckD-1Eeaoa6yGG_FwFA" version="11.0.0.201604141600">
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_nOHBED-1Eeaoa6yGG_FwFA" selectedViews="_nZRIMD-1Eeaoa6yGG_FwFA _nZfxsD-1Eeaoa6yGG_FwFA _nZqJwD-1Eeaoa6yGG_FwFA _nZyFkD-1Eeaoa6yGG_FwFA _nZ9EsD-1Eeaoa6yGG_FwFA _na2ckD-1Eeaoa6yGG_FwFA" version="11.0.0.201604141600">
   <semanticResources>rh_folha.uml</semanticResources>
   <ownedViews xmi:type="viewpoint:DView" xmi:id="_nZRIMD-1Eeaoa6yGG_FwFA">
     <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Reused']"/>
@@ -629,9 +629,9 @@
             <children xmi:type="notation:Node" xmi:id="_2Z3SMD-4Eeaoa6yGG_FwFA" type="5002">
               <layoutConstraint xmi:type="notation:Location" xmi:id="_2Z3SMT-4Eeaoa6yGG_FwFA" x="-22" y="53"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_w9posGlbEeaw8uc-bCBmuA" type="3003" element="_w8wQ0GlbEeaw8uc-bCBmuA">
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_w9posWlbEeaw8uc-bCBmuA" fontName="Segoe UI"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w9posmlbEeaw8uc-bCBmuA"/>
+            <children xmi:type="notation:Node" xmi:id="_O7J20GojEeauwszEdgVhow" type="3005" element="_O6Zo4GojEeauwszEdgVhow">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_O7J20WojEeauwszEdgVhow" fontName="Segoe UI"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O7J20mojEeauwszEdgVhow"/>
             </children>
             <styles xmi:type="notation:ShapeStyle" xmi:id="_2Z2rIT-4Eeaoa6yGG_FwFA" fontColor="7490599" fontName="Segoe UI"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Z2rIj-4Eeaoa6yGG_FwFA" x="125" y="445" width="30" height="50"/>
@@ -677,7 +677,7 @@
             <styles xmi:type="notation:ConnectorStyle" xmi:id="_BXNJgT-5Eeaoa6yGG_FwFA"/>
             <styles xmi:type="notation:FontStyle" xmi:id="_BXNJgj-5Eeaoa6yGG_FwFA" fontName="Segoe UI" fontHeight="8"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BXNJgz-5Eeaoa6yGG_FwFA" points="[3, 0, 4, 42]$[-1, -41, 0, 1]"/>
-            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BXOXoD-5Eeaoa6yGG_FwFA" id="(0.48387096774193544,0.0)"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BXOXoD-5Eeaoa6yGG_FwFA" id="(1.8266129032258065,0.0)"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BXOXoT-5Eeaoa6yGG_FwFA" id="(0.4736842105263157,1.0)"/>
           </edges>
           <edges xmi:type="notation:Edge" xmi:id="_B3o9ED-5Eeaoa6yGG_FwFA" type="4001" element="_B3LqED-5Eeaoa6yGG_FwFA" source="_4W_tQD-4Eeaoa6yGG_FwFA" target="_qNHogD-4Eeaoa6yGG_FwFA">
@@ -1102,14 +1102,15 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']/@ownedRepresentations[name='Use%20Case%20Diagram']/@defaultLayer/@nodeMappings[name='UCD_Actor']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2ZSqcT-4Eeaoa6yGG_FwFA" name="Setorial de RH" outgoingEdges="_BWv2gD-5Eeaoa6yGG_FwFA" width="3" height="5" resizeKind="NSEW">
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2ZSqcT-4Eeaoa6yGG_FwFA" name="Setorial de RH" outgoingEdges="_BWv2gD-5Eeaoa6yGG_FwFA" width="3" height="3" resizeKind="NSEW">
         <target xmi:type="uml:Actor" href="rh_folha.uml#_2ZSqcD-4Eeaoa6yGG_FwFA"/>
         <semanticElements xmi:type="uml:Actor" href="rh_folha.uml#_2ZSqcD-4Eeaoa6yGG_FwFA"/>
+        <semanticElements xmi:type="ecore:EAnnotation" href="rh_folha.uml#_O6M0kGojEeauwszEdgVhow"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-        <ownedStyle xmi:type="diagram:Square" xmi:id="_w8wQ0GlbEeaw8uc-bCBmuA" labelSize="9" showIcon="false" labelColor="39,76,114" borderColor="39,76,114" width="3" height="5" color="255,255,255">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']/@ownedRepresentations[name='Use%20Case%20Diagram']/@defaultLayer/@nodeMappings[name='UCD_Actor']/@conditionnalStyles.1/@style"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_O6Zo4GojEeauwszEdgVhow" labelSize="9" showIcon="false" labelColor="39,76,114" workspacePath="/org.obeonetwork.dsl.uml2.design/images/actor.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']/@ownedRepresentations[name='Use%20Case%20Diagram']/@defaultLayer/@nodeMappings[name='UCD_Actor']/@conditionnalStyles.0/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']/@ownedRepresentations[name='Use%20Case%20Diagram']/@defaultLayer/@nodeMappings[name='UCD_Actor']"/>
       </ownedDiagramElements>

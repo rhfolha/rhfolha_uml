@@ -971,6 +971,9 @@
         <generalization xmi:id="_A3mcYD-5Eeaoa6yGG_FwFA" general="_qKyGMD-4Eeaoa6yGG_FwFA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_2ZSqcD-4Eeaoa6yGG_FwFA" name="Setorial de RH">
+        <eAnnotations xmi:id="_O6M0kGojEeauwszEdgVhow" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_O6OCsGojEeauwszEdgVhow" key="Human"/>
+        </eAnnotations>
         <generalization xmi:id="_BWtaQD-5Eeaoa6yGG_FwFA" general="_qKyGMD-4Eeaoa6yGG_FwFA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_4WjoYD-4Eeaoa6yGG_FwFA" name="Subsetorial de RH">
