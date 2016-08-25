@@ -555,6 +555,11 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_9BLdIFAOEeagToDoaqErMw" name="FB.06 - Encerra a operação" isLeaf="true" incoming="_F725IFAPEeagToDoaqErMw" outgoing="_H6nr4FAPEeagToDoaqErMw" inPartition="_DEPIkFALEeagToDoaqErMw" body=""/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_G0LoQFAPEeagToDoaqErMw" name="ActivityFinal1" incoming="_H6nr4FAPEeagToDoaqErMw" inPartition="_DEPIkFALEeagToDoaqErMw"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_j3coUGrYEea_XNTEeZlLew" name="Actor1">
+          <eAnnotations xmi:id="_j3qDsGrYEea_XNTEeZlLew" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_j3qqwGrYEea_XNTEeZlLew" key="Human"/>
+          </eAnnotations>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Jte_UD-2Eeaoa6yGG_FwFA" name="Classe">
         <packagedElement xmi:type="uml:Activity" xmi:id="_6kY-oD_IEeaoa6yGG_FwFA" name="Classe" useCase="_Co_RwD_KEeaoa6yGG_FwFA">
