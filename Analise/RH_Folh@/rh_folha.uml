@@ -1011,7 +1011,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ZiPrkFsgEeaPguYNUcBx6Q" name="Vida Funcional">
       <packagedElement xmi:type="uml:Package" xmi:id="_b52cIFsgEeaPguYNUcBx6Q" name="Férias">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_y1ppgFsgEeaPguYNUcBx6Q" name="Cadastrar Escala Férias" useCase="_R0_PgFshEeaPguYNUcBx6Q _ZYsRgFshEeaPguYNUcBx6Q _bAumUFshEeaPguYNUcBx6Q _XLwf4FshEeaPguYNUcBx6Q" node="_5OIrAF2QEeamv9XzTKAkPg _IL8HEF2REeamv9XzTKAkPg _60hNcF2lEeamv9XzTKAkPg _kPH-0F2uEeamv9XzTKAkPg _43tzcF2uEeamv9XzTKAkPg _hxNhwF45EeaMIf1BxxbXVw _hxzFsF47EeaMIf1BxxbXVw _iHlIcF47EeaMIf1BxxbXVw _JEgQEF48EeaMIf1BxxbXVw _Okyo0F48EeaMIf1BxxbXVw _SREtUF48EeaMIf1BxxbXVw _2Y3a4F48EeaMIf1BxxbXVw _-FQGsF5bEeaMIf1BxxbXVw _UPSf8F5cEeaMIf1BxxbXVw _Gs5Q8F5nEeaMIf1BxxbXVw _tUZbsF_nEeaxIuE2tiiodQ" group="_uPKcAF2QEeamv9XzTKAkPg _wp0gkF2QEeamv9XzTKAkPg" partition="_uPKcAF2QEeamv9XzTKAkPg _wp0gkF2QEeamv9XzTKAkPg">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_y1ppgFsgEeaPguYNUcBx6Q" name="Cadastrar Escala Férias" useCase="_R0_PgFshEeaPguYNUcBx6Q _ZYsRgFshEeaPguYNUcBx6Q _bAumUFshEeaPguYNUcBx6Q _XLwf4FshEeaPguYNUcBx6Q" node="_5OIrAF2QEeamv9XzTKAkPg _IL8HEF2REeamv9XzTKAkPg _60hNcF2lEeamv9XzTKAkPg _kPH-0F2uEeamv9XzTKAkPg _43tzcF2uEeamv9XzTKAkPg _hxNhwF45EeaMIf1BxxbXVw _hxzFsF47EeaMIf1BxxbXVw _iHlIcF47EeaMIf1BxxbXVw _JEgQEF48EeaMIf1BxxbXVw _Okyo0F48EeaMIf1BxxbXVw _SREtUF48EeaMIf1BxxbXVw _2Y3a4F48EeaMIf1BxxbXVw _-FQGsF5bEeaMIf1BxxbXVw _UPSf8F5cEeaMIf1BxxbXVw _Gs5Q8F5nEeaMIf1BxxbXVw _tUZbsF_nEeaxIuE2tiiodQ _YnjjMHCQEeaa8N9s_NGyig _W3W0EHCUEeaa8N9s_NGyig _eRqNAHCVEeaa8N9s_NGyig _-2LoIHCVEeaa8N9s_NGyig _XOSJgHCYEeaa8N9s_NGyig _4gETQHCYEeaa8N9s_NGyig _LcAY0HCZEeaa8N9s_NGyig" group="_uPKcAF2QEeamv9XzTKAkPg _wp0gkF2QEeamv9XzTKAkPg" partition="_uPKcAF2QEeamv9XzTKAkPg _wp0gkF2QEeamv9XzTKAkPg">
           <ownedUseCase xmi:id="_R0_PgFshEeaPguYNUcBx6Q" name="Cadastrar Férias" subject="_y1ppgFsgEeaPguYNUcBx6Q"/>
           <ownedUseCase xmi:id="_ZYsRgFshEeaPguYNUcBx6Q" name="Interromper Férias" subject="_y1ppgFsgEeaPguYNUcBx6Q"/>
           <ownedUseCase xmi:id="_bAumUFshEeaPguYNUcBx6Q" name="Alterar Férias" subject="_y1ppgFsgEeaPguYNUcBx6Q"/>
@@ -1020,15 +1020,11 @@
             <include xmi:id="_1Zfp0FshEeaPguYNUcBx6Q" addition="_bAumUFshEeaPguYNUcBx6Q"/>
             <include xmi:id="_09itoFshEeaPguYNUcBx6Q" addition="_ZYsRgFshEeaPguYNUcBx6Q"/>
           </ownedUseCase>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_-cJh0F2tEeamv9XzTKAkPg" target="_IL8HEF2REeamv9XzTKAkPg" source="_5OIrAF2QEeamv9XzTKAkPg">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_-cKI4F2tEeamv9XzTKAkPg" name="FB.01- Selecione a opção para cadastrar férias _To_FB.02 - Apresenta a opção para selecionar os servidores que deseja cadastrar_guard" value="true"/>
-            <weight xmi:type="uml:LiteralInteger" xmi:id="_-ckYkF2tEeamv9XzTKAkPg" name="FB.01- Selecione a opção para cadastrar férias _To_FB.02 - Apresenta a opção para selecionar os servidores que deseja cadastrar_weight"/>
-          </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_a3cNkF45EeaMIf1BxxbXVw" target="_kPH-0F2uEeamv9XzTKAkPg" source="_IL8HEF2REeamv9XzTKAkPg">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_a3lXgF45EeaMIf1BxxbXVw" name="FB.02 - Apresenta a opção para selecionar os servidores que deseja cadastrar_To_FB.03 - Selecione e Submeta os servidos que deseja cadastarr férias_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_a4LNYF45EeaMIf1BxxbXVw" name="FB.02 - Apresenta a opção para selecionar os servidores que deseja cadastrar_To_FB.03 - Selecione e Submeta os servidos que deseja cadastarr férias_weight"/>
           </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_HMv5sF47EeaMIf1BxxbXVw" target="_hxNhwF45EeaMIf1BxxbXVw" source="_kPH-0F2uEeamv9XzTKAkPg">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_HMv5sF47EeaMIf1BxxbXVw" target="_LcAY0HCZEeaa8N9s_NGyig" source="_kPH-0F2uEeamv9XzTKAkPg">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_HMwgwF47EeaMIf1BxxbXVw" name="FB.03 - Selecione e Submete os servidos que deseja cadastarr férias_To_FB.04 - Apresenta o formulário de cadastro_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_HMxu4F47EeaMIf1BxxbXVw" name="FB.03 - Selecione e Submete os servidos que deseja cadastarr férias_To_FB.04 - Apresenta o formulário de cadastro_weight"/>
           </edge>
@@ -1045,12 +1041,6 @@
               <body>Sim</body>
             </guard>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_gyLmUF48EeaMIf1BxxbXVw" name="FA.01.1 - Cadastro pode ser realizado?_To_FB.07 - Apresenta informações para confirmação_weight"/>
-          </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_hZfd8F48EeaMIf1BxxbXVw" name="Não" target="_SREtUF48EeaMIf1BxxbXVw" source="_JEgQEF48EeaMIf1BxxbXVw">
-            <guard xmi:type="uml:OpaqueExpression" xmi:id="_pdjQoF5gEeaMIf1BxxbXVw" name="null_guard">
-              <body>Não</body>
-            </guard>
-            <weight xmi:type="uml:LiteralInteger" xmi:id="_hZgsEF48EeaMIf1BxxbXVw" name="FA.01.1 - Cadastro pode ser realizado?_To_FA.01.2 Apresenta as razões pelas quais as férias não pode ser cadastrado_weight"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_jhtusF48EeaMIf1BxxbXVw" target="_hxzFsF47EeaMIf1BxxbXVw" source="_43tzcF2uEeamv9XzTKAkPg">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_jhuVwF48EeaMIf1BxxbXVw" name="FB.05 - Preenche e submete o formulário de cadastro_To_FB.06 - Valida dados preenchidos no formulário_guard" value="true"/>
@@ -1096,24 +1086,83 @@
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_0DaRYV_nEeaxIuE2tiiodQ" name="Conector_To_FB.04 - Apresenta o formulário de cadastro de escala de férias_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_0Da4cF_nEeaxIuE2tiiodQ" name="Conector_To_FB.04 - Apresenta o formulário de cadastro de escala de férias_weight"/>
           </edge>
-          <group xmi:type="uml:ActivityPartition" xmi:id="_uPKcAF2QEeamv9XzTKAkPg" name="Operador de RH" node="_5OIrAF2QEeamv9XzTKAkPg _60hNcF2lEeamv9XzTKAkPg _kPH-0F2uEeamv9XzTKAkPg _43tzcF2uEeamv9XzTKAkPg _-FQGsF5bEeaMIf1BxxbXVw _UPSf8F5cEeaMIf1BxxbXVw _Gs5Q8F5nEeaMIf1BxxbXVw"/>
-          <group xmi:type="uml:ActivityPartition" xmi:id="_wp0gkF2QEeamv9XzTKAkPg" name="Sistema" node="_IL8HEF2REeamv9XzTKAkPg _hxNhwF45EeaMIf1BxxbXVw _hxzFsF47EeaMIf1BxxbXVw _JEgQEF48EeaMIf1BxxbXVw _Okyo0F48EeaMIf1BxxbXVw _SREtUF48EeaMIf1BxxbXVw _2Y3a4F48EeaMIf1BxxbXVw _iHlIcF47EeaMIf1BxxbXVw _tUZbsF_nEeaxIuE2tiiodQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_5OIrAF2QEeamv9XzTKAkPg" name="FB.01- Seleciona a opção para cadastrar escala de férias " isLeaf="true" incoming="_0y1YwF5eEeaMIf1BxxbXVw" outgoing="_-cJh0F2tEeamv9XzTKAkPg" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_IL8HEF2REeamv9XzTKAkPg" name="FB.02 - Apresenta a opção para selecionar os servidores que deseja cadastrar" isLeaf="true" incoming="_-cJh0F2tEeamv9XzTKAkPg" outgoing="_a3cNkF45EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_li11QHCNEeaa8N9s_NGyig" name="Não" target="_SREtUF48EeaMIf1BxxbXVw" source="_JEgQEF48EeaMIf1BxxbXVw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_mOjEsHCNEeaa8N9s_NGyig" name="null_guard">
+              <body>Não</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_ljGT8HCNEeaa8N9s_NGyig" name="FA.01.1 - Cadastro pode ser realizado?_To_FA.01.2 Apresenta as razões pelas quais a escala de férias não pode ser cadastrada_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_hvjpgHCQEeaa8N9s_NGyig" target="_YnjjMHCQEeaa8N9s_NGyig" source="_5OIrAF2QEeamv9XzTKAkPg">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_hvkQkHCQEeaa8N9s_NGyig" name="FB.01- Seleciona a opção para cadastrar escala de férias _To_FB.02 Apresenta as opções de método para o cadastro_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_hvk3oHCQEeaa8N9s_NGyig" name="FB.01- Seleciona a opção para cadastrar escala de férias _To_FB.02 Apresenta as opções de método para o cadastro_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_KS28QHCVEeaa8N9s_NGyig" target="_W3W0EHCUEeaa8N9s_NGyig" source="_YnjjMHCQEeaa8N9s_NGyig">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_KS3jUHCVEeaa8N9s_NGyig" name="FB.02 Apresenta as opções de método para o cadastro_To_FB.03 Seleciona o método para cadastro_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_KS4KYHCVEeaa8N9s_NGyig" name="FB.02 Apresenta as opções de método para o cadastro_To_FB.03 Seleciona o método para cadastro_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_pL2CoHCVEeaa8N9s_NGyig" target="_eRqNAHCVEeaa8N9s_NGyig" source="_W3W0EHCUEeaa8N9s_NGyig">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_pL2psHCVEeaa8N9s_NGyig" name="FB.03 Seleciona o método para cadastro_To_FA.01.1 - Qual método selecionado?_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_pL3QwHCVEeaa8N9s_NGyig" name="FB.03 Seleciona o método para cadastro_To_FA.01.1 - Qual método selecionado?_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Rlfm8HCWEeaa8N9s_NGyig" name="Não" target="_-2LoIHCVEeaa8N9s_NGyig" source="_eRqNAHCVEeaa8N9s_NGyig">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_RlgOAHCWEeaa8N9s_NGyig" name="FA.01.1 - Método manual selecionado?_To_FA.01.2 - Método via importação de arquivo selecionado_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_Rlg1EHCWEeaa8N9s_NGyig" name="FA.01.1 - Método manual selecionado?_To_FA.01.2 - Método via importação de arquivo selecionado_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_XysJAHCWEeaa8N9s_NGyig" name="Sim" target="_IL8HEF2REeamv9XzTKAkPg" source="_eRqNAHCVEeaa8N9s_NGyig">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_XyswEHCWEeaa8N9s_NGyig" name="FA.01.1 - Método manual selecionado?_To_FB.02 - Apresenta a opção para selecionar os servidores quais se deseja cadastrar férias_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_XytXIHCWEeaa8N9s_NGyig" name="FA.01.1 - Método manual selecionado?_To_FB.02 - Apresenta a opção para selecionar os servidores quais se deseja cadastrar férias_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_cerFEHCYEeaa8N9s_NGyig" target="_XOSJgHCYEeaa8N9s_NGyig" source="_-2LoIHCVEeaa8N9s_NGyig">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_cersIHCYEeaa8N9s_NGyig" name="FA.01.2 - Método via importação de arquivo selecionado_To_FA.01.3 - Seleciona e submete o arquivo que se deseja importar_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_cesTMHCYEeaa8N9s_NGyig" name="FA.01.2 - Método via importação de arquivo selecionado_To_FA.01.3 - Seleciona e submete o arquivo que se deseja importar_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_HutnsHCZEeaa8N9s_NGyig" target="_4gETQHCYEeaa8N9s_NGyig" source="_XOSJgHCYEeaa8N9s_NGyig">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_Huvc4HCZEeaa8N9s_NGyig" name="FA.01.3 - Seleciona e submete o arquivo que se deseja importar_To_FA.01.4 - Valida as informações do arquivo importado_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_Huvc4XCZEeaa8N9s_NGyig" name="FA.01.3 - Seleciona e submete o arquivo que se deseja importar_To_FA.01.4 - Valida as informações do arquivo importado_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_PpOnMHCZEeaa8N9s_NGyig" target="_LcAY0HCZEeaa8N9s_NGyig" source="_4gETQHCYEeaa8N9s_NGyig">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_PpPOQHCZEeaa8N9s_NGyig" name="FA.01.4 - Valida as informações do arquivo importado_To_Conector_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_PpPOQXCZEeaa8N9s_NGyig" name="FA.01.4 - Valida as informações do arquivo importado_To_Conector_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Td7n4HCZEeaa8N9s_NGyig" target="_hxNhwF45EeaMIf1BxxbXVw" source="_LcAY0HCZEeaa8N9s_NGyig">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_Td8O8HCZEeaa8N9s_NGyig" name="Conector_To_FB.04 - Apresenta o formulário de cadastro de férias para os servidores selecionados_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_Td82AHCZEeaa8N9s_NGyig" name="Conector_To_FB.04 - Apresenta o formulário de cadastro de férias para os servidores selecionados_weight"/>
+          </edge>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_uPKcAF2QEeamv9XzTKAkPg" name="Operador de RH" node="_5OIrAF2QEeamv9XzTKAkPg _60hNcF2lEeamv9XzTKAkPg _kPH-0F2uEeamv9XzTKAkPg _43tzcF2uEeamv9XzTKAkPg _-FQGsF5bEeaMIf1BxxbXVw _UPSf8F5cEeaMIf1BxxbXVw _Gs5Q8F5nEeaMIf1BxxbXVw _W3W0EHCUEeaa8N9s_NGyig _eRqNAHCVEeaa8N9s_NGyig _-2LoIHCVEeaa8N9s_NGyig _XOSJgHCYEeaa8N9s_NGyig"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_wp0gkF2QEeamv9XzTKAkPg" name="Sistema" node="_IL8HEF2REeamv9XzTKAkPg _hxNhwF45EeaMIf1BxxbXVw _hxzFsF47EeaMIf1BxxbXVw _JEgQEF48EeaMIf1BxxbXVw _Okyo0F48EeaMIf1BxxbXVw _SREtUF48EeaMIf1BxxbXVw _2Y3a4F48EeaMIf1BxxbXVw _iHlIcF47EeaMIf1BxxbXVw _tUZbsF_nEeaxIuE2tiiodQ _YnjjMHCQEeaa8N9s_NGyig _4gETQHCYEeaa8N9s_NGyig _LcAY0HCZEeaa8N9s_NGyig"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_5OIrAF2QEeamv9XzTKAkPg" name="FB.01- Seleciona a opção para cadastrar escala de férias " isLeaf="true" incoming="_0y1YwF5eEeaMIf1BxxbXVw" outgoing="_hvjpgHCQEeaa8N9s_NGyig" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_IL8HEF2REeamv9XzTKAkPg" name="FB.02 - Apresenta a opção para selecionar os servidores quais se deseja cadastrar férias" isLeaf="true" incoming="_XysJAHCWEeaa8N9s_NGyig" outgoing="_a3cNkF45EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:InitialNode" xmi:id="_60hNcF2lEeamv9XzTKAkPg" name="Início de Atividade" outgoing="_0y1YwF5eEeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_kPH-0F2uEeamv9XzTKAkPg" name="FB.03 - Seleciona e Submete os servidos que deseja cadastrar férias" isLeaf="true" incoming="_a3cNkF45EeaMIf1BxxbXVw" outgoing="_HMv5sF47EeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_kPH-0F2uEeamv9XzTKAkPg" name="FB.03 - Seleciona os servidos os quais se deseja cadastrar férias" isLeaf="true" incoming="_a3cNkF45EeaMIf1BxxbXVw" outgoing="_HMv5sF47EeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_43tzcF2uEeamv9XzTKAkPg" name="FB.05 - Preenche e submete o formulário de cadastro" isLeaf="true" incoming="_HsES8F47EeaMIf1BxxbXVw" outgoing="_jhtusF48EeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_hxNhwF45EeaMIf1BxxbXVw" name="FB.04 - Apresenta o formulário de cadastro de escala de férias" isLeaf="true" incoming="_HMv5sF47EeaMIf1BxxbXVw _0DaRYF_nEeaxIuE2tiiodQ" outgoing="_HsES8F47EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_hxNhwF45EeaMIf1BxxbXVw" name="FB.04 - Apresenta o formulário de cadastro de férias" isLeaf="true" incoming="_0DaRYF_nEeaxIuE2tiiodQ _Td7n4HCZEeaa8N9s_NGyig" outgoing="_HsES8F47EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_hxzFsF47EeaMIf1BxxbXVw" name="FB.06 - Valida dados preenchidos no formulário" isLeaf="true" incoming="_jhtusF48EeaMIf1BxxbXVw" outgoing="_f69qcF48EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_iHlIcF47EeaMIf1BxxbXVw" name="FB.09 - Efetua a operação e retorna mensagem de confirmação" isLeaf="true" incoming="_ZUW8UF5cEeaMIf1BxxbXVw" outgoing="_Zrb_kF5cEeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_JEgQEF48EeaMIf1BxxbXVw" name="FA.01.1 - Cadastro pode ser realizado?" incoming="_f69qcF48EeaMIf1BxxbXVw" outgoing="_gxwvkF48EeaMIf1BxxbXVw _hZfd8F48EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_JEgQEF48EeaMIf1BxxbXVw" name="FA.01.1 - Cadastro pode ser realizado?" incoming="_f69qcF48EeaMIf1BxxbXVw" outgoing="_gxwvkF48EeaMIf1BxxbXVw _li11QHCNEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_Okyo0F48EeaMIf1BxxbXVw" name="FB.07 - Apresenta informações para confirmação" isLeaf="true" incoming="_gxwvkF48EeaMIf1BxxbXVw" outgoing="_1bh_MF5YEeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_SREtUF48EeaMIf1BxxbXVw" name="FA.01.2 Apresenta as razões pelas quais a escala de férias não pode ser cadastrada" isLeaf="true" incoming="_hZfd8F48EeaMIf1BxxbXVw" outgoing="_NeiV8F49EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_SREtUF48EeaMIf1BxxbXVw" name="FA.01.2 Apresenta as razões pelas quais a escala de férias não pode ser cadastrada" isLeaf="true" incoming="_li11QHCNEeaa8N9s_NGyig" outgoing="_NeiV8F49EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:DecisionNode" xmi:id="_2Y3a4F48EeaMIf1BxxbXVw" name="FA.02.1 Identificada necessidade de correção das informações?" incoming="_1bh_MF5YEeaMIf1BxxbXVw" outgoing="_2EuGIF5YEeaMIf1BxxbXVw _OMFnYF5cEeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_-FQGsF5bEeaMIf1BxxbXVw" name="FB.08 - Submete a operação" isLeaf="true" incoming="_OMFnYF5cEeaMIf1BxxbXVw" outgoing="_ZUW8UF5cEeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_UPSf8F5cEeaMIf1BxxbXVw" name="FB.10 - Encerra a operação" isLeaf="true" incoming="_Zrb_kF5cEeaMIf1BxxbXVw" outgoing="_MTXKMF5nEeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_Gs5Q8F5nEeaMIf1BxxbXVw" name="Fim de Atividade" incoming="_MTXKMF5nEeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg"/>
           <node xmi:type="uml:MergeNode" xmi:id="_tUZbsF_nEeaxIuE2tiiodQ" name="Conector" incoming="_2EuGIF5YEeaMIf1BxxbXVw _NeiV8F49EeaMIf1BxxbXVw" outgoing="_0DaRYF_nEeaxIuE2tiiodQ" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_YnjjMHCQEeaa8N9s_NGyig" name="FB.02 Apresenta as opções de método para o cadastro" incoming="_hvjpgHCQEeaa8N9s_NGyig" outgoing="_KS28QHCVEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg">
+            <body>// TODO body of OpaqueAction12</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_W3W0EHCUEeaa8N9s_NGyig" name="FB.03 Seleciona o método para cadastro" incoming="_KS28QHCVEeaa8N9s_NGyig" outgoing="_pL2CoHCVEeaa8N9s_NGyig" inPartition="_uPKcAF2QEeamv9XzTKAkPg">
+            <body>// TODO body of OpaqueAction13</body>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_eRqNAHCVEeaa8N9s_NGyig" name="FA.01.1 - Método manual selecionado?" incoming="_pL2CoHCVEeaa8N9s_NGyig" outgoing="_Rlfm8HCWEeaa8N9s_NGyig _XysJAHCWEeaa8N9s_NGyig" inPartition="_uPKcAF2QEeamv9XzTKAkPg"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_-2LoIHCVEeaa8N9s_NGyig" name="FA.01.2 - Método via importação de arquivo selecionado" incoming="_Rlfm8HCWEeaa8N9s_NGyig" outgoing="_cerFEHCYEeaa8N9s_NGyig" inPartition="_uPKcAF2QEeamv9XzTKAkPg">
+            <body>// TODO body of OpaqueAction14</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_XOSJgHCYEeaa8N9s_NGyig" name="FA.01.3 - Seleciona e submete o arquivo que se deseja importar" incoming="_cerFEHCYEeaa8N9s_NGyig" outgoing="_HutnsHCZEeaa8N9s_NGyig" inPartition="_uPKcAF2QEeamv9XzTKAkPg">
+            <body>// TODO body of OpaqueAction15</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_4gETQHCYEeaa8N9s_NGyig" name="FA.01.4 - Valida as informações do arquivo importado" incoming="_HutnsHCZEeaa8N9s_NGyig" outgoing="_PpOnMHCZEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg">
+            <body>// TODO body of OpaqueAction16</body>
+          </node>
+          <node xmi:type="uml:MergeNode" xmi:id="_LcAY0HCZEeaa8N9s_NGyig" name="Conector" incoming="_HMv5sF47EeaMIf1BxxbXVw _PpOnMHCZEeaa8N9s_NGyig" outgoing="_Td7n4HCZEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Activity" xmi:id="_aVW3UF8BEeaeYNubumOxuw" name="Consultar Escala Férias" node="_XIe2MF8CEeaeYNubumOxuw _YEBRYF8CEeaeYNubumOxuw _ahgt0F_OEeaxIuE2tiiodQ _eOv0kF_OEeaxIuE2tiiodQ _g4qdIF_OEeaxIuE2tiiodQ _if7V4F_OEeaxIuE2tiiodQ _cmExIF_PEeaxIuE2tiiodQ _lJ2JAF_PEeaxIuE2tiiodQ _zG7u8F_PEeaxIuE2tiiodQ _zeALIF_PEeaxIuE2tiiodQ _z9kcAF_PEeaxIuE2tiiodQ _bgGyIF_QEeaxIuE2tiiodQ _ShX6kF_mEeaxIuE2tiiodQ _X96bwF_mEeaxIuE2tiiodQ _deqHgF_mEeaxIuE2tiiodQ" group="_OBZ88F8CEeaeYNubumOxuw _P-eGkF8CEeaeYNubumOxuw" partition="_OBZ88F8CEeaeYNubumOxuw _P-eGkF8CEeaeYNubumOxuw">
           <edge xmi:type="uml:ControlFlow" xmi:id="_e4AXgF_PEeaxIuE2tiiodQ" target="_XIe2MF8CEeaeYNubumOxuw" source="_YEBRYF8CEeaeYNubumOxuw">
