@@ -1011,7 +1011,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ZiPrkFsgEeaPguYNUcBx6Q" name="Vida Funcional">
       <packagedElement xmi:type="uml:Package" xmi:id="_b52cIFsgEeaPguYNUcBx6Q" name="Férias">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_y1ppgFsgEeaPguYNUcBx6Q" name="Cadastrar Escala Férias" useCase="_R0_PgFshEeaPguYNUcBx6Q _ZYsRgFshEeaPguYNUcBx6Q _bAumUFshEeaPguYNUcBx6Q _XLwf4FshEeaPguYNUcBx6Q" node="_5OIrAF2QEeamv9XzTKAkPg _IL8HEF2REeamv9XzTKAkPg _60hNcF2lEeamv9XzTKAkPg _kPH-0F2uEeamv9XzTKAkPg _43tzcF2uEeamv9XzTKAkPg _hxNhwF45EeaMIf1BxxbXVw _hxzFsF47EeaMIf1BxxbXVw _iHlIcF47EeaMIf1BxxbXVw _JEgQEF48EeaMIf1BxxbXVw _Okyo0F48EeaMIf1BxxbXVw _SREtUF48EeaMIf1BxxbXVw _2Y3a4F48EeaMIf1BxxbXVw _-FQGsF5bEeaMIf1BxxbXVw _UPSf8F5cEeaMIf1BxxbXVw _Gs5Q8F5nEeaMIf1BxxbXVw _tUZbsF_nEeaxIuE2tiiodQ _YnjjMHCQEeaa8N9s_NGyig _W3W0EHCUEeaa8N9s_NGyig _eRqNAHCVEeaa8N9s_NGyig _-2LoIHCVEeaa8N9s_NGyig _XOSJgHCYEeaa8N9s_NGyig _4gETQHCYEeaa8N9s_NGyig _LcAY0HCZEeaa8N9s_NGyig _g3Fr0HEREeaL7qEuEzXB1w" group="_uPKcAF2QEeamv9XzTKAkPg _wp0gkF2QEeamv9XzTKAkPg" partition="_uPKcAF2QEeamv9XzTKAkPg _wp0gkF2QEeamv9XzTKAkPg">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_y1ppgFsgEeaPguYNUcBx6Q" name="Cadastrar Escala Férias" useCase="_R0_PgFshEeaPguYNUcBx6Q _ZYsRgFshEeaPguYNUcBx6Q _bAumUFshEeaPguYNUcBx6Q _XLwf4FshEeaPguYNUcBx6Q" node="_5OIrAF2QEeamv9XzTKAkPg _IL8HEF2REeamv9XzTKAkPg _60hNcF2lEeamv9XzTKAkPg _kPH-0F2uEeamv9XzTKAkPg _43tzcF2uEeamv9XzTKAkPg _hxNhwF45EeaMIf1BxxbXVw _hxzFsF47EeaMIf1BxxbXVw _iHlIcF47EeaMIf1BxxbXVw _JEgQEF48EeaMIf1BxxbXVw _Okyo0F48EeaMIf1BxxbXVw _SREtUF48EeaMIf1BxxbXVw _2Y3a4F48EeaMIf1BxxbXVw _-FQGsF5bEeaMIf1BxxbXVw _UPSf8F5cEeaMIf1BxxbXVw _Gs5Q8F5nEeaMIf1BxxbXVw _YnjjMHCQEeaa8N9s_NGyig _W3W0EHCUEeaa8N9s_NGyig _eRqNAHCVEeaa8N9s_NGyig _-2LoIHCVEeaa8N9s_NGyig _XOSJgHCYEeaa8N9s_NGyig _4gETQHCYEeaa8N9s_NGyig _LcAY0HCZEeaa8N9s_NGyig _g3Fr0HEREeaL7qEuEzXB1w" group="_uPKcAF2QEeamv9XzTKAkPg _wp0gkF2QEeamv9XzTKAkPg" partition="_uPKcAF2QEeamv9XzTKAkPg _wp0gkF2QEeamv9XzTKAkPg">
           <ownedUseCase xmi:id="_R0_PgFshEeaPguYNUcBx6Q" name="Cadastrar Férias" subject="_y1ppgFsgEeaPguYNUcBx6Q"/>
           <ownedUseCase xmi:id="_ZYsRgFshEeaPguYNUcBx6Q" name="Interromper Férias" subject="_y1ppgFsgEeaPguYNUcBx6Q"/>
           <ownedUseCase xmi:id="_bAumUFshEeaPguYNUcBx6Q" name="Alterar Férias" subject="_y1ppgFsgEeaPguYNUcBx6Q"/>
@@ -1046,7 +1046,7 @@
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_jhuVwF48EeaMIf1BxxbXVw" name="FB.05 - Preenche e submete o formulário de cadastro_To_FB.06 - Valida dados preenchidos no formulário_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_jhu80F48EeaMIf1BxxbXVw" name="FB.05 - Preenche e submete o formulário de cadastro_To_FB.06 - Valida dados preenchidos no formulário_weight"/>
           </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_NeiV8F49EeaMIf1BxxbXVw" target="_tUZbsF_nEeaxIuE2tiiodQ" source="_SREtUF48EeaMIf1BxxbXVw">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_NeiV8F49EeaMIf1BxxbXVw" target="_LcAY0HCZEeaa8N9s_NGyig" source="_SREtUF48EeaMIf1BxxbXVw">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_Nei9AF49EeaMIf1BxxbXVw" name="FA.01.2 Apresenta as razões pelas quais as férias não pode ser cadastrado_To_FB.04 - Apresenta o formulário de cadastro_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_NejkEF49EeaMIf1BxxbXVw" name="FA.01.2 Apresenta as razões pelas quais as férias não pode ser cadastrado_To_FB.04 - Apresenta o formulário de cadastro_weight"/>
           </edge>
@@ -1054,7 +1054,7 @@
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_1bimQF5YEeaMIf1BxxbXVw" name="FB.07 - Apresenta informações para confirmação_To_FA.02.1 Identificada necessidade de correção das informações?_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_1bjNUF5YEeaMIf1BxxbXVw" name="FB.07 - Apresenta informações para confirmação_To_FA.02.1 Identificada necessidade de correção das informações?_weight"/>
           </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_2EuGIF5YEeaMIf1BxxbXVw" name="Sim" target="_tUZbsF_nEeaxIuE2tiiodQ" source="_2Y3a4F48EeaMIf1BxxbXVw">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_2EuGIF5YEeaMIf1BxxbXVw" name="Sim" target="_LcAY0HCZEeaa8N9s_NGyig" source="_2Y3a4F48EeaMIf1BxxbXVw">
             <guard xmi:type="uml:OpaqueExpression" xmi:id="_EeBX4F5iEeaMIf1BxxbXVw" name="null_guard">
               <body>Sim</body>
             </guard>
@@ -1081,10 +1081,6 @@
           <edge xmi:type="uml:ControlFlow" xmi:id="_MTXKMF5nEeaMIf1BxxbXVw" target="_Gs5Q8F5nEeaMIf1BxxbXVw" source="_UPSf8F5cEeaMIf1BxxbXVw">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_MTXxQF5nEeaMIf1BxxbXVw" name="FB.10 - Encerra a operação_To_Fim de Atividade_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_MT2SYF5nEeaMIf1BxxbXVw" name="FB.10 - Encerra a operação_To_Fim de Atividade_weight"/>
-          </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_0DaRYF_nEeaxIuE2tiiodQ" target="_hxNhwF45EeaMIf1BxxbXVw" source="_tUZbsF_nEeaxIuE2tiiodQ">
-            <guard xmi:type="uml:LiteralBoolean" xmi:id="_0DaRYV_nEeaxIuE2tiiodQ" name="Conector_To_FB.04 - Apresenta o formulário de cadastro de escala de férias_guard" value="true"/>
-            <weight xmi:type="uml:LiteralInteger" xmi:id="_0Da4cF_nEeaxIuE2tiiodQ" name="Conector_To_FB.04 - Apresenta o formulário de cadastro de escala de férias_weight"/>
           </edge>
           <edge xmi:type="uml:ControlFlow" xmi:id="_li11QHCNEeaa8N9s_NGyig" name="Não" target="_SREtUF48EeaMIf1BxxbXVw" source="_JEgQEF48EeaMIf1BxxbXVw">
             <guard xmi:type="uml:OpaqueExpression" xmi:id="_mOjEsHCNEeaa8N9s_NGyig" name="null_guard">
@@ -1133,13 +1129,13 @@
             <weight xmi:type="uml:LiteralInteger" xmi:id="_o1UtsHEREeaL7qEuEzXB1w" name="FA.01.3 - Apresenta opção para importação de arquivo_To_FA.01.3 - Seleciona e submete o arquivo que se deseja importar_weight"/>
           </edge>
           <group xmi:type="uml:ActivityPartition" xmi:id="_uPKcAF2QEeamv9XzTKAkPg" name="Operador de RH" node="_5OIrAF2QEeamv9XzTKAkPg _60hNcF2lEeamv9XzTKAkPg _kPH-0F2uEeamv9XzTKAkPg _43tzcF2uEeamv9XzTKAkPg _-FQGsF5bEeaMIf1BxxbXVw _UPSf8F5cEeaMIf1BxxbXVw _Gs5Q8F5nEeaMIf1BxxbXVw _W3W0EHCUEeaa8N9s_NGyig _eRqNAHCVEeaa8N9s_NGyig _-2LoIHCVEeaa8N9s_NGyig _XOSJgHCYEeaa8N9s_NGyig"/>
-          <group xmi:type="uml:ActivityPartition" xmi:id="_wp0gkF2QEeamv9XzTKAkPg" name="Sistema" node="_IL8HEF2REeamv9XzTKAkPg _hxNhwF45EeaMIf1BxxbXVw _hxzFsF47EeaMIf1BxxbXVw _JEgQEF48EeaMIf1BxxbXVw _Okyo0F48EeaMIf1BxxbXVw _SREtUF48EeaMIf1BxxbXVw _2Y3a4F48EeaMIf1BxxbXVw _iHlIcF47EeaMIf1BxxbXVw _tUZbsF_nEeaxIuE2tiiodQ _YnjjMHCQEeaa8N9s_NGyig _4gETQHCYEeaa8N9s_NGyig _LcAY0HCZEeaa8N9s_NGyig _g3Fr0HEREeaL7qEuEzXB1w"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_wp0gkF2QEeamv9XzTKAkPg" name="Sistema" node="_IL8HEF2REeamv9XzTKAkPg _hxNhwF45EeaMIf1BxxbXVw _hxzFsF47EeaMIf1BxxbXVw _JEgQEF48EeaMIf1BxxbXVw _Okyo0F48EeaMIf1BxxbXVw _SREtUF48EeaMIf1BxxbXVw _2Y3a4F48EeaMIf1BxxbXVw _iHlIcF47EeaMIf1BxxbXVw _YnjjMHCQEeaa8N9s_NGyig _4gETQHCYEeaa8N9s_NGyig _LcAY0HCZEeaa8N9s_NGyig _g3Fr0HEREeaL7qEuEzXB1w"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_5OIrAF2QEeamv9XzTKAkPg" name="FB.01- Seleciona a opção para cadastrar escala de férias " isLeaf="true" incoming="_0y1YwF5eEeaMIf1BxxbXVw" outgoing="_hvjpgHCQEeaa8N9s_NGyig" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_IL8HEF2REeamv9XzTKAkPg" name="FB.04 - Apresenta a opção para selecionar os servidores quais se deseja cadastrar férias" isLeaf="true" incoming="_XysJAHCWEeaa8N9s_NGyig" outgoing="_a3cNkF45EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:InitialNode" xmi:id="_60hNcF2lEeamv9XzTKAkPg" name="Início de Atividade" outgoing="_0y1YwF5eEeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_kPH-0F2uEeamv9XzTKAkPg" name="FB.05 - Seleciona os servidores para os quais se deseja cadastrar férias" isLeaf="true" incoming="_a3cNkF45EeaMIf1BxxbXVw" outgoing="_HMv5sF47EeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_43tzcF2uEeamv9XzTKAkPg" name="FB.07 - Preenche e submete o formulário de cadastro" isLeaf="true" incoming="_HsES8F47EeaMIf1BxxbXVw" outgoing="_jhtusF48EeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_hxNhwF45EeaMIf1BxxbXVw" name="FB.06 - Apresenta o formulário de cadastro de férias" isLeaf="true" incoming="_0DaRYF_nEeaxIuE2tiiodQ _Td7n4HCZEeaa8N9s_NGyig" outgoing="_HsES8F47EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_hxNhwF45EeaMIf1BxxbXVw" name="FB.06 - Apresenta o formulário de cadastro de férias" isLeaf="true" incoming="_Td7n4HCZEeaa8N9s_NGyig" outgoing="_HsES8F47EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_hxzFsF47EeaMIf1BxxbXVw" name="FB.08 - Valida dados preenchidos no formulário" isLeaf="true" incoming="_jhtusF48EeaMIf1BxxbXVw" outgoing="_f69qcF48EeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_iHlIcF47EeaMIf1BxxbXVw" name="FB.11 - Efetua a operação e retorna mensagem de confirmação" isLeaf="true" incoming="_ZUW8UF5cEeaMIf1BxxbXVw" outgoing="_Zrb_kF5cEeaMIf1BxxbXVw" inPartition="_wp0gkF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:DecisionNode" xmi:id="_JEgQEF48EeaMIf1BxxbXVw" name="FA.02.1 - Cadastro pode ser realizado?" incoming="_f69qcF48EeaMIf1BxxbXVw" outgoing="_gxwvkF48EeaMIf1BxxbXVw _li11QHCNEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
@@ -1149,7 +1145,6 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_-FQGsF5bEeaMIf1BxxbXVw" name="FB.10 - Submete a operação" isLeaf="true" incoming="_OMFnYF5cEeaMIf1BxxbXVw" outgoing="_ZUW8UF5cEeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_UPSf8F5cEeaMIf1BxxbXVw" name="FB.12 - Encerra a operação" isLeaf="true" incoming="_Zrb_kF5cEeaMIf1BxxbXVw" outgoing="_MTXKMF5nEeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg" body=""/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_Gs5Q8F5nEeaMIf1BxxbXVw" name="Fim de Atividade" incoming="_MTXKMF5nEeaMIf1BxxbXVw" inPartition="_uPKcAF2QEeamv9XzTKAkPg"/>
-          <node xmi:type="uml:MergeNode" xmi:id="_tUZbsF_nEeaxIuE2tiiodQ" name="Conector" incoming="_2EuGIF5YEeaMIf1BxxbXVw _NeiV8F49EeaMIf1BxxbXVw" outgoing="_0DaRYF_nEeaxIuE2tiiodQ" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_YnjjMHCQEeaa8N9s_NGyig" name="FB.02 Apresenta as opções de método para o cadastro" incoming="_hvjpgHCQEeaa8N9s_NGyig" outgoing="_KS28QHCVEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg">
             <body>// TODO body of OpaqueAction12</body>
           </node>
@@ -1166,7 +1161,7 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_4gETQHCYEeaa8N9s_NGyig" name="FA.01.5 - Valida as informações do arquivo importado" incoming="_HutnsHCZEeaa8N9s_NGyig" outgoing="_PpOnMHCZEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg">
             <body>// TODO body of OpaqueAction16</body>
           </node>
-          <node xmi:type="uml:MergeNode" xmi:id="_LcAY0HCZEeaa8N9s_NGyig" name="Conector" incoming="_HMv5sF47EeaMIf1BxxbXVw _PpOnMHCZEeaa8N9s_NGyig" outgoing="_Td7n4HCZEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
+          <node xmi:type="uml:MergeNode" xmi:id="_LcAY0HCZEeaa8N9s_NGyig" name="Conector" incoming="_HMv5sF47EeaMIf1BxxbXVw _PpOnMHCZEeaa8N9s_NGyig _NeiV8F49EeaMIf1BxxbXVw _2EuGIF5YEeaMIf1BxxbXVw" outgoing="_Td7n4HCZEeaa8N9s_NGyig" inPartition="_wp0gkF2QEeamv9XzTKAkPg"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_g3Fr0HEREeaL7qEuEzXB1w" name="FA.01.3 - Apresenta opção para importação de arquivo" incoming="_n4pDAHEREeaL7qEuEzXB1w" outgoing="_o1S4gHEREeaL7qEuEzXB1w" inPartition="_wp0gkF2QEeamv9XzTKAkPg">
             <body>// TODO body of OpaqueAction17</body>
           </node>
@@ -1262,7 +1257,7 @@
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_X96bwF_mEeaxIuE2tiiodQ" name="Fim de Atividade" incoming="_azvZYF_mEeaxIuE2tiiodQ" inPartition="_OBZ88F8CEeaeYNubumOxuw"/>
           <node xmi:type="uml:MergeNode" xmi:id="_deqHgF_mEeaxIuE2tiiodQ" name="Conector" incoming="_sHHlsF_mEeaxIuE2tiiodQ _HjFyoF_nEeaxIuE2tiiodQ" outgoing="_j3SdgF_mEeaxIuE2tiiodQ" inPartition="_OBZ88F8CEeaeYNubumOxuw"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Activity" xmi:id="_KdcfMF_MEeaxIuE2tiiodQ" name="Alterar Escala Férias" node="_XIKNkF_oEeaxIuE2tiiodQ _acbasF_oEeaxIuE2tiiodQ _u-BaAF_pEeaxIuE2tiiodQ _3lpXIF_pEeaxIuE2tiiodQ __Hh0MF_pEeaxIuE2tiiodQ _O_6pMF_qEeaxIuE2tiiodQ _PPzfUF_qEeaxIuE2tiiodQ _UmwOgF_tEeaxIuE2tiiodQ _a9rUUF_tEeaxIuE2tiiodQ _ip9DgF_tEeaxIuE2tiiodQ _qjB4kF_tEeaxIuE2tiiodQ _3KoSQF_tEeaxIuE2tiiodQ _G8m9QF_uEeaxIuE2tiiodQ _hqGWwF_yEeaxIuE2tiiodQ _CVX6IF_zEeaxIuE2tiiodQ _IAlJcF_zEeaxIuE2tiiodQ _QoMfgF_zEeaxIuE2tiiodQ _ggCh8F_zEeaxIuE2tiiodQ" group="_J6_osF_oEeaxIuE2tiiodQ _KihiwF_oEeaxIuE2tiiodQ" partition="_J6_osF_oEeaxIuE2tiiodQ _KihiwF_oEeaxIuE2tiiodQ">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_KdcfMF_MEeaxIuE2tiiodQ" name="Alterar Escala Férias" node="_XIKNkF_oEeaxIuE2tiiodQ _acbasF_oEeaxIuE2tiiodQ _u-BaAF_pEeaxIuE2tiiodQ _3lpXIF_pEeaxIuE2tiiodQ __Hh0MF_pEeaxIuE2tiiodQ _O_6pMF_qEeaxIuE2tiiodQ _PPzfUF_qEeaxIuE2tiiodQ _UmwOgF_tEeaxIuE2tiiodQ _a9rUUF_tEeaxIuE2tiiodQ _ip9DgF_tEeaxIuE2tiiodQ _qjB4kF_tEeaxIuE2tiiodQ _3KoSQF_tEeaxIuE2tiiodQ _G8m9QF_uEeaxIuE2tiiodQ _hqGWwF_yEeaxIuE2tiiodQ _CVX6IF_zEeaxIuE2tiiodQ _IAlJcF_zEeaxIuE2tiiodQ _QoMfgF_zEeaxIuE2tiiodQ _ggCh8F_zEeaxIuE2tiiodQ _hUivIHFZEeaL7qEuEzXB1w _XspLUHFaEeaL7qEuEzXB1w _n4oRwHFaEeaL7qEuEzXB1w _Yl0ZkHFbEeaL7qEuEzXB1w _aOQXAHFbEeaL7qEuEzXB1w _tYnTEHFbEeaL7qEuEzXB1w _TPib8HFcEeaL7qEuEzXB1w" group="_J6_osF_oEeaxIuE2tiiodQ _KihiwF_oEeaxIuE2tiiodQ" partition="_J6_osF_oEeaxIuE2tiiodQ _KihiwF_oEeaxIuE2tiiodQ">
           <edge xmi:type="uml:ControlFlow" xmi:id="_cLqRwF_qEeaxIuE2tiiodQ" target="_acbasF_oEeaxIuE2tiiodQ" source="_XIKNkF_oEeaxIuE2tiiodQ">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_cLq40F_qEeaxIuE2tiiodQ" name="Início da Atividade_To_FB.01- Seleciona a opção para alteração da escala de férias_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_cLsG8F_qEeaxIuE2tiiodQ" name="Início da Atividade_To_FB.01- Seleciona a opção para alteração da escala de férias_weight"/>
@@ -1275,7 +1270,7 @@
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_8a3HsF_rEeaxIuE2tiiodQ" name="FB.02- Apresenta motivos para alteração da escala de férias_To_FB.03- Seleciona e Submete o motivo da alteração_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_8a4V0F_rEeaxIuE2tiiodQ" name="FB.02- Apresenta motivos para alteração da escala de férias_To_FB.03- Seleciona e Submete o motivo da alteração_weight"/>
           </edge>
-          <edge xmi:type="uml:ControlFlow" xmi:id="_8ztFgF_rEeaxIuE2tiiodQ" target="__Hh0MF_pEeaxIuE2tiiodQ" source="_3lpXIF_pEeaxIuE2tiiodQ">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_8ztFgF_rEeaxIuE2tiiodQ" target="_hUivIHFZEeaL7qEuEzXB1w" source="_3lpXIF_pEeaxIuE2tiiodQ">
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_8ztFgV_rEeaxIuE2tiiodQ" name="FB.03- Seleciona e Submete o motivo da alteração_To_FB.04- Apresenta a opção para selecionar os servidores que deseja alterar escala de férias_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_8ztskF_rEeaxIuE2tiiodQ" name="FB.03- Seleciona e Submete o motivo da alteração_To_FB.04- Apresenta a opção para selecionar os servidores que deseja alterar escala de férias_weight"/>
           </edge>
@@ -1347,26 +1342,77 @@
             <guard xmi:type="uml:LiteralBoolean" xmi:id="_lNvnMF_zEeaxIuE2tiiodQ" name="FB.12- Encerra a operação_To_Fim da Atividade_guard" value="true"/>
             <weight xmi:type="uml:LiteralInteger" xmi:id="_lNw1UF_zEeaxIuE2tiiodQ" name="FB.12- Encerra a operação_To_Fim da Atividade_weight"/>
           </edge>
-          <group xmi:type="uml:ActivityPartition" xmi:id="_J6_osF_oEeaxIuE2tiiodQ" name="Operador de RH" node="_XIKNkF_oEeaxIuE2tiiodQ _acbasF_oEeaxIuE2tiiodQ _3lpXIF_pEeaxIuE2tiiodQ _O_6pMF_qEeaxIuE2tiiodQ _a9rUUF_tEeaxIuE2tiiodQ _CVX6IF_zEeaxIuE2tiiodQ _QoMfgF_zEeaxIuE2tiiodQ _ggCh8F_zEeaxIuE2tiiodQ"/>
-          <group xmi:type="uml:ActivityPartition" xmi:id="_KihiwF_oEeaxIuE2tiiodQ" name="Sistema" node="_u-BaAF_pEeaxIuE2tiiodQ __Hh0MF_pEeaxIuE2tiiodQ _PPzfUF_qEeaxIuE2tiiodQ _UmwOgF_tEeaxIuE2tiiodQ _ip9DgF_tEeaxIuE2tiiodQ _qjB4kF_tEeaxIuE2tiiodQ _3KoSQF_tEeaxIuE2tiiodQ _G8m9QF_uEeaxIuE2tiiodQ _hqGWwF_yEeaxIuE2tiiodQ _IAlJcF_zEeaxIuE2tiiodQ"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_iUq58HFaEeaL7qEuEzXB1w" target="_XspLUHFaEeaL7qEuEzXB1w" source="_hUivIHFZEeaL7qEuEzXB1w">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_iUrhAHFaEeaL7qEuEzXB1w" name="FB.04 - Apresenta as opções de método para a alteração_To_FB.05 - Seleciona o método para cadastro_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_iUt9QHFaEeaL7qEuEzXB1w" name="FB.04 - Apresenta as opções de método para a alteração_To_FB.05 - Seleciona o método para cadastro_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_z_vNgHFaEeaL7qEuEzXB1w" target="_n4oRwHFaEeaL7qEuEzXB1w" source="_XspLUHFaEeaL7qEuEzXB1w">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_z_xCsHFaEeaL7qEuEzXB1w" name="FB.05 - Seleciona o método para cadastro_To_Decision3_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_z_xpwHFaEeaL7qEuEzXB1w" name="FB.05 - Seleciona o método para cadastro_To_Decision3_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_cmUakHFbEeaL7qEuEzXB1w" name="Não" target="_Yl0ZkHFbEeaL7qEuEzXB1w" source="_n4oRwHFaEeaL7qEuEzXB1w">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_cmYsAHFbEeaL7qEuEzXB1w" name="FA.01.1 - Método manual selecionado?_To_OpaqueAction16_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_cmZ6IHFbEeaL7qEuEzXB1w" name="FA.01.1 - Método manual selecionado?_To_OpaqueAction16_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_wv6mEHFbEeaL7qEuEzXB1w" target="_tYnTEHFbEeaL7qEuEzXB1w" source="_Yl0ZkHFbEeaL7qEuEzXB1w">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_wv7NIHFbEeaL7qEuEzXB1w" name="FA.01.2 - Método via importação de arquivo selecionado_To_FA.01.3 - Apresenta opção para importação de arquivo_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_wv70MHFbEeaL7qEuEzXB1w" name="FA.01.2 - Método via importação de arquivo selecionado_To_FA.01.3 - Apresenta opção para importação de arquivo_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_xXSIEHFbEeaL7qEuEzXB1w" target="_aOQXAHFbEeaL7qEuEzXB1w" source="_tYnTEHFbEeaL7qEuEzXB1w">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_xXSIEXFbEeaL7qEuEzXB1w" name="FA.01.3 - Apresenta opção para importação de arquivo_To_FA.01.4 - Seleciona e submete o arquivo que se deseja importar_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_xXSvIHFbEeaL7qEuEzXB1w" name="FA.01.3 - Apresenta opção para importação de arquivo_To_FA.01.4 - Seleciona e submete o arquivo que se deseja importar_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_3NGE4HFbEeaL7qEuEzXB1w" name="Sim" target="__Hh0MF_pEeaxIuE2tiiodQ" source="_n4oRwHFaEeaL7qEuEzXB1w">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_3NGr8HFbEeaL7qEuEzXB1w" name="FA.01.1 - Método manual selecionado?_To_FB.04- Apresenta a opção para selecionar os servidores quais se deseja alterar férias_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_3NHTAHFbEeaL7qEuEzXB1w" name="FA.01.1 - Método manual selecionado?_To_FB.04- Apresenta a opção para selecionar os servidores quais se deseja alterar férias_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_XUPngHFcEeaL7qEuEzXB1w" target="_TPib8HFcEeaL7qEuEzXB1w" source="_aOQXAHFbEeaL7qEuEzXB1w">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_XUQOkHFcEeaL7qEuEzXB1w" name="FA.01.4 - Seleciona e submete o arquivo que se deseja importar_To_FA.01.5 - Valida as informações do arquivo importado_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_XUQOkXFcEeaL7qEuEzXB1w" name="FA.01.4 - Seleciona e submete o arquivo que se deseja importar_To_FA.01.5 - Valida as informações do arquivo importado_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Zc9ngHFcEeaL7qEuEzXB1w" target="_UmwOgF_tEeaxIuE2tiiodQ" source="_TPib8HFcEeaL7qEuEzXB1w">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_Zc-OkHFcEeaL7qEuEzXB1w" name="FA.01.5 - Valida as informações do arquivo importado_To_Conector_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_Zc-1oHFcEeaL7qEuEzXB1w" name="FA.01.5 - Valida as informações do arquivo importado_To_Conector_weight"/>
+          </edge>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_J6_osF_oEeaxIuE2tiiodQ" name="Operador de RH" node="_XIKNkF_oEeaxIuE2tiiodQ _acbasF_oEeaxIuE2tiiodQ _3lpXIF_pEeaxIuE2tiiodQ _O_6pMF_qEeaxIuE2tiiodQ _a9rUUF_tEeaxIuE2tiiodQ _CVX6IF_zEeaxIuE2tiiodQ _QoMfgF_zEeaxIuE2tiiodQ _ggCh8F_zEeaxIuE2tiiodQ _XspLUHFaEeaL7qEuEzXB1w _n4oRwHFaEeaL7qEuEzXB1w _Yl0ZkHFbEeaL7qEuEzXB1w _aOQXAHFbEeaL7qEuEzXB1w"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_KihiwF_oEeaxIuE2tiiodQ" name="Sistema" node="_u-BaAF_pEeaxIuE2tiiodQ __Hh0MF_pEeaxIuE2tiiodQ _PPzfUF_qEeaxIuE2tiiodQ _UmwOgF_tEeaxIuE2tiiodQ _ip9DgF_tEeaxIuE2tiiodQ _qjB4kF_tEeaxIuE2tiiodQ _3KoSQF_tEeaxIuE2tiiodQ _G8m9QF_uEeaxIuE2tiiodQ _hqGWwF_yEeaxIuE2tiiodQ _IAlJcF_zEeaxIuE2tiiodQ _hUivIHFZEeaL7qEuEzXB1w _tYnTEHFbEeaL7qEuEzXB1w _TPib8HFcEeaL7qEuEzXB1w"/>
           <node xmi:type="uml:InitialNode" xmi:id="_XIKNkF_oEeaxIuE2tiiodQ" name="Início da Atividade" outgoing="_cLqRwF_qEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_acbasF_oEeaxIuE2tiiodQ" name="FB.01- Seleciona a opção para alteração da escala de férias" isLeaf="true" incoming="_cLqRwF_qEeaxIuE2tiiodQ" outgoing="_8B5OEF_rEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_u-BaAF_pEeaxIuE2tiiodQ" name="FB.02- Apresenta motivos para alteração da escala de férias" isLeaf="true" incoming="_8B5OEF_rEeaxIuE2tiiodQ" outgoing="_8a2goF_rEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_3lpXIF_pEeaxIuE2tiiodQ" name="FB.03- Seleciona e Submete o motivo da alteração" isLeaf="true" incoming="_8a2goF_rEeaxIuE2tiiodQ" outgoing="_8ztFgF_rEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="__Hh0MF_pEeaxIuE2tiiodQ" name="FB.04- Apresenta a opção para selecionar os servidores que deseja alterar escala de férias" isLeaf="true" incoming="_8ztFgF_rEeaxIuE2tiiodQ" outgoing="_9VuNcF_rEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_O_6pMF_qEeaxIuE2tiiodQ" name="FB.05- Seleciona e Submete os servidores que deseja alterar férias" isLeaf="true" incoming="_9VuNcF_rEeaxIuE2tiiodQ" outgoing="_ZM1BwF_tEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_PPzfUF_qEeaxIuE2tiiodQ" name="FB.06- Apresenta o formulário de cadastro" isLeaf="true" incoming="_Z2OkEF_tEeaxIuE2tiiodQ" outgoing="_onYEMF_tEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:MergeNode" xmi:id="_UmwOgF_tEeaxIuE2tiiodQ" name="Conector" incoming="_ZM1BwF_tEeaxIuE2tiiodQ _s7l5IF_yEeaxIuE2tiiodQ _vCCBMF_yEeaxIuE2tiiodQ" outgoing="_Z2OkEF_tEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_a9rUUF_tEeaxIuE2tiiodQ" name="FB.07- Realiza as alterações e submete a nova escala" isLeaf="true" incoming="_onYEMF_tEeaxIuE2tiiodQ" outgoing="_peLJUF_tEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_ip9DgF_tEeaxIuE2tiiodQ" name="FB.08- Valida os dados preenchidos na nova escala" isLeaf="true" incoming="_peLJUF_tEeaxIuE2tiiodQ" outgoing="_1YSx8F_tEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_qjB4kF_tEeaxIuE2tiiodQ" name="FA.01.1 Existem informações inválidas na escala?" incoming="_1YSx8F_tEeaxIuE2tiiodQ" outgoing="_8-PPoF_tEeaxIuE2tiiodQ _aiuEYF_yEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_3KoSQF_tEeaxIuE2tiiodQ" name="FB.09- Apresenta informações para confirmação" isLeaf="true" incoming="_8-PPoF_tEeaxIuE2tiiodQ" outgoing="_nYy-8F_yEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_G8m9QF_uEeaxIuE2tiiodQ" name="FA.01.2- Apresenta razões pelas quais as férias não podem ser alteradas" isLeaf="true" incoming="_aiuEYF_yEeaxIuE2tiiodQ" outgoing="_s7l5IF_yEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:DecisionNode" xmi:id="_hqGWwF_yEeaxIuE2tiiodQ" name="FA.02.1 Identifica necessidade de correção das informações?" incoming="_nYy-8F_yEeaxIuE2tiiodQ" outgoing="_vCCBMF_yEeaxIuE2tiiodQ _XvFpsF_zEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ"/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_CVX6IF_zEeaxIuE2tiiodQ" name="FB.10- Submete a operação" isLeaf="true" incoming="_XvFpsF_zEeaxIuE2tiiodQ" outgoing="_YLEbEF_zEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_IAlJcF_zEeaxIuE2tiiodQ" name="FB.11- Efetua a operação e retorna  mensagem de confirmação" isLeaf="true" incoming="_YLEbEF_zEeaxIuE2tiiodQ" outgoing="_ZD45cF_zEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
-          <node xmi:type="uml:OpaqueAction" xmi:id="_QoMfgF_zEeaxIuE2tiiodQ" name="FB.12- Encerra a operação" isLeaf="true" incoming="_ZD45cF_zEeaxIuE2tiiodQ" outgoing="_lNvAIF_zEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_u-BaAF_pEeaxIuE2tiiodQ" name="FB.02 - Apresenta as opções de motivos para alteração da escala de férias" isLeaf="true" incoming="_8B5OEF_rEeaxIuE2tiiodQ" outgoing="_8a2goF_rEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_3lpXIF_pEeaxIuE2tiiodQ" name="FB.03- Seleciona e submete o motivo da alteração" isLeaf="true" incoming="_8a2goF_rEeaxIuE2tiiodQ" outgoing="_8ztFgF_rEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="__Hh0MF_pEeaxIuE2tiiodQ" name="FB.06- Apresenta a opção para selecionar os servidores quais se deseja alterar férias" isLeaf="true" incoming="_3NGE4HFbEeaL7qEuEzXB1w" outgoing="_9VuNcF_rEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_O_6pMF_qEeaxIuE2tiiodQ" name="FB.07- Seleciona e submete os servidores quais se deseja alterar férias" isLeaf="true" incoming="_9VuNcF_rEeaxIuE2tiiodQ" outgoing="_ZM1BwF_tEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_PPzfUF_qEeaxIuE2tiiodQ" name="FB.08- Apresenta o formulário de alteração de férias" isLeaf="true" incoming="_Z2OkEF_tEeaxIuE2tiiodQ" outgoing="_onYEMF_tEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:MergeNode" xmi:id="_UmwOgF_tEeaxIuE2tiiodQ" name="Conector" incoming="_ZM1BwF_tEeaxIuE2tiiodQ _s7l5IF_yEeaxIuE2tiiodQ _vCCBMF_yEeaxIuE2tiiodQ _Zc9ngHFcEeaL7qEuEzXB1w" outgoing="_Z2OkEF_tEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_a9rUUF_tEeaxIuE2tiiodQ" name="FB.09- Realiza as alterações e as submete" isLeaf="true" incoming="_onYEMF_tEeaxIuE2tiiodQ" outgoing="_peLJUF_tEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_ip9DgF_tEeaxIuE2tiiodQ" name="FB.10 - Valida os dados preenchidos no formulário" isLeaf="true" incoming="_peLJUF_tEeaxIuE2tiiodQ" outgoing="_1YSx8F_tEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_qjB4kF_tEeaxIuE2tiiodQ" name="FA.02.1 Existem informações inválidas no formulário?" incoming="_1YSx8F_tEeaxIuE2tiiodQ" outgoing="_8-PPoF_tEeaxIuE2tiiodQ _aiuEYF_yEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_3KoSQF_tEeaxIuE2tiiodQ" name="FB.11 - Apresenta informações para confirmação" isLeaf="true" incoming="_8-PPoF_tEeaxIuE2tiiodQ" outgoing="_nYy-8F_yEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_G8m9QF_uEeaxIuE2tiiodQ" name="FA.02.2- Apresenta razões pelas quais as férias não podem ser alteradas" isLeaf="true" incoming="_aiuEYF_yEeaxIuE2tiiodQ" outgoing="_s7l5IF_yEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_hqGWwF_yEeaxIuE2tiiodQ" name="FA.03.1 Identifica necessidade de correção das informações?" incoming="_nYy-8F_yEeaxIuE2tiiodQ" outgoing="_vCCBMF_yEeaxIuE2tiiodQ _XvFpsF_zEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_CVX6IF_zEeaxIuE2tiiodQ" name="FB.12 - Submete a operação" isLeaf="true" incoming="_XvFpsF_zEeaxIuE2tiiodQ" outgoing="_YLEbEF_zEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_IAlJcF_zEeaxIuE2tiiodQ" name="FB.13 - Efetua a operação e retorna  mensagem de confirmação" isLeaf="true" incoming="_YLEbEF_zEeaxIuE2tiiodQ" outgoing="_ZD45cF_zEeaxIuE2tiiodQ" inPartition="_KihiwF_oEeaxIuE2tiiodQ" body=""/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_QoMfgF_zEeaxIuE2tiiodQ" name="FB.14- Encerra a operação" isLeaf="true" incoming="_ZD45cF_zEeaxIuE2tiiodQ" outgoing="_lNvAIF_zEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ" body=""/>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_ggCh8F_zEeaxIuE2tiiodQ" name="Fim da Atividade" incoming="_lNvAIF_zEeaxIuE2tiiodQ" inPartition="_J6_osF_oEeaxIuE2tiiodQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_hUivIHFZEeaL7qEuEzXB1w" name="FB.04 - Apresenta as opções de método para a alteração" incoming="_8ztFgF_rEeaxIuE2tiiodQ" outgoing="_iUq58HFaEeaL7qEuEzXB1w" inPartition="_KihiwF_oEeaxIuE2tiiodQ">
+            <body>// TODO body of OpaqueAction14</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_XspLUHFaEeaL7qEuEzXB1w" name="FB.05 - Seleciona o método para alteração" incoming="_iUq58HFaEeaL7qEuEzXB1w" outgoing="_z_vNgHFaEeaL7qEuEzXB1w" inPartition="_J6_osF_oEeaxIuE2tiiodQ">
+            <body>// TODO body of OpaqueAction15</body>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_n4oRwHFaEeaL7qEuEzXB1w" name="FA.01.1 - Método manual selecionado?" incoming="_z_vNgHFaEeaL7qEuEzXB1w" outgoing="_cmUakHFbEeaL7qEuEzXB1w _3NGE4HFbEeaL7qEuEzXB1w" inPartition="_J6_osF_oEeaxIuE2tiiodQ"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_Yl0ZkHFbEeaL7qEuEzXB1w" name="FA.01.2 - Método via importação de arquivo selecionado" incoming="_cmUakHFbEeaL7qEuEzXB1w" outgoing="_wv6mEHFbEeaL7qEuEzXB1w" inPartition="_J6_osF_oEeaxIuE2tiiodQ">
+            <body>// TODO body of OpaqueAction16</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_aOQXAHFbEeaL7qEuEzXB1w" name="FA.01.4 - Seleciona e submete o arquivo que se deseja importar" incoming="_xXSIEHFbEeaL7qEuEzXB1w" outgoing="_XUPngHFcEeaL7qEuEzXB1w" inPartition="_J6_osF_oEeaxIuE2tiiodQ">
+            <body>// TODO body of OpaqueAction17</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_tYnTEHFbEeaL7qEuEzXB1w" name="FA.01.3 - Apresenta opção para importação de arquivo" incoming="_wv6mEHFbEeaL7qEuEzXB1w" outgoing="_xXSIEHFbEeaL7qEuEzXB1w" inPartition="_KihiwF_oEeaxIuE2tiiodQ">
+            <body>// TODO body of OpaqueAction18</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_TPib8HFcEeaL7qEuEzXB1w" name="FA.01.5 - Valida as informações do arquivo importado" incoming="_XUPngHFcEeaL7qEuEzXB1w" outgoing="_Zc9ngHFcEeaL7qEuEzXB1w" inPartition="_KihiwF_oEeaxIuE2tiiodQ">
+            <body>// TODO body of OpaqueAction19</body>
+          </node>
         </packagedElement>
       </packagedElement>
     </packagedElement>
