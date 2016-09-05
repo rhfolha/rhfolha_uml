@@ -1404,290 +1404,358 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_VcDMMEO8EeaRnrYFrIkXNQ" name="CicloVidaEventos">
-    <packagedElement xmi:type="uml:StateMachine" xmi:id="_0f8L4EIYEeasuqlwXyvccw" name="Cargos">
-      <region xmi:id="_0jtmsEIaEeasuqlwXyvccw" name="Reserva de Cargo">
-        <transition xmi:id="_Jm8I4EIbEeasuqlwXyvccw" guard="_eQfm0EIbEeasuqlwXyvccw" source="_7RY_oEIaEeasuqlwXyvccw">
-          <ownedRule xmi:id="_eQfm0EIbEeasuqlwXyvccw" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_eQfm0UIbEeasuqlwXyvccw" name="null_guard">
-              <body>EFET-ENC</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_JKuG8EIbEeasuqlwXyvccw" name="NV-EFET " isLeaf="true" guard="_aexBoEIbEeasuqlwXyvccw" source="_6FTnAEIaEeasuqlwXyvccw" target="_7RY_oEIaEeasuqlwXyvccw">
-          <ownedRule xmi:id="_aexBoEIbEeasuqlwXyvccw" name="NV-EFET _transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_aexBoUIbEeasuqlwXyvccw" name="NV-EFET _guard">
-              <body>NV-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_M79nIEIfEeacwYm_0UXX1Q" guard="_OXmesEIfEeacwYm_0UXX1Q" source="_7RY_oEIaEeasuqlwXyvccw" target="_G5a14EIfEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_OXmesEIfEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_OXnFwEIfEeacwYm_0UXX1Q" name="null_guard">
-              <body>EFET-ENC</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_PmjlIEIfEeacwYm_0UXX1Q" guard="_Y0nQIEIfEeacwYm_0UXX1Q" source="_7RY_oEIaEeasuqlwXyvccw" target="_7RY_oEIaEeasuqlwXyvccw">
-          <ownedRule xmi:id="_Y0nQIEIfEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_Y0nQIUIfEeacwYm_0UXX1Q" name="null_guard">
-              <body>EFET-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <subvertex xmi:type="uml:State" xmi:id="_6FTnAEIaEeasuqlwXyvccw" name="Novo"/>
-        <subvertex xmi:type="uml:State" xmi:id="_7RY_oEIaEeasuqlwXyvccw" name="Efetivado"/>
-        <subvertex xmi:type="uml:State" xmi:id="_G5a14EIfEeacwYm_0UXX1Q" name="Encerrado"/>
-      </region>
+    <packagedElement xmi:type="uml:Package" xmi:id="_hUAq0HOiEeaYXvGbrF280Q" name="Vida Funcional">
+      <packagedElement xmi:type="uml:Package" xmi:id="_3N8KUFseEeaPguYNUcBx6Q" name="Férias">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_6mokcFseEeaPguYNUcBx6Q" name="Férias">
+          <region xmi:id="_70amMFseEeaPguYNUcBx6Q" name="Férias">
+            <transition xmi:id="_XVBbgFsfEeaPguYNUcBx6Q" guard="_uiWdwFsfEeaPguYNUcBx6Q" source="_AKrb0FsfEeaPguYNUcBx6Q" target="_Bg62AFsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_uiWdwFsfEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_uiWdwVsfEeaPguYNUcBx6Q" name="null_guard">
+                  <body>NV-PLAN</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_YUJ9QFsfEeaPguYNUcBx6Q" guard="_5nJA4FsfEeaPguYNUcBx6Q" source="_Bg62AFsfEeaPguYNUcBx6Q" target="_CitDIFsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_5nJA4FsfEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_5nJA4VsfEeaPguYNUcBx6Q" name="null_guard">
+                  <body>PLAN-FRU</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_aa0HwFsfEeaPguYNUcBx6Q" guard="_GFn60FsgEeaPguYNUcBx6Q" source="_CitDIFsfEeaPguYNUcBx6Q" target="_D5ZwUFsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_GFn60FsgEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_GFn60VsgEeaPguYNUcBx6Q" name="null_guard">
+                  <body>FRU-INT</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_dBICsFsfEeaPguYNUcBx6Q" guard="_Hqe_0FsgEeaPguYNUcBx6Q" source="_CitDIFsfEeaPguYNUcBx6Q" target="_Fcf6wFsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_Hqe_0FsgEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_Hqe_0VsgEeaPguYNUcBx6Q" name="null_guard">
+                  <body>FRU-CANC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_dn0PQFsfEeaPguYNUcBx6Q" guard="_7vZt4FsfEeaPguYNUcBx6Q" source="_CitDIFsfEeaPguYNUcBx6Q" target="_GZvmIFsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_7vZt4FsfEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_7vZt4VsfEeaPguYNUcBx6Q" name="null_guard">
+                  <body>FRU-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_gN6u0FsfEeaPguYNUcBx6Q" guard="_9ElYIFsfEeaPguYNUcBx6Q" source="_Fcf6wFsfEeaPguYNUcBx6Q" target="_GZvmIFsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_9ElYIFsfEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_9ElYIVsfEeaPguYNUcBx6Q" name="null_guard">
+                  <body>CANC-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_hJrMcFsfEeaPguYNUcBx6Q" guard="_xCjwsFsfEeaPguYNUcBx6Q" source="_Bg62AFsfEeaPguYNUcBx6Q" target="_Bg62AFsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_xCjwsFsfEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_xCjwsVsfEeaPguYNUcBx6Q" name="null_guard">
+                  <body>PLAN-PLAN</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_jzcrEFsfEeaPguYNUcBx6Q" guard="_za_nsFsfEeaPguYNUcBx6Q" source="_Bg62AFsfEeaPguYNUcBx6Q" target="_Fcf6wFsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_za_nsFsfEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_za_nsVsfEeaPguYNUcBx6Q" name="null_guard">
+                  <body>PLAN-CANC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_miBxMFsfEeaPguYNUcBx6Q" guard="_-WaMYFsfEeaPguYNUcBx6Q" source="_D5ZwUFsfEeaPguYNUcBx6Q" target="_AKrb0FsfEeaPguYNUcBx6Q">
+              <ownedRule xmi:id="_-WaMYFsfEeaPguYNUcBx6Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_-WaMYVsfEeaPguYNUcBx6Q" name="null_guard">
+                  <body>INT-NV</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_AKrb0FsfEeaPguYNUcBx6Q" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_Bg62AFsfEeaPguYNUcBx6Q" name="Planejado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_CitDIFsfEeaPguYNUcBx6Q" name="Fruído"/>
+            <subvertex xmi:type="uml:State" xmi:id="_D5ZwUFsfEeaPguYNUcBx6Q" name="Interrompido"/>
+            <subvertex xmi:type="uml:State" xmi:id="_Fcf6wFsfEeaPguYNUcBx6Q" name="Cancelado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_GZvmIFsfEeaPguYNUcBx6Q" name="Encerrado"/>
+          </region>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_53oxoHOiEeaYXvGbrF280Q" name="Afastamento">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_8LC-sHOiEeaYXvGbrF280Q" name="Afastamento">
+          <region xmi:id="_8sNyEHOiEeaYXvGbrF280Q" name="Region1">
+            <transition xmi:id="_GcEtIHOkEeaYXvGbrF280Q" guard="_odQ6kHOkEeaYXvGbrF280Q" source="_CcJJUHOjEeaYXvGbrF280Q" target="_DddcYHOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_odQ6kHOkEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_odQ6kXOkEeaYXvGbrF280Q" name="null_guard">
+                  <body>NV-CONCED</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_HSPgIHOkEeaYXvGbrF280Q" guard="_uptOsHOkEeaYXvGbrF280Q" source="_DddcYHOjEeaYXvGbrF280Q" target="_F3kHUHOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_uptOsHOkEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_uptOsXOkEeaYXvGbrF280Q" name="null_guard">
+                  <body>CONCED-AFAST</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_H4tDMHOkEeaYXvGbrF280Q" guard="_xF3IEHOkEeaYXvGbrF280Q" source="_F3kHUHOjEeaYXvGbrF280Q" target="_HTWv4HOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_xF3IEHOkEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_xF3IEXOkEeaYXvGbrF280Q" name="null_guard">
+                  <body>AFAST-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_I6epQHOkEeaYXvGbrF280Q" guard="_9hFSoHOkEeaYXvGbrF280Q" source="_EsOVkHOjEeaYXvGbrF280Q" target="_DddcYHOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_9hFSoHOkEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_9hFSoXOkEeaYXvGbrF280Q" name="null_guard">
+                  <body>AGPB-CONC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_JhPuUHOkEeaYXvGbrF280Q" guard="_AWQI8HOlEeaYXvGbrF280Q" source="_CcJJUHOjEeaYXvGbrF280Q" target="_EsOVkHOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_AWQI8HOlEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_AWQI8XOlEeaYXvGbrF280Q" name="null_guard">
+                  <body>NV-AGPUBLIC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_K8qjcHOkEeaYXvGbrF280Q" guard="_62_D4HOkEeaYXvGbrF280Q" source="_EsOVkHOjEeaYXvGbrF280Q" target="_IEnNsHOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_62_D4HOkEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_62_D4XOkEeaYXvGbrF280Q" name="null_guard">
+                  <body>AGPB-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_MZH6YHOkEeaYXvGbrF280Q" guard="_0zIEAHOkEeaYXvGbrF280Q" source="_F3kHUHOjEeaYXvGbrF280Q" target="_IEnNsHOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_0zIEAHOkEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_0zIEAXOkEeaYXvGbrF280Q" name="null_guard">
+                  <body>AFAST-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_M8MLMHOkEeaYXvGbrF280Q" guard="_yXNbMHOkEeaYXvGbrF280Q" source="_IEnNsHOjEeaYXvGbrF280Q" target="_HTWv4HOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_yXNbMHOkEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_yXNbMXOkEeaYXvGbrF280Q" name="null_guard">
+                  <body>EXC-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_H-1q8HOlEeaYXvGbrF280Q" guard="_LwAPcHOlEeaYXvGbrF280Q" source="_DddcYHOjEeaYXvGbrF280Q" target="_IEnNsHOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_LwAPcHOlEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_LwAPcXOlEeaYXvGbrF280Q" name="null_guard">
+                  <body>CONCED-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_vbEkwHOlEeaYXvGbrF280Q" guard="_XvQk0HOnEeaYXvGbrF280Q" source="_F3kHUHOjEeaYXvGbrF280Q" target="_F3kHUHOjEeaYXvGbrF280Q">
+              <ownedRule xmi:id="_XvQk0HOnEeaYXvGbrF280Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_XvQk0XOnEeaYXvGbrF280Q" name="null_guard">
+                  <body>AFAST-AFAST</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_CcJJUHOjEeaYXvGbrF280Q" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_DddcYHOjEeaYXvGbrF280Q" name="Concedido"/>
+            <subvertex xmi:type="uml:State" xmi:id="_EsOVkHOjEeaYXvGbrF280Q" name="Aguardando Publicação"/>
+            <subvertex xmi:type="uml:State" xmi:id="_F3kHUHOjEeaYXvGbrF280Q" name="Afastado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_HTWv4HOjEeaYXvGbrF280Q" name="Encerrado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_IEnNsHOjEeaYXvGbrF280Q" name="Excluído"/>
+          </region>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:StateMachine" xmi:id="_F6pA0EIcEeasuqlwXyvccw" name="Cargos">
-      <region xmi:id="_GMdJkEIcEeasuqlwXyvccw" name="Extinção de Cargo">
-        <transition xmi:id="_fgcZgEIgEeacwYm_0UXX1Q" guard="_gaV18EIgEeacwYm_0UXX1Q" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_PHnw8EIgEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_gaV18EIgEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_gaV18UIgEeacwYm_0UXX1Q" name="null_guard">
-              <body>NV-AGUEXT</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_mzsksEIgEeacwYm_0UXX1Q" guard="_pOcv4EIgEeacwYm_0UXX1Q" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_JVwgAEIgEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_pOcv4EIgEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_pOcv4UIgEeacwYm_0UXX1Q" name="null_guard">
-              <body>NV-POSEXT</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_xYOTYEIgEeacwYm_0UXX1Q" guard="_y4WpYEIgEeacwYm_0UXX1Q" source="_JVwgAEIgEeacwYm_0UXX1Q" target="_N1Nt4EIgEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_y4WpYEIgEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_y4WpYUIgEeacwYm_0UXX1Q" name="null_guard">
-              <body>POSEXT-CANC</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_4V86gEIgEeacwYm_0UXX1Q" guard="_6o50kEIgEeacwYm_0UXX1Q" source="_JVwgAEIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_6o50kEIgEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_6o50kUIgEeacwYm_0UXX1Q" name="null_guard">
-              <body>POSEXT-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_LdOGUEIhEeacwYm_0UXX1Q" guard="_P3erIEIhEeacwYm_0UXX1Q" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_P3erIEIhEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_P3erIUIhEeacwYm_0UXX1Q" name="null_guard">
-              <body>NV-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_S_Bq4EIhEeacwYm_0UXX1Q" guard="_UcFewEIhEeacwYm_0UXX1Q" source="_PHnw8EIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_UcFewEIhEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_UcFewUIhEeacwYm_0UXX1Q" name="null_guard">
-              <body>AGUEXT-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_xlvVgEIhEeacwYm_0UXX1Q" guard="_2OzLUEIhEeacwYm_0UXX1Q" source="_QYVx8EIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_2OzLUEIhEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_2OzLUUIhEeacwYm_0UXX1Q" name="null_guard">
-              <body>EFET-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <subvertex xmi:type="uml:State" xmi:id="_IbFAcEIgEeacwYm_0UXX1Q" name="Novo"/>
-        <subvertex xmi:type="uml:State" xmi:id="_JVwgAEIgEeacwYm_0UXX1Q" name="Possibilidade de Extinção"/>
-        <subvertex xmi:type="uml:State" xmi:id="_N1Nt4EIgEeacwYm_0UXX1Q" name="Cancelado"/>
-        <subvertex xmi:type="uml:State" xmi:id="_PHnw8EIgEeacwYm_0UXX1Q" name="Aguardando Extinção"/>
-        <subvertex xmi:type="uml:State" xmi:id="_QYVx8EIgEeacwYm_0UXX1Q" name="Efetivado"/>
-      </region>
-    </packagedElement>
-    <packagedElement xmi:type="uml:StateMachine" xmi:id="_TBxOIEInEeacwYm_0UXX1Q" name="Cargos">
-      <region xmi:id="_V8ZzQEInEeacwYm_0UXX1Q" name="Classificação de Cargos">
-        <transition xmi:id="_3HamoEInEeacwYm_0UXX1Q" guard="_-xCqcEInEeacwYm_0UXX1Q" source="_wTOWAEInEeacwYm_0UXX1Q" target="_xa_PUEInEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_-xCqcEInEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_-xCqcUInEeacwYm_0UXX1Q" name="null_guard">
-              <body>NV-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_7QbDYEInEeacwYm_0UXX1Q" guard="__vz_0EInEeacwYm_0UXX1Q" source="_xa_PUEInEeacwYm_0UXX1Q" target="_xa_PUEInEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="__vz_0EInEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="__vz_0UInEeacwYm_0UXX1Q" name="null_guard">
-              <body>EFET-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <subvertex xmi:type="uml:State" xmi:id="_wTOWAEInEeacwYm_0UXX1Q" name="Novo"/>
-        <subvertex xmi:type="uml:State" xmi:id="_xa_PUEInEeacwYm_0UXX1Q" name="Efetivado"/>
-      </region>
-    </packagedElement>
-    <packagedElement xmi:type="uml:StateMachine" xmi:id="_uMSpQEIoEeacwYm_0UXX1Q" name="Cargos">
-      <region xmi:id="_zMl6YEIoEeacwYm_0UXX1Q" name="Transferência de Cargo">
-        <transition xmi:id="_NxptcEIpEeacwYm_0UXX1Q" guard="_S_wKAEIpEeacwYm_0UXX1Q" source="_CsNDAEIpEeacwYm_0UXX1Q" target="_DTMKgEIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_S_wKAEIpEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_S_wKAUIpEeacwYm_0UXX1Q" name="null_guard">
-              <body>NV-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_PbUZ8EIpEeacwYm_0UXX1Q" guard="_VKKMEEIpEeacwYm_0UXX1Q" source="_DTMKgEIpEeacwYm_0UXX1Q" target="_DTMKgEIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_VKKMEEIpEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_VKKMEUIpEeacwYm_0UXX1Q" name="null_guard">
-              <body>EFET-EFET</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <subvertex xmi:type="uml:State" xmi:id="_CsNDAEIpEeacwYm_0UXX1Q" name="Novo"/>
-        <subvertex xmi:type="uml:State" xmi:id="_DTMKgEIpEeacwYm_0UXX1Q" name="Efetivado"/>
-      </region>
-    </packagedElement>
-    <packagedElement xmi:type="uml:StateMachine" xmi:id="_gYUtoEIpEeacwYm_0UXX1Q" name="Cargos">
-      <region xmi:id="_jsi3cEIpEeacwYm_0UXX1Q" name="Banco de Contingenciamento de Cargos">
-        <transition xmi:id="_CUPZgEIqEeacwYm_0UXX1Q" guard="_RRO9QEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q" target="_tVaPIEIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_RRO9QEIqEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_RRO9QUIqEeacwYm_0UXX1Q" name="null_guard">
-              <body>NV-LBCEP</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_DqZUIEIqEeacwYm_0UXX1Q" guard="_NFqfQEIrEeacwYm_0UXX1Q" source="_tVaPIEIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_NFqfQEIrEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_NFqfQUIrEeacwYm_0UXX1Q" name="null_guard">
-              <body>LBCEP-ENC</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_FobuIEIqEeacwYm_0UXX1Q" guard="_OQGHgEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q" target="_rvJb8EIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_OQGHgEIqEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_OQGHgUIqEeacwYm_0UXX1Q" name="null_guard">
-              <body>NV-CONT</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_GYhHQEIqEeacwYm_0UXX1Q" guard="_SfvXwEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q" target="_vprX0EIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_SfvXwEIqEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_SfvXwUIqEeacwYm_0UXX1Q" name="null_guard">
-              <body>NV-CONT</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_JXPswEIrEeacwYm_0UXX1Q" guard="_Kx-lYEIrEeacwYm_0UXX1Q" source="_rvJb8EIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_Kx-lYEIrEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_Kx-lYUIrEeacwYm_0UXX1Q" name="null_guard">
-              <body>CONT-ENC</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_OagLQEIrEeacwYm_0UXX1Q" guard="_StRoAEIrEeacwYm_0UXX1Q" source="_vprX0EIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_StRoAEIrEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_StRoAUIrEeacwYm_0UXX1Q" name="null_guard">
-              <body>CONT-ENC</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <transition xmi:id="_VLn5wEIrEeacwYm_0UXX1Q" guard="_WIw3cEIrEeacwYm_0UXX1Q" source="_tVaPIEIpEeacwYm_0UXX1Q" target="_vprX0EIpEeacwYm_0UXX1Q">
-          <ownedRule xmi:id="_WIw3cEIrEeacwYm_0UXX1Q" name="null_transition">
-            <specification xmi:type="uml:OpaqueExpression" xmi:id="_WIw3cUIrEeacwYm_0UXX1Q" name="null_guard">
-              <body>LBCEP-CONT</body>
-            </specification>
-          </ownedRule>
-        </transition>
-        <subvertex xmi:type="uml:State" xmi:id="_qf3lYEIpEeacwYm_0UXX1Q" name="Novo"/>
-        <subvertex xmi:type="uml:State" xmi:id="_rvJb8EIpEeacwYm_0UXX1Q" name="Contingenciado"/>
-        <subvertex xmi:type="uml:State" xmi:id="_tVaPIEIpEeacwYm_0UXX1Q" name="Listado para Contingenciamento"/>
-        <subvertex xmi:type="uml:State" xmi:id="_vprX0EIpEeacwYm_0UXX1Q" name="Contingenciado pela Lista"/>
-        <subvertex xmi:type="uml:State" xmi:id="_x9TnUEIpEeacwYm_0UXX1Q" name="Encerrado"/>
-      </region>
-    </packagedElement>
-    <packagedElement xmi:type="uml:StateMachine" xmi:id="_eV2y8E3XEeawn_P5QTRtmQ" name="CicloVidaEventos">
-      <region xmi:id="_enf8kE3XEeawn_P5QTRtmQ" name="Region1">
-        <subvertex xmi:type="uml:State" xmi:id="_ht2pgE3XEeawn_P5QTRtmQ" name="State1">
-          <doActivity xmi:type="uml:Activity" xmi:id="_DNpSsE3bEeawn_P5QTRtmQ" name="Activity1"/>
-          <entry xmi:type="uml:OpaqueBehavior" xmi:id="_EuKDME3bEeawn_P5QTRtmQ" name="OpaqueBehavior1"/>
-        </subvertex>
-        <subvertex xmi:type="uml:Pseudostate" xmi:id="_jglLYE3XEeawn_P5QTRtmQ" name="3"/>
-        <subvertex xmi:type="uml:State" xmi:id="_zdKj4U3XEeawn_P5QTRtmQ" name="StateMachine7" submachine="_zdKj4E3XEeawn_P5QTRtmQ">
-          <doActivity xmi:type="uml:Activity" xmi:id="_3wc-AE3XEeawn_P5QTRtmQ" name="Activity1"/>
-        </subvertex>
-        <subvertex xmi:type="uml:State" xmi:id="_wgpBAE3aEeawn_P5QTRtmQ" name="StateMachine8" submachine="_wgi6YE3aEeawn_P5QTRtmQ">
-          <doActivity xmi:type="uml:StateMachine" xmi:id="__R2LgE3aEeawn_P5QTRtmQ" name="StateMachine1"/>
-          <entry xmi:type="uml:OpaqueBehavior" xmi:id="_9v_-QE3aEeawn_P5QTRtmQ" name="OpaqueBehavior1"/>
-          <region xmi:id="_AKOlAE3bEeawn_P5QTRtmQ" name="Region1"/>
-        </subvertex>
-        <subvertex xmi:type="uml:Pseudostate" xmi:id="_zQQo8E3aEeawn_P5QTRtmQ" name="Initial2"/>
-        <subvertex xmi:type="uml:Pseudostate" xmi:id="_W9EDoE3bEeawn_P5QTRtmQ" name="Initial3"/>
-        <subvertex xmi:type="uml:Pseudostate" xmi:id="_YGg_AE3bEeawn_P5QTRtmQ" name="1" kind="shallowHistory"/>
-      </region>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_3N8KUFseEeaPguYNUcBx6Q" name="Férias">
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_6mokcFseEeaPguYNUcBx6Q" name="Férias">
-        <region xmi:id="_70amMFseEeaPguYNUcBx6Q" name="Férias">
-          <transition xmi:id="_XVBbgFsfEeaPguYNUcBx6Q" guard="_uiWdwFsfEeaPguYNUcBx6Q" source="_AKrb0FsfEeaPguYNUcBx6Q" target="_Bg62AFsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_uiWdwFsfEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_uiWdwVsfEeaPguYNUcBx6Q" name="null_guard">
-                <body>NV-PLAN</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_YUJ9QFsfEeaPguYNUcBx6Q" guard="_5nJA4FsfEeaPguYNUcBx6Q" source="_Bg62AFsfEeaPguYNUcBx6Q" target="_CitDIFsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_5nJA4FsfEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_5nJA4VsfEeaPguYNUcBx6Q" name="null_guard">
-                <body>PLAN-FRU</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_aa0HwFsfEeaPguYNUcBx6Q" guard="_GFn60FsgEeaPguYNUcBx6Q" source="_CitDIFsfEeaPguYNUcBx6Q" target="_D5ZwUFsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_GFn60FsgEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_GFn60VsgEeaPguYNUcBx6Q" name="null_guard">
-                <body>FRU-INT</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_dBICsFsfEeaPguYNUcBx6Q" guard="_Hqe_0FsgEeaPguYNUcBx6Q" source="_CitDIFsfEeaPguYNUcBx6Q" target="_Fcf6wFsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_Hqe_0FsgEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_Hqe_0VsgEeaPguYNUcBx6Q" name="null_guard">
-                <body>FRU-CANC</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_dn0PQFsfEeaPguYNUcBx6Q" guard="_7vZt4FsfEeaPguYNUcBx6Q" source="_CitDIFsfEeaPguYNUcBx6Q" target="_GZvmIFsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_7vZt4FsfEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_7vZt4VsfEeaPguYNUcBx6Q" name="null_guard">
-                <body>FRU-ENC</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_gN6u0FsfEeaPguYNUcBx6Q" guard="_9ElYIFsfEeaPguYNUcBx6Q" source="_Fcf6wFsfEeaPguYNUcBx6Q" target="_GZvmIFsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_9ElYIFsfEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_9ElYIVsfEeaPguYNUcBx6Q" name="null_guard">
-                <body>CANC-ENC</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_hJrMcFsfEeaPguYNUcBx6Q" guard="_xCjwsFsfEeaPguYNUcBx6Q" source="_Bg62AFsfEeaPguYNUcBx6Q" target="_Bg62AFsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_xCjwsFsfEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_xCjwsVsfEeaPguYNUcBx6Q" name="null_guard">
-                <body>PLAN-PLAN</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_jzcrEFsfEeaPguYNUcBx6Q" guard="_za_nsFsfEeaPguYNUcBx6Q" source="_Bg62AFsfEeaPguYNUcBx6Q" target="_Fcf6wFsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_za_nsFsfEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_za_nsVsfEeaPguYNUcBx6Q" name="null_guard">
-                <body>PLAN-CANC</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_miBxMFsfEeaPguYNUcBx6Q" guard="_-WaMYFsfEeaPguYNUcBx6Q" source="_D5ZwUFsfEeaPguYNUcBx6Q" target="_AKrb0FsfEeaPguYNUcBx6Q">
-            <ownedRule xmi:id="_-WaMYFsfEeaPguYNUcBx6Q" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_-WaMYVsfEeaPguYNUcBx6Q" name="null_guard">
-                <body>INT-NV</body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <subvertex xmi:type="uml:State" xmi:id="_AKrb0FsfEeaPguYNUcBx6Q" name="Novo"/>
-          <subvertex xmi:type="uml:State" xmi:id="_Bg62AFsfEeaPguYNUcBx6Q" name="Planejado"/>
-          <subvertex xmi:type="uml:State" xmi:id="_CitDIFsfEeaPguYNUcBx6Q" name="Fruído"/>
-          <subvertex xmi:type="uml:State" xmi:id="_D5ZwUFsfEeaPguYNUcBx6Q" name="Interrompido"/>
-          <subvertex xmi:type="uml:State" xmi:id="_Fcf6wFsfEeaPguYNUcBx6Q" name="Cancelado"/>
-          <subvertex xmi:type="uml:State" xmi:id="_GZvmIFsfEeaPguYNUcBx6Q" name="Encerrado"/>
-        </region>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mCfMIHOiEeaYXvGbrF280Q" name="Cadastro Base">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NWcwMHOiEeaYXvGbrF280Q" name="Cargos">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_0f8L4EIYEeasuqlwXyvccw" name="Cargos">
+          <region xmi:id="_0jtmsEIaEeasuqlwXyvccw" name="Reserva de Cargo">
+            <transition xmi:id="_Jm8I4EIbEeasuqlwXyvccw" guard="_eQfm0EIbEeasuqlwXyvccw" source="_7RY_oEIaEeasuqlwXyvccw">
+              <ownedRule xmi:id="_eQfm0EIbEeasuqlwXyvccw" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_eQfm0UIbEeasuqlwXyvccw" name="null_guard">
+                  <body>EFET-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_JKuG8EIbEeasuqlwXyvccw" name="NV-EFET " isLeaf="true" guard="_aexBoEIbEeasuqlwXyvccw" source="_6FTnAEIaEeasuqlwXyvccw" target="_7RY_oEIaEeasuqlwXyvccw">
+              <ownedRule xmi:id="_aexBoEIbEeasuqlwXyvccw" name="NV-EFET _transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_aexBoUIbEeasuqlwXyvccw" name="NV-EFET _guard">
+                  <body>NV-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_M79nIEIfEeacwYm_0UXX1Q" guard="_OXmesEIfEeacwYm_0UXX1Q" source="_7RY_oEIaEeasuqlwXyvccw" target="_G5a14EIfEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_OXmesEIfEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_OXnFwEIfEeacwYm_0UXX1Q" name="null_guard">
+                  <body>EFET-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_PmjlIEIfEeacwYm_0UXX1Q" guard="_Y0nQIEIfEeacwYm_0UXX1Q" source="_7RY_oEIaEeasuqlwXyvccw" target="_7RY_oEIaEeasuqlwXyvccw">
+              <ownedRule xmi:id="_Y0nQIEIfEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_Y0nQIUIfEeacwYm_0UXX1Q" name="null_guard">
+                  <body>EFET-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_6FTnAEIaEeasuqlwXyvccw" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_7RY_oEIaEeasuqlwXyvccw" name="Efetivado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_G5a14EIfEeacwYm_0UXX1Q" name="Encerrado"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_F6pA0EIcEeasuqlwXyvccw" name="Cargos">
+          <region xmi:id="_GMdJkEIcEeasuqlwXyvccw" name="Extinção de Cargo">
+            <transition xmi:id="_fgcZgEIgEeacwYm_0UXX1Q" guard="_gaV18EIgEeacwYm_0UXX1Q" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_PHnw8EIgEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_gaV18EIgEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_gaV18UIgEeacwYm_0UXX1Q" name="null_guard">
+                  <body>NV-AGUEXT</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_mzsksEIgEeacwYm_0UXX1Q" guard="_pOcv4EIgEeacwYm_0UXX1Q" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_JVwgAEIgEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_pOcv4EIgEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_pOcv4UIgEeacwYm_0UXX1Q" name="null_guard">
+                  <body>NV-POSEXT</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_xYOTYEIgEeacwYm_0UXX1Q" guard="_y4WpYEIgEeacwYm_0UXX1Q" source="_JVwgAEIgEeacwYm_0UXX1Q" target="_N1Nt4EIgEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_y4WpYEIgEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_y4WpYUIgEeacwYm_0UXX1Q" name="null_guard">
+                  <body>POSEXT-CANC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_4V86gEIgEeacwYm_0UXX1Q" guard="_6o50kEIgEeacwYm_0UXX1Q" source="_JVwgAEIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_6o50kEIgEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_6o50kUIgEeacwYm_0UXX1Q" name="null_guard">
+                  <body>POSEXT-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_LdOGUEIhEeacwYm_0UXX1Q" guard="_P3erIEIhEeacwYm_0UXX1Q" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_P3erIEIhEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_P3erIUIhEeacwYm_0UXX1Q" name="null_guard">
+                  <body>NV-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_S_Bq4EIhEeacwYm_0UXX1Q" guard="_UcFewEIhEeacwYm_0UXX1Q" source="_PHnw8EIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_UcFewEIhEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_UcFewUIhEeacwYm_0UXX1Q" name="null_guard">
+                  <body>AGUEXT-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_xlvVgEIhEeacwYm_0UXX1Q" guard="_2OzLUEIhEeacwYm_0UXX1Q" source="_QYVx8EIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_2OzLUEIhEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_2OzLUUIhEeacwYm_0UXX1Q" name="null_guard">
+                  <body>EFET-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_IbFAcEIgEeacwYm_0UXX1Q" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_JVwgAEIgEeacwYm_0UXX1Q" name="Possibilidade de Extinção"/>
+            <subvertex xmi:type="uml:State" xmi:id="_N1Nt4EIgEeacwYm_0UXX1Q" name="Cancelado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_PHnw8EIgEeacwYm_0UXX1Q" name="Aguardando Extinção"/>
+            <subvertex xmi:type="uml:State" xmi:id="_QYVx8EIgEeacwYm_0UXX1Q" name="Efetivado"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_TBxOIEInEeacwYm_0UXX1Q" name="Cargos">
+          <region xmi:id="_V8ZzQEInEeacwYm_0UXX1Q" name="Classificação de Cargos">
+            <transition xmi:id="_3HamoEInEeacwYm_0UXX1Q" guard="_-xCqcEInEeacwYm_0UXX1Q" source="_wTOWAEInEeacwYm_0UXX1Q" target="_xa_PUEInEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_-xCqcEInEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_-xCqcUInEeacwYm_0UXX1Q" name="null_guard">
+                  <body>NV-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_7QbDYEInEeacwYm_0UXX1Q" guard="__vz_0EInEeacwYm_0UXX1Q" source="_xa_PUEInEeacwYm_0UXX1Q" target="_xa_PUEInEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="__vz_0EInEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="__vz_0UInEeacwYm_0UXX1Q" name="null_guard">
+                  <body>EFET-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_wTOWAEInEeacwYm_0UXX1Q" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_xa_PUEInEeacwYm_0UXX1Q" name="Efetivado"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_uMSpQEIoEeacwYm_0UXX1Q" name="Cargos">
+          <region xmi:id="_zMl6YEIoEeacwYm_0UXX1Q" name="Transferência de Cargo">
+            <transition xmi:id="_NxptcEIpEeacwYm_0UXX1Q" guard="_S_wKAEIpEeacwYm_0UXX1Q" source="_CsNDAEIpEeacwYm_0UXX1Q" target="_DTMKgEIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_S_wKAEIpEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_S_wKAUIpEeacwYm_0UXX1Q" name="null_guard">
+                  <body>NV-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_PbUZ8EIpEeacwYm_0UXX1Q" guard="_VKKMEEIpEeacwYm_0UXX1Q" source="_DTMKgEIpEeacwYm_0UXX1Q" target="_DTMKgEIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_VKKMEEIpEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_VKKMEUIpEeacwYm_0UXX1Q" name="null_guard">
+                  <body>EFET-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_CsNDAEIpEeacwYm_0UXX1Q" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_DTMKgEIpEeacwYm_0UXX1Q" name="Efetivado"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_gYUtoEIpEeacwYm_0UXX1Q" name="Cargos">
+          <region xmi:id="_jsi3cEIpEeacwYm_0UXX1Q" name="Banco de Contingenciamento de Cargos">
+            <transition xmi:id="_CUPZgEIqEeacwYm_0UXX1Q" guard="_RRO9QEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q" target="_tVaPIEIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_RRO9QEIqEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_RRO9QUIqEeacwYm_0UXX1Q" name="null_guard">
+                  <body>NV-LBCEP</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_DqZUIEIqEeacwYm_0UXX1Q" guard="_NFqfQEIrEeacwYm_0UXX1Q" source="_tVaPIEIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_NFqfQEIrEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_NFqfQUIrEeacwYm_0UXX1Q" name="null_guard">
+                  <body>LBCEP-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_FobuIEIqEeacwYm_0UXX1Q" guard="_OQGHgEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q" target="_rvJb8EIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_OQGHgEIqEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_OQGHgUIqEeacwYm_0UXX1Q" name="null_guard">
+                  <body>NV-CONT</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_GYhHQEIqEeacwYm_0UXX1Q" guard="_SfvXwEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q" target="_vprX0EIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_SfvXwEIqEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_SfvXwUIqEeacwYm_0UXX1Q" name="null_guard">
+                  <body>NV-CONT</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_JXPswEIrEeacwYm_0UXX1Q" guard="_Kx-lYEIrEeacwYm_0UXX1Q" source="_rvJb8EIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_Kx-lYEIrEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_Kx-lYUIrEeacwYm_0UXX1Q" name="null_guard">
+                  <body>CONT-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_OagLQEIrEeacwYm_0UXX1Q" guard="_StRoAEIrEeacwYm_0UXX1Q" source="_vprX0EIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_StRoAEIrEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_StRoAUIrEeacwYm_0UXX1Q" name="null_guard">
+                  <body>CONT-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_VLn5wEIrEeacwYm_0UXX1Q" guard="_WIw3cEIrEeacwYm_0UXX1Q" source="_tVaPIEIpEeacwYm_0UXX1Q" target="_vprX0EIpEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_WIw3cEIrEeacwYm_0UXX1Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_WIw3cUIrEeacwYm_0UXX1Q" name="null_guard">
+                  <body>LBCEP-CONT</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_qf3lYEIpEeacwYm_0UXX1Q" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_rvJb8EIpEeacwYm_0UXX1Q" name="Contingenciado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_tVaPIEIpEeacwYm_0UXX1Q" name="Listado para Contingenciamento"/>
+            <subvertex xmi:type="uml:State" xmi:id="_vprX0EIpEeacwYm_0UXX1Q" name="Contingenciado pela Lista"/>
+            <subvertex xmi:type="uml:State" xmi:id="_x9TnUEIpEeacwYm_0UXX1Q" name="Encerrado"/>
+          </region>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
   </packagedElement>
@@ -2613,5 +2681,102 @@
     <packagedElement xmi:type="uml:StateMachine" xmi:id="_zdKj4E3XEeawn_P5QTRtmQ" name="StateMachine7" submachineState="_zdKj4U3XEeawn_P5QTRtmQ"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_fYpv4E3bEeawn_P5QTRtmQ" name="CicloVidaEventos"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_RPPdYFgcEeaaCY5Nh3KarA" name="Cargos"/>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_eV2y8E3XEeawn_P5QTRtmQ" name="CicloVidaEventos">
+      <region xmi:id="_enf8kE3XEeawn_P5QTRtmQ" name="Region1">
+        <subvertex xmi:type="uml:State" xmi:id="_ht2pgE3XEeawn_P5QTRtmQ" name="State1">
+          <doActivity xmi:type="uml:Activity" xmi:id="_DNpSsE3bEeawn_P5QTRtmQ" name="Activity1"/>
+          <entry xmi:type="uml:OpaqueBehavior" xmi:id="_EuKDME3bEeawn_P5QTRtmQ" name="OpaqueBehavior1"/>
+        </subvertex>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_jglLYE3XEeawn_P5QTRtmQ" name="3"/>
+        <subvertex xmi:type="uml:State" xmi:id="_zdKj4U3XEeawn_P5QTRtmQ" name="StateMachine7" submachine="_zdKj4E3XEeawn_P5QTRtmQ">
+          <doActivity xmi:type="uml:Activity" xmi:id="_3wc-AE3XEeawn_P5QTRtmQ" name="Activity1"/>
+        </subvertex>
+        <subvertex xmi:type="uml:State" xmi:id="_wgpBAE3aEeawn_P5QTRtmQ" name="StateMachine8" submachine="_wgi6YE3aEeawn_P5QTRtmQ">
+          <doActivity xmi:type="uml:StateMachine" xmi:id="__R2LgE3aEeawn_P5QTRtmQ" name="StateMachine1"/>
+          <entry xmi:type="uml:OpaqueBehavior" xmi:id="_9v_-QE3aEeawn_P5QTRtmQ" name="OpaqueBehavior1"/>
+          <region xmi:id="_AKOlAE3bEeawn_P5QTRtmQ" name="Region1"/>
+        </subvertex>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_zQQo8E3aEeawn_P5QTRtmQ" name="Initial2"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_W9EDoE3bEeawn_P5QTRtmQ" name="Initial3"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_YGg_AE3bEeawn_P5QTRtmQ" name="1" kind="shallowHistory"/>
+      </region>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_srJiMHOiEeaYXvGbrF280Q" name="Vida Funcional">
+    <packagedElement xmi:type="uml:Package" xmi:id="_srJiMXOiEeaYXvGbrF280Q" name="Férias">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_srJiMnOiEeaYXvGbrF280Q" name="Férias">
+        <region xmi:id="_srJiM3OiEeaYXvGbrF280Q" name="Férias">
+          <transition xmi:id="_srJiNHOiEeaYXvGbrF280Q" guard="_srJiNXOiEeaYXvGbrF280Q" source="_srJiT3OiEeaYXvGbrF280Q" target="_srJiUHOiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiNXOiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiNnOiEeaYXvGbrF280Q" name="null_guard">
+                <body>NV-PLAN</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_srJiN3OiEeaYXvGbrF280Q" guard="_srJiOHOiEeaYXvGbrF280Q" source="_srJiUHOiEeaYXvGbrF280Q" target="_srJiUXOiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiOHOiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiOXOiEeaYXvGbrF280Q" name="null_guard">
+                <body>PLAN-FRU</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_srJiOnOiEeaYXvGbrF280Q" guard="_srJiO3OiEeaYXvGbrF280Q" source="_srJiUXOiEeaYXvGbrF280Q" target="_srJiUnOiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiO3OiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiPHOiEeaYXvGbrF280Q" name="null_guard">
+                <body>FRU-INT</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_srJiPXOiEeaYXvGbrF280Q" guard="_srJiPnOiEeaYXvGbrF280Q" source="_srJiUXOiEeaYXvGbrF280Q" target="_srJiU3OiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiPnOiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiP3OiEeaYXvGbrF280Q" name="null_guard">
+                <body>FRU-CANC</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_srJiQHOiEeaYXvGbrF280Q" guard="_srJiQXOiEeaYXvGbrF280Q" source="_srJiUXOiEeaYXvGbrF280Q" target="_srJiVHOiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiQXOiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiQnOiEeaYXvGbrF280Q" name="null_guard">
+                <body>FRU-ENC</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_srJiQ3OiEeaYXvGbrF280Q" guard="_srJiRHOiEeaYXvGbrF280Q" source="_srJiU3OiEeaYXvGbrF280Q" target="_srJiVHOiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiRHOiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiRXOiEeaYXvGbrF280Q" name="null_guard">
+                <body>CANC-ENC</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_srJiRnOiEeaYXvGbrF280Q" guard="_srJiR3OiEeaYXvGbrF280Q" source="_srJiUHOiEeaYXvGbrF280Q" target="_srJiUHOiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiR3OiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiSHOiEeaYXvGbrF280Q" name="null_guard">
+                <body>PLAN-PLAN</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_srJiSXOiEeaYXvGbrF280Q" guard="_srJiSnOiEeaYXvGbrF280Q" source="_srJiUHOiEeaYXvGbrF280Q" target="_srJiU3OiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiSnOiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiS3OiEeaYXvGbrF280Q" name="null_guard">
+                <body>PLAN-CANC</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_srJiTHOiEeaYXvGbrF280Q" guard="_srJiTXOiEeaYXvGbrF280Q" source="_srJiUnOiEeaYXvGbrF280Q" target="_srJiT3OiEeaYXvGbrF280Q">
+            <ownedRule xmi:id="_srJiTXOiEeaYXvGbrF280Q" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_srJiTnOiEeaYXvGbrF280Q" name="null_guard">
+                <body>INT-NV</body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <subvertex xmi:type="uml:State" xmi:id="_srJiT3OiEeaYXvGbrF280Q" name="Novo"/>
+          <subvertex xmi:type="uml:State" xmi:id="_srJiUHOiEeaYXvGbrF280Q" name="Planejado"/>
+          <subvertex xmi:type="uml:State" xmi:id="_srJiUXOiEeaYXvGbrF280Q" name="Fruído"/>
+          <subvertex xmi:type="uml:State" xmi:id="_srJiUnOiEeaYXvGbrF280Q" name="Interrompido"/>
+          <subvertex xmi:type="uml:State" xmi:id="_srJiU3OiEeaYXvGbrF280Q" name="Cancelado"/>
+          <subvertex xmi:type="uml:State" xmi:id="_srJiVHOiEeaYXvGbrF280Q" name="Encerrado"/>
+        </region>
+      </packagedElement>
+    </packagedElement>
   </packagedElement>
 </uml:Model>
