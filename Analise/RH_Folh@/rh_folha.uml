@@ -1761,26 +1761,26 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_Pb9C0E4AEeawn_P5QTRtmQ" name="Fluxo de Navegação">
     <packagedElement xmi:type="uml:Package" xmi:id="_eGJJ4E4BEea4O8JwpX23QA" name="Estrutura">
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_3OlbQE6AEeaAJt6_LqTwMg" name="Estrutura">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_3OlbQE6AEeaAJt6_LqTwMg" name="Consultar Unidade">
         <region xmi:id="_5VWTcE6AEeaAJt6_LqTwMg" name="Consultar Unidade Administrativa">
           <transition xmi:id="_G7oGcE6CEeaAJt6_LqTwMg" guard="_ctRN0E6CEeaAJt6_LqTwMg" source="_PeZ1QE6BEeaAJt6_LqTwMg" target="_WOmWsE6BEeaAJt6_LqTwMg">
             <ownedRule xmi:id="_ctRN0E6CEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_ctRN0U6CEeaAJt6_LqTwMg" name="null_guard">
-                <body>Consultar U.A. &lt;&lt;Link>></body>
+                <body>Consultar Unidade &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
           <transition xmi:id="_IDY_wE6CEeaAJt6_LqTwMg" guard="_gvDoQE6CEeaAJt6_LqTwMg" source="_WOmWsE6BEeaAJt6_LqTwMg" target="_YMnikE6BEeaAJt6_LqTwMg">
             <ownedRule xmi:id="_gvDoQE6CEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_gvDoQU6CEeaAJt6_LqTwMg" name="null_guard">
-                <body>Unidade Administrativa selecionada &lt;&lt;Link>></body>
+                <body>Unidade selecionada &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
           <transition xmi:id="_J1daUE6CEeaAJt6_LqTwMg" guard="_kdHOYE6CEeaAJt6_LqTwMg" source="_YMnikE6BEeaAJt6_LqTwMg" target="_dIcjYE6BEeaAJt6_LqTwMg">
             <ownedRule xmi:id="_kdHOYE6CEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_kdHOYU6CEeaAJt6_LqTwMg" name="null_guard">
-                <body>Complementar &lt;&lt;Botão>></body>
+                <body>Complementar Unidade &lt;&lt;Botão>></body>
               </specification>
             </ownedRule>
           </transition>
@@ -1794,7 +1794,7 @@
           <transition xmi:id="_OZjQkE6CEeaAJt6_LqTwMg" guard="_plonYE6CEeaAJt6_LqTwMg" source="_YMnikE6BEeaAJt6_LqTwMg" target="_WOmWsE6BEeaAJt6_LqTwMg">
             <ownedRule xmi:id="_plonYE6CEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_plonYU6CEeaAJt6_LqTwMg" name="null_guard">
-                <body>Voltar para a tela de consulta de U.A. &lt;&lt;Link>></body>
+                <body>Voltar &lt;&lt;Botão>></body>
               </specification>
             </ownedRule>
           </transition>
@@ -1805,18 +1805,17 @@
               </specification>
             </ownedRule>
           </transition>
-          <subvertex xmi:type="uml:State" xmi:id="_PeZ1QE6BEeaAJt6_LqTwMg" name="RHINI001 - Tela inicial do sistema RH-Folh@"/>
-          <subvertex xmi:type="uml:State" xmi:id="_WOmWsE6BEeaAJt6_LqTwMg" name="UNACON001 - Tela de Consulta de U.A."/>
-          <subvertex xmi:type="uml:State" xmi:id="_YMnikE6BEeaAJt6_LqTwMg" name="UNACON002 - Visualização dos detalhes da U.A."/>
-          <subvertex xmi:type="uml:State" xmi:id="_dIcjYE6BEeaAJt6_LqTwMg" name="Complementar U.A.">
-            <doActivity xmi:type="uml:Activity" xmi:id="_jtfkwE6BEeaAJt6_LqTwMg" name="include/ Complementar Unidade Administrativa"/>
-          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_PeZ1QE6BEeaAJt6_LqTwMg" name="RH.IN.01 - Tela inicial do sistema RH Folha"/>
+          <subvertex xmi:type="uml:State" xmi:id="_WOmWsE6BEeaAJt6_LqTwMg" name="EO.CS.UA.01 - Tela de Consulta de Unidade"/>
+          <subvertex xmi:type="uml:State" xmi:id="_YMnikE6BEeaAJt6_LqTwMg" name="EO.CS.UA.02 - Tela de Detalhe da Consulta  de Unidade"/>
+          <subvertex xmi:type="uml:State" xmi:id="_dIcjYE6BEeaAJt6_LqTwMg" name="EO.AL.UA.01 - Tela de Preenchimento de Complementação de Unidade"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_1V-eYE6BEeaAJt6_LqTwMg" name="1"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_3dqjoE6BEeaAJt6_LqTwMg" name="2"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_4XeggE6BEeaAJt6_LqTwMg" name="3"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_2A0MoHkqEeah6fD-E32cfA" name="4"/>
         </region>
       </packagedElement>
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_I8x_gE56EeaAJt6_LqTwMg" name="Estrutura">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_I8x_gE56EeaAJt6_LqTwMg" name="Complementar Unidade">
         <region xmi:id="_LLeEoE56EeaAJt6_LqTwMg" name="Complementar Unidade Administrativa">
           <transition xmi:id="_RjVwME57EeaAJt6_LqTwMg" guard="_wyc3kE57EeaAJt6_LqTwMg" source="_RzKKUE56EeaAJt6_LqTwMg" target="_gR0zUE56EeaAJt6_LqTwMg">
             <ownedRule xmi:id="_wyc3kE57EeaAJt6_LqTwMg" name="null_transition">
@@ -1856,60 +1855,60 @@
           <transition xmi:id="_gZKU8E57EeaAJt6_LqTwMg" guard="_8AmLAE57EeaAJt6_LqTwMg" source="_n2CLoE56EeaAJt6_LqTwMg" target="_anxlIE57EeaAJt6_LqTwMg">
             <ownedRule xmi:id="_8AmLAE57EeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_8AmLAU57EeaAJt6_LqTwMg" name="null_guard">
-                <body>Fechar &lt;&lt;Botão>></body>
+                <body>Finalizar/ Fechar &lt;&lt;Botão>></body>
               </specification>
             </ownedRule>
           </transition>
-          <subvertex xmi:type="uml:State" xmi:id="_RzKKUE56EeaAJt6_LqTwMg" name="UNAALT001 - Complementação das Informações da U.A. - Preenchimento de Dados"/>
-          <subvertex xmi:type="uml:State" xmi:id="_gR0zUE56EeaAJt6_LqTwMg" name="UNAALT002 - Complementação das Informações da U.A. - Confirmação de Dados"/>
-          <subvertex xmi:type="uml:State" xmi:id="_n2CLoE56EeaAJt6_LqTwMg" name="UNAALT003 - Complementação das Informações da U.A. -Conclusão da Operação"/>
+          <subvertex xmi:type="uml:State" xmi:id="_RzKKUE56EeaAJt6_LqTwMg" name=" EO.AL.UA.01 - Tela de Preenchimento da Complementação de Unidade"/>
+          <subvertex xmi:type="uml:State" xmi:id="_gR0zUE56EeaAJt6_LqTwMg" name=" EO.AL.UA.02 - Tela de Confirmação da Complementação de Unidade"/>
+          <subvertex xmi:type="uml:State" xmi:id="_n2CLoE56EeaAJt6_LqTwMg" name=" EO.AL.UA.03 - Tela de Conclusão da Complementação de Unidade"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_55Tj0E56EeaAJt6_LqTwMg" name="1"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_7QqYUE56EeaAJt6_LqTwMg" name="2"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_8PtagE56EeaAJt6_LqTwMg" name="3"/>
           <subvertex xmi:type="uml:FinalState" xmi:id="_anxlIE57EeaAJt6_LqTwMg" name="Final1"/>
         </region>
       </packagedElement>
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_hwAEsE5-EeaAJt6_LqTwMg" name="Estrutura">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_hwAEsE5-EeaAJt6_LqTwMg" name="Consultar Unidade em Extinção">
         <region xmi:id="_juubME5-EeaAJt6_LqTwMg" name="Consultar U.A. em Extinção">
           <transition xmi:id="_tBa5IE5_EeaAJt6_LqTwMg" guard="_Erqg4E6AEeaAJt6_LqTwMg" source="_wiY68E5-EeaAJt6_LqTwMg" target="_3L6zsE5-EeaAJt6_LqTwMg">
             <ownedRule xmi:id="_Erqg4E6AEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_Erqg4U6AEeaAJt6_LqTwMg" name="null_guard">
-                <body>Consultar U.A. em Extinção &lt;&lt;Link>></body>
+                <body>Consultar Unidades em Extinção &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
           <transition xmi:id="_uByxAE5_EeaAJt6_LqTwMg" guard="_G80EIE6AEeaAJt6_LqTwMg" source="_3L6zsE5-EeaAJt6_LqTwMg" target="_-xHDcE5-EeaAJt6_LqTwMg">
             <ownedRule xmi:id="_G80EIE6AEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_G80EIU6AEeaAJt6_LqTwMg" name="null_guard">
-                <body>Unidade Administrativa selecionada &lt;&lt;Link>></body>
+                <body>Unidade em Extinção selecionada &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
           <transition xmi:id="_w4OLkE5_EeaAJt6_LqTwMg" guard="_PGSssE6AEeaAJt6_LqTwMg" source="_-xHDcE5-EeaAJt6_LqTwMg" target="_3L6zsE5-EeaAJt6_LqTwMg">
             <ownedRule xmi:id="_PGSssE6AEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_PGSssU6AEeaAJt6_LqTwMg" name="null_guard">
-                <body>Voltar para a tela de Consulta &lt;&lt;Link>></body>
+                <body>Voltar &lt;&lt;Botão>></body>
               </specification>
             </ownedRule>
           </transition>
           <transition xmi:id="_zVAXEE5_EeaAJt6_LqTwMg" guard="_LgKTgE6AEeaAJt6_LqTwMg" source="_3L6zsE5-EeaAJt6_LqTwMg" target="_wiY68E5-EeaAJt6_LqTwMg">
             <ownedRule xmi:id="_LgKTgE6AEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_LgKTgU6AEeaAJt6_LqTwMg" name="null_guard">
-                <body>Voltar para a tela de Início &lt;&lt;Link>></body>
+                <body>Início &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
           <transition xmi:id="_2TpScE5_EeaAJt6_LqTwMg" guard="_sCtYsE6AEeaAJt6_LqTwMg" source="_-xHDcE5-EeaAJt6_LqTwMg" target="_K9hV8E5_EeaAJt6_LqTwMg">
             <ownedRule xmi:id="_sCtYsE6AEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_sCtYsU6AEeaAJt6_LqTwMg" name="null_guard">
-                <body>Classificar &lt;&lt;Botão>></body>
+                <body>Classificar Cargos/ F.A./ E.P. &lt;&lt;Botão>></body>
               </specification>
             </ownedRule>
           </transition>
           <transition xmi:id="_33BJsE5_EeaAJt6_LqTwMg" guard="_v0Rl0E6AEeaAJt6_LqTwMg" source="_-xHDcE5-EeaAJt6_LqTwMg" target="_MdWxAE5_EeaAJt6_LqTwMg">
             <ownedRule xmi:id="_v0Rl0E6AEeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_v0Rl0U6AEeaAJt6_LqTwMg" name="null_guard">
-                <body>Transferir &lt;&lt;Botão>></body>
+                <body>Transferir Cargos/ F.A./ E.P. &lt;&lt;Botão>></body>
               </specification>
             </ownedRule>
           </transition>
@@ -1927,37 +1926,31 @@
               </specification>
             </ownedRule>
           </transition>
-          <subvertex xmi:type="uml:State" xmi:id="_wiY68E5-EeaAJt6_LqTwMg" name="RHINI001 - Tela inicial do sistema RH-Folh@"/>
-          <subvertex xmi:type="uml:State" xmi:id="_3L6zsE5-EeaAJt6_LqTwMg" name="UNACON003 - Tela de Consulta de U.A. em Extinção"/>
-          <subvertex xmi:type="uml:State" xmi:id="_-xHDcE5-EeaAJt6_LqTwMg" name="UNACON004 - Relação de servidores vinculados a U.A. em extinção"/>
-          <subvertex xmi:type="uml:State" xmi:id="_K9hV8E5_EeaAJt6_LqTwMg" name="Classificar Cargos">
-            <doActivity xmi:type="uml:Activity" xmi:id="_P5034E5_EeaAJt6_LqTwMg" name="Funcionalidade"/>
-          </subvertex>
-          <subvertex xmi:type="uml:State" xmi:id="_MdWxAE5_EeaAJt6_LqTwMg" name="Transferir entre Quadros">
-            <doActivity xmi:type="uml:Activity" xmi:id="_SRTFkE5_EeaAJt6_LqTwMg" name="Funcionalidade"/>
-          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_wiY68E5-EeaAJt6_LqTwMg" name="RH.IN.01 - Tela inicial do sistema RH Folha"/>
+          <subvertex xmi:type="uml:State" xmi:id="_3L6zsE5-EeaAJt6_LqTwMg" name="EO.CS.UA.04 - Tela de Consulta de Unidades em Extinção"/>
+          <subvertex xmi:type="uml:State" xmi:id="_-xHDcE5-EeaAJt6_LqTwMg" name="EO.CS.UA.05 - Tela de Detalhe da Consulta de Unidades em Extinção"/>
+          <subvertex xmi:type="uml:State" xmi:id="_K9hV8E5_EeaAJt6_LqTwMg" name="CG.CD.EV.02.b - Tela de Preenchimento da Classificação de Cargo/ F.A./ E.P."/>
+          <subvertex xmi:type="uml:State" xmi:id="_MdWxAE5_EeaAJt6_LqTwMg" name="CG.CD.EV.02.a - Tela de Preenchimento da Transferência de Cargo/ F.A./ E.P."/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_8F-FoHktEeah6fD-E32cfA" name="1"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_90s4UHktEeah6fD-E32cfA" name="2"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_-zSAcHktEeah6fD-E32cfA" name="3"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="__6Sr0HktEeah6fD-E32cfA" name="4"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_BC4EgHkuEeah6fD-E32cfA" name="5"/>
         </region>
       </packagedElement>
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_gTsmkE4BEea4O8JwpX23QA" name="Estrutura">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_gTsmkE4BEea4O8JwpX23QA" name="Consultar Estrutura de RH">
         <region xmi:id="_gePpsE4BEea4O8JwpX23QA" name="Consultar Estrutura de RH">
           <transition xmi:id="_QtGPsE4CEea4O8JwpX23QA" guard="_j1YrkE54EeaAJt6_LqTwMg" source="_jo-gUE4BEea4O8JwpX23QA" target="_zCOiQE4BEea4O8JwpX23QA">
             <ownedRule xmi:id="_j1YrkE54EeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_j1YrkU54EeaAJt6_LqTwMg" name="null_guard">
-                <body>Estrutura de RH &lt;&lt;Link>></body>
+                <body>Estrutura Hierárquica &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
-          <transition xmi:id="_ZgGSwE54EeaAJt6_LqTwMg" guard="_oYcAAE54EeaAJt6_LqTwMg" source="_zCOiQE4BEea4O8JwpX23QA" target="_92nR4E4BEea4O8JwpX23QA">
+          <transition xmi:id="_ZgGSwE54EeaAJt6_LqTwMg" guard="_oYcAAE54EeaAJt6_LqTwMg" source="_6ERX0HkmEeah6fD-E32cfA" target="_92nR4E4BEea4O8JwpX23QA">
             <ownedRule xmi:id="_oYcAAE54EeaAJt6_LqTwMg" name="null_transition">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_oYcAAU54EeaAJt6_LqTwMg" name="null_guard">
                 <body>Unidade Selecionada &lt;&lt;Link>></body>
-              </specification>
-            </ownedRule>
-          </transition>
-          <transition xmi:id="_bSbzEE54EeaAJt6_LqTwMg" guard="_x4jrYE54EeaAJt6_LqTwMg" source="_92nR4E4BEea4O8JwpX23QA" target="_zCOiQE4BEea4O8JwpX23QA">
-            <ownedRule xmi:id="_x4jrYE54EeaAJt6_LqTwMg" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_x4jrYU54EeaAJt6_LqTwMg" name="null_guard">
-                <body>Voltar para a Tela de Consulta &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
@@ -1968,49 +1961,70 @@
               </specification>
             </ownedRule>
           </transition>
-          <subvertex xmi:type="uml:State" xmi:id="_jo-gUE4BEea4O8JwpX23QA" name="RHINI001 - Tela Inicial do sistema RH-Folh@"/>
+          <transition xmi:id="_CdBygHknEeah6fD-E32cfA" guard="_WP0nkHknEeah6fD-E32cfA" source="_zCOiQE4BEea4O8JwpX23QA" target="_6ERX0HkmEeah6fD-E32cfA">
+            <ownedRule xmi:id="_WP0nkHknEeah6fD-E32cfA" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_WP0nkXknEeah6fD-E32cfA" name="null_guard">
+                <body>Estrutura de RH &lt;&lt;Link>></body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_YTzRgHknEeah6fD-E32cfA" guard="_hM1uwHknEeah6fD-E32cfA" source="_92nR4E4BEea4O8JwpX23QA" target="_6ERX0HkmEeah6fD-E32cfA">
+            <ownedRule xmi:id="_hM1uwHknEeah6fD-E32cfA" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_hM1uwXknEeah6fD-E32cfA" name="null_guard">
+                <body>Voltar &lt;&lt;Botão>></body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <transition xmi:id="_z_iYwHknEeah6fD-E32cfA" guard="_F_mr8HkoEeah6fD-E32cfA" source="_6ERX0HkmEeah6fD-E32cfA" target="_zCOiQE4BEea4O8JwpX23QA">
+            <ownedRule xmi:id="_F_mr8HkoEeah6fD-E32cfA" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_F_mr8XkoEeah6fD-E32cfA" name="null_guard">
+                <body>Estrutura Organizacional &lt;&lt;Link>></body>
+              </specification>
+            </ownedRule>
+          </transition>
+          <subvertex xmi:type="uml:State" xmi:id="_jo-gUE4BEea4O8JwpX23QA" name="RH.IN.01 - Tela Inicial do sistema RH Folha"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_rw8tAE4BEea4O8JwpX23QA" name="1"/>
-          <subvertex xmi:type="uml:State" xmi:id="_zCOiQE4BEea4O8JwpX23QA" name="UNACON006 -Tela de Consulta de Estrutura de RH"/>
-          <subvertex xmi:type="uml:State" xmi:id="_92nR4E4BEea4O8JwpX23QA" name="UNACON002 - Visualização dos detalhes da U.A."/>
+          <subvertex xmi:type="uml:State" xmi:id="_zCOiQE4BEea4O8JwpX23QA" name="EO.CS.01 – Tela de Consulta de Estrutura Hierárquica Organizacional"/>
+          <subvertex xmi:type="uml:State" xmi:id="_92nR4E4BEea4O8JwpX23QA" name="EO.CS.UA.02 – Tela de Detalhes da Consulta de Unidades"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_Ddk6YE4CEea4O8JwpX23QA" name="2"/>
-          <subvertex xmi:type="uml:Pseudostate" xmi:id="_Em5S4E4CEea4O8JwpX23QA" name="3"/>
-          <subvertex xmi:type="uml:State" xmi:id="_YdhWEFgpEeaaCY5Nh3KarA" name="State4"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_Z3xtkFgpEeaaCY5Nh3KarA" name="4"/>
+          <subvertex xmi:type="uml:State" xmi:id="_6ERX0HkmEeah6fD-E32cfA" name="EO.CS.02 – Tela de Consulta de Estrutura Hierárquica de RH"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_NTkeQHknEeah6fD-E32cfA" name="3"/>
         </region>
       </packagedElement>
-      <packagedElement xmi:type="uml:StateMachine" xmi:id="_Xy83oE58EeaAJt6_LqTwMg" name="Estrutura">
+      <packagedElement xmi:type="uml:StateMachine" xmi:id="_Xy83oE58EeaAJt6_LqTwMg" name="Consultar Estrutura Hierárquica">
         <region xmi:id="_Z3m3AE58EeaAJt6_LqTwMg" name="Consultar Estrutura Hierárquica">
-          <transition xmi:id="_mfmc0E59EeaAJt6_LqTwMg" guard="_5ognYE59EeaAJt6_LqTwMg" source="_cuoHcE58EeaAJt6_LqTwMg" target="_2OIAoE58EeaAJt6_LqTwMg">
-            <ownedRule xmi:id="_5ognYE59EeaAJt6_LqTwMg" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_5ognYU59EeaAJt6_LqTwMg" name="null_guard">
+          <transition xmi:id="_5COMUHkjEeah6fD-E32cfA" name="[Estrutura Hierárquica &lt;&lt;Link>>]" guard="_agWI8HkkEeah6fD-E32cfA" source="_cuoHcE58EeaAJt6_LqTwMg" target="_2OIAoE58EeaAJt6_LqTwMg">
+            <ownedRule xmi:id="_agWI8HkkEeah6fD-E32cfA" name="[Estrutura Hierárquica &lt;&lt;Link>>]_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_agWI8XkkEeah6fD-E32cfA" name="[Estrutura Hierárquica &lt;&lt;Link>>]_guard">
                 <body>Estrutura Hierárquica &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
-          <transition xmi:id="_oE3xgE59EeaAJt6_LqTwMg" guard="_9g6cUE59EeaAJt6_LqTwMg" source="_2OIAoE58EeaAJt6_LqTwMg" target="_A2_cwE59EeaAJt6_LqTwMg">
-            <ownedRule xmi:id="_9g6cUE59EeaAJt6_LqTwMg" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_9g6cUU59EeaAJt6_LqTwMg" name="null_guard">
-                <body>Unidade Administrativa Selecionada &lt;&lt;Link>></body>
+          <transition xmi:id="_6oXqwHkjEeah6fD-E32cfA" guard="_mkhsgHkkEeah6fD-E32cfA" source="_2OIAoE58EeaAJt6_LqTwMg" target="_A2_cwE59EeaAJt6_LqTwMg">
+            <ownedRule xmi:id="_mkhsgHkkEeah6fD-E32cfA" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_mkhsgXkkEeah6fD-E32cfA" name="null_guard">
+                <body>Unidade selecionada &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
-          <transition xmi:id="_ppxSwE59EeaAJt6_LqTwMg" guard="_GwX1gE5-EeaAJt6_LqTwMg" source="_A2_cwE59EeaAJt6_LqTwMg" target="_2OIAoE58EeaAJt6_LqTwMg">
-            <ownedRule xmi:id="_GwX1gE5-EeaAJt6_LqTwMg" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_GwX1gU5-EeaAJt6_LqTwMg" name="null_guard">
-                <body>Voltar para a tela de consulta da Unidade chamadora &lt;&lt;Link>></body>
+          <transition xmi:id="_C8v7wHkkEeah6fD-E32cfA" guard="_31IRoHkkEeah6fD-E32cfA" source="_A2_cwE59EeaAJt6_LqTwMg" target="_2OIAoE58EeaAJt6_LqTwMg">
+            <ownedRule xmi:id="_31IRoHkkEeah6fD-E32cfA" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_31IRoXkkEeah6fD-E32cfA" name="null_guard">
+                <body>Voltar &lt;&lt;Botão>></body>
               </specification>
             </ownedRule>
           </transition>
-          <transition xmi:id="_sK7n8E59EeaAJt6_LqTwMg" guard="_LwaA4E5-EeaAJt6_LqTwMg" source="_2OIAoE58EeaAJt6_LqTwMg" target="_cuoHcE58EeaAJt6_LqTwMg">
-            <ownedRule xmi:id="_LwaA4E5-EeaAJt6_LqTwMg" name="null_transition">
-              <specification xmi:type="uml:OpaqueExpression" xmi:id="_LwaA4U5-EeaAJt6_LqTwMg" name="null_guard">
+          <transition xmi:id="_EYuKgHkkEeah6fD-E32cfA" guard="_8Ags8HkkEeah6fD-E32cfA" source="_2OIAoE58EeaAJt6_LqTwMg" target="_cuoHcE58EeaAJt6_LqTwMg">
+            <ownedRule xmi:id="_8Ags8HkkEeah6fD-E32cfA" name="null_transition">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_8Ags8XkkEeah6fD-E32cfA" name="null_guard">
                 <body>Início &lt;&lt;Link>></body>
               </specification>
             </ownedRule>
           </transition>
-          <subvertex xmi:type="uml:State" xmi:id="_cuoHcE58EeaAJt6_LqTwMg" name="RHINI001 - Tela Inicial do sistema RH Folha"/>
-          <subvertex xmi:type="uml:State" xmi:id="_2OIAoE58EeaAJt6_LqTwMg" name="EO.CN.01 – Tela de Consulta de Estrutura Hierárquica Organizacional"/>
-          <subvertex xmi:type="uml:State" xmi:id="_A2_cwE59EeaAJt6_LqTwMg" name="EO.CN.04 – Tela de Consulta de Unidades Administrativas"/>
+          <subvertex xmi:type="uml:State" xmi:id="_cuoHcE58EeaAJt6_LqTwMg" name="RH.IN.01 - Tela Inicial do sistema RH Folha"/>
+          <subvertex xmi:type="uml:State" xmi:id="_2OIAoE58EeaAJt6_LqTwMg" name="EO.CS.01 – Tela de Consulta de Estrutura Hierárquica Organizacional"/>
+          <subvertex xmi:type="uml:State" xmi:id="_A2_cwE59EeaAJt6_LqTwMg" name="EO.CS.UA.02 – Tela de Detalhes da Consulta de Unidades"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_R7ZY8E59EeaAJt6_LqTwMg" name="1"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_THW1wE59EeaAJt6_LqTwMg" name="2"/>
           <subvertex xmi:type="uml:Pseudostate" xmi:id="_UG0HoE59EeaAJt6_LqTwMg" name="3"/>
