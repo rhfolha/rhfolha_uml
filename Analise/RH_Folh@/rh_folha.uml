@@ -1565,7 +1565,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_mCfMIHOiEeaYXvGbrF280Q" name="Cadastro Base">
       <packagedElement xmi:type="uml:Package" xmi:id="_NWcwMHOiEeaYXvGbrF280Q" name="Cargos">
-        <packagedElement xmi:type="uml:StateMachine" xmi:id="_0f8L4EIYEeasuqlwXyvccw" name="Cargos">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_0f8L4EIYEeasuqlwXyvccw" name="Reserva de Cargos/ F.A./ E.P.">
           <region xmi:id="_0jtmsEIaEeasuqlwXyvccw" name="Reserva de Cargo">
             <transition xmi:id="_Jm8I4EIbEeasuqlwXyvccw" guard="_eQfm0EIbEeasuqlwXyvccw" source="_7RY_oEIaEeasuqlwXyvccw">
               <ownedRule xmi:id="_eQfm0EIbEeasuqlwXyvccw" name="null_transition">
@@ -1600,7 +1600,7 @@
             <subvertex xmi:type="uml:State" xmi:id="_G5a14EIfEeacwYm_0UXX1Q" name="Encerrado"/>
           </region>
         </packagedElement>
-        <packagedElement xmi:type="uml:StateMachine" xmi:id="_F6pA0EIcEeasuqlwXyvccw" name="Cargos">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_F6pA0EIcEeasuqlwXyvccw" name="Extinção de Cargos/ F.A./ E.P.">
           <region xmi:id="_GMdJkEIcEeasuqlwXyvccw" name="Extinção de Cargo">
             <transition xmi:id="_fgcZgEIgEeacwYm_0UXX1Q" guard="_gaV18EIgEeacwYm_0UXX1Q" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_PHnw8EIgEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_gaV18EIgEeacwYm_0UXX1Q" name="null_transition">
@@ -1630,13 +1630,6 @@
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_LdOGUEIhEeacwYm_0UXX1Q" guard="_P3erIEIhEeacwYm_0UXX1Q" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
-              <ownedRule xmi:id="_P3erIEIhEeacwYm_0UXX1Q" name="null_transition">
-                <specification xmi:type="uml:OpaqueExpression" xmi:id="_P3erIUIhEeacwYm_0UXX1Q" name="null_guard">
-                  <body>NV-EFET</body>
-                </specification>
-              </ownedRule>
-            </transition>
             <transition xmi:id="_S_Bq4EIhEeacwYm_0UXX1Q" guard="_UcFewEIhEeacwYm_0UXX1Q" source="_PHnw8EIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_UcFewEIhEeacwYm_0UXX1Q" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_UcFewUIhEeacwYm_0UXX1Q" name="null_guard">
@@ -1651,6 +1644,13 @@
                 </specification>
               </ownedRule>
             </transition>
+            <transition xmi:id="_o0aTQHrLEearpLO749MQhA" guard="_tRCPkHrLEearpLO749MQhA" source="_IbFAcEIgEeacwYm_0UXX1Q" target="_QYVx8EIgEeacwYm_0UXX1Q">
+              <ownedRule xmi:id="_tRCPkHrLEearpLO749MQhA" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_tRCPkXrLEearpLO749MQhA" name="null_guard">
+                  <body>NV-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
             <subvertex xmi:type="uml:State" xmi:id="_IbFAcEIgEeacwYm_0UXX1Q" name="Novo"/>
             <subvertex xmi:type="uml:State" xmi:id="_JVwgAEIgEeacwYm_0UXX1Q" name="Possibilidade de Extinção"/>
             <subvertex xmi:type="uml:State" xmi:id="_N1Nt4EIgEeacwYm_0UXX1Q" name="Cancelado"/>
@@ -1658,7 +1658,7 @@
             <subvertex xmi:type="uml:State" xmi:id="_QYVx8EIgEeacwYm_0UXX1Q" name="Efetivado"/>
           </region>
         </packagedElement>
-        <packagedElement xmi:type="uml:StateMachine" xmi:id="_TBxOIEInEeacwYm_0UXX1Q" name="Cargos">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_TBxOIEInEeacwYm_0UXX1Q" name="Classificação de Cargos/ F.A./ E.P.">
           <region xmi:id="_V8ZzQEInEeacwYm_0UXX1Q" name="Classificação de Cargos">
             <transition xmi:id="_3HamoEInEeacwYm_0UXX1Q" guard="_-xCqcEInEeacwYm_0UXX1Q" source="_wTOWAEInEeacwYm_0UXX1Q" target="_xa_PUEInEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_-xCqcEInEeacwYm_0UXX1Q" name="null_transition">
@@ -1678,7 +1678,7 @@
             <subvertex xmi:type="uml:State" xmi:id="_xa_PUEInEeacwYm_0UXX1Q" name="Efetivado"/>
           </region>
         </packagedElement>
-        <packagedElement xmi:type="uml:StateMachine" xmi:id="_uMSpQEIoEeacwYm_0UXX1Q" name="Cargos">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_uMSpQEIoEeacwYm_0UXX1Q" name="Transferência de Cargos/ F.A./ E.P.">
           <region xmi:id="_zMl6YEIoEeacwYm_0UXX1Q" name="Transferência de Cargo">
             <transition xmi:id="_NxptcEIpEeacwYm_0UXX1Q" guard="_S_wKAEIpEeacwYm_0UXX1Q" source="_CsNDAEIpEeacwYm_0UXX1Q" target="_DTMKgEIpEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_S_wKAEIpEeacwYm_0UXX1Q" name="null_transition">
@@ -1698,16 +1698,16 @@
             <subvertex xmi:type="uml:State" xmi:id="_DTMKgEIpEeacwYm_0UXX1Q" name="Efetivado"/>
           </region>
         </packagedElement>
-        <packagedElement xmi:type="uml:StateMachine" xmi:id="_gYUtoEIpEeacwYm_0UXX1Q" name="Cargos">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_gYUtoEIpEeacwYm_0UXX1Q" name="Banco de Contingenciamento de Cargos/ F.A./ E.P.">
           <region xmi:id="_jsi3cEIpEeacwYm_0UXX1Q" name="Banco de Contingenciamento de Cargos">
-            <transition xmi:id="_CUPZgEIqEeacwYm_0UXX1Q" guard="_RRO9QEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q" target="_tVaPIEIpEeacwYm_0UXX1Q">
+            <transition xmi:id="_CUPZgEIqEeacwYm_0UXX1Q" guard="_RRO9QEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_RRO9QEIqEeacwYm_0UXX1Q" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_RRO9QUIqEeacwYm_0UXX1Q" name="null_guard">
                   <body>NV-LBCEP</body>
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_DqZUIEIqEeacwYm_0UXX1Q" guard="_NFqfQEIrEeacwYm_0UXX1Q" source="_tVaPIEIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
+            <transition xmi:id="_DqZUIEIqEeacwYm_0UXX1Q" guard="_NFqfQEIrEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_NFqfQEIrEeacwYm_0UXX1Q" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_NFqfQUIrEeacwYm_0UXX1Q" name="null_guard">
                   <body>LBCEP-ENC</body>
@@ -1721,7 +1721,7 @@
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_GYhHQEIqEeacwYm_0UXX1Q" guard="_SfvXwEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q" target="_vprX0EIpEeacwYm_0UXX1Q">
+            <transition xmi:id="_GYhHQEIqEeacwYm_0UXX1Q" guard="_SfvXwEIqEeacwYm_0UXX1Q" source="_qf3lYEIpEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_SfvXwEIqEeacwYm_0UXX1Q" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_SfvXwUIqEeacwYm_0UXX1Q" name="null_guard">
                   <body>NV-CONT</body>
@@ -1731,18 +1731,18 @@
             <transition xmi:id="_JXPswEIrEeacwYm_0UXX1Q" guard="_Kx-lYEIrEeacwYm_0UXX1Q" source="_rvJb8EIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_Kx-lYEIrEeacwYm_0UXX1Q" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_Kx-lYUIrEeacwYm_0UXX1Q" name="null_guard">
-                  <body>CONT-ENC</body>
+                  <body>CONT-DESCONT</body>
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_OagLQEIrEeacwYm_0UXX1Q" guard="_StRoAEIrEeacwYm_0UXX1Q" source="_vprX0EIpEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
+            <transition xmi:id="_OagLQEIrEeacwYm_0UXX1Q" guard="_StRoAEIrEeacwYm_0UXX1Q" target="_x9TnUEIpEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_StRoAEIrEeacwYm_0UXX1Q" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_StRoAUIrEeacwYm_0UXX1Q" name="null_guard">
                   <body>CONT-ENC</body>
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_VLn5wEIrEeacwYm_0UXX1Q" guard="_WIw3cEIrEeacwYm_0UXX1Q" source="_tVaPIEIpEeacwYm_0UXX1Q" target="_vprX0EIpEeacwYm_0UXX1Q">
+            <transition xmi:id="_VLn5wEIrEeacwYm_0UXX1Q" guard="_WIw3cEIrEeacwYm_0UXX1Q">
               <ownedRule xmi:id="_WIw3cEIrEeacwYm_0UXX1Q" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_WIw3cUIrEeacwYm_0UXX1Q" name="null_guard">
                   <body>LBCEP-CONT</body>
@@ -1751,9 +1751,20 @@
             </transition>
             <subvertex xmi:type="uml:State" xmi:id="_qf3lYEIpEeacwYm_0UXX1Q" name="Novo"/>
             <subvertex xmi:type="uml:State" xmi:id="_rvJb8EIpEeacwYm_0UXX1Q" name="Contingenciado"/>
-            <subvertex xmi:type="uml:State" xmi:id="_tVaPIEIpEeacwYm_0UXX1Q" name="Listado para Contingenciamento"/>
-            <subvertex xmi:type="uml:State" xmi:id="_vprX0EIpEeacwYm_0UXX1Q" name="Contingenciado pela Lista"/>
-            <subvertex xmi:type="uml:State" xmi:id="_x9TnUEIpEeacwYm_0UXX1Q" name="Encerrado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_x9TnUEIpEeacwYm_0UXX1Q" name="Descontingenciado"/>
+          </region>
+        </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_frcKUHrQEearpLO749MQhA" name="Exclusão de Cargo/ F.A./ E.P.">
+          <region xmi:id="_iYCTcHrQEearpLO749MQhA" name="Region1">
+            <transition xmi:id="_wuh34HrQEearpLO749MQhA" guard="_yOEYAHrQEearpLO749MQhA" source="_pt9YIHrQEearpLO749MQhA" target="_rlorcHrQEearpLO749MQhA">
+              <ownedRule xmi:id="_yOEYAHrQEearpLO749MQhA" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_yOEYAXrQEearpLO749MQhA" name="null_guard">
+                  <body>NV-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_pt9YIHrQEearpLO749MQhA" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_rlorcHrQEearpLO749MQhA" name="Excluído"/>
           </region>
         </packagedElement>
       </packagedElement>
