@@ -1767,6 +1767,64 @@
             <subvertex xmi:type="uml:State" xmi:id="_rlorcHrQEearpLO749MQhA" name="Excluído"/>
           </region>
         </packagedElement>
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_L6xK8H6bEeai2K8SR2MV5w" name="Solicitação de Criação de Cargo/ E.P.">
+          <region xmi:id="_PeMOYH6bEeai2K8SR2MV5w" name="Region1">
+            <transition xmi:id="_mSxZcH6bEeai2K8SR2MV5w" guard="_1KTOYH6bEeai2K8SR2MV5w" source="_VVcVoH6bEeai2K8SR2MV5w" target="_WileMH6bEeai2K8SR2MV5w">
+              <ownedRule xmi:id="_1KTOYH6bEeai2K8SR2MV5w" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_1KTOYX6bEeai2K8SR2MV5w" name="null_guard">
+                  <body>NV-AGVAL</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_m1pdAH6bEeai2K8SR2MV5w" guard="_7H5OMH6bEeai2K8SR2MV5w" source="_WileMH6bEeai2K8SR2MV5w" target="_ZjRA8H6bEeai2K8SR2MV5w">
+              <ownedRule xmi:id="_7H5OMH6bEeai2K8SR2MV5w" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_7H5OMX6bEeai2K8SR2MV5w" name="null_guard">
+                  <body>AGVAL-VAL</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_nkrGMH6bEeai2K8SR2MV5w" guard="_-lFGwH6bEeai2K8SR2MV5w" source="_WileMH6bEeai2K8SR2MV5w" target="_aqhj8H6bEeai2K8SR2MV5w">
+              <ownedRule xmi:id="_-lFGwH6bEeai2K8SR2MV5w" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_-lFGwX6bEeai2K8SR2MV5w" name="null_guard">
+                  <body>AGVAL-REJ</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_oy1icH6bEeai2K8SR2MV5w" guard="_DEkw4H6cEeai2K8SR2MV5w" source="_aqhj8H6bEeai2K8SR2MV5w" target="_WileMH6bEeai2K8SR2MV5w">
+              <ownedRule xmi:id="_DEkw4H6cEeai2K8SR2MV5w" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_DEkw4X6cEeai2K8SR2MV5w" name="null_guard">
+                  <body>REJ-AGVAL</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_p_uMUH6bEeai2K8SR2MV5w" guard="_KhIpEH6cEeai2K8SR2MV5w" source="_aqhj8H6bEeai2K8SR2MV5w" target="_baJDAH6bEeai2K8SR2MV5w">
+              <ownedRule xmi:id="_KhIpEH6cEeai2K8SR2MV5w" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_KhIpEX6cEeai2K8SR2MV5w" name="null_guard">
+                  <body>REJ-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_qlvDcH6bEeai2K8SR2MV5w" guard="_MwD-wH6cEeai2K8SR2MV5w" source="_WileMH6bEeai2K8SR2MV5w" target="_baJDAH6bEeai2K8SR2MV5w">
+              <ownedRule xmi:id="_MwD-wH6cEeai2K8SR2MV5w" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_MwD-wX6cEeai2K8SR2MV5w" name="null_guard">
+                  <body>AGVAL-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_OwxSQH6cEeai2K8SR2MV5w" guard="_VBFZwH6cEeai2K8SR2MV5w" source="_WileMH6bEeai2K8SR2MV5w" target="_WileMH6bEeai2K8SR2MV5w">
+              <ownedRule xmi:id="_VBFZwH6cEeai2K8SR2MV5w" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_VBFZwX6cEeai2K8SR2MV5w" name="null_guard">
+                  <body>AGVAL-AGVAL</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_VVcVoH6bEeai2K8SR2MV5w" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_WileMH6bEeai2K8SR2MV5w" name="Aguardando Validação"/>
+            <subvertex xmi:type="uml:State" xmi:id="_ZjRA8H6bEeai2K8SR2MV5w" name="Validado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_aqhj8H6bEeai2K8SR2MV5w" name="Rejeitado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_baJDAH6bEeai2K8SR2MV5w" name="Excluído"/>
+          </region>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
   </packagedElement>
