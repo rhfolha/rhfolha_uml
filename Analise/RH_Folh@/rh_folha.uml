@@ -169,27 +169,27 @@
           <node xmi:type="uml:MergeNode" xmi:id="_RgLKQERxEealGMy2SlvhnQ" name="Conector" incoming="_SPSTAERxEealGMy2SlvhnQ _QEnDAD_CEeaoa6yGG_FwFA _JLMz0D_FEeaoa6yGG_FwFA _E5qQsD_GEeaoa6yGG_FwFA" outgoing="_q-YqAERxEealGMy2SlvhnQ" inPartition="_GObPwD-8Eeaoa6yGG_FwFA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_kYqPMD-7Eeaoa6yGG_FwFA" memberEnd="_kYq2QD-7Eeaoa6yGG_FwFA _kYrdUD-7Eeaoa6yGG_FwFA">
-          <ownedEnd xmi:id="_kYq2QD-7Eeaoa6yGG_FwFA" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_kYqPMD-7Eeaoa6yGG_FwFA"/>
+          <ownedEnd xmi:id="_kYq2QD-7Eeaoa6yGG_FwFA" association="_kYqPMD-7Eeaoa6yGG_FwFA"/>
           <ownedEnd xmi:id="_kYrdUD-7Eeaoa6yGG_FwFA" type="_UCdHsD-5Eeaoa6yGG_FwFA" association="_kYqPMD-7Eeaoa6yGG_FwFA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_m_w0UD-7Eeaoa6yGG_FwFA" memberEnd="_m_xbYD-7Eeaoa6yGG_FwFA _m_xbYT-7Eeaoa6yGG_FwFA">
-          <ownedEnd xmi:id="_m_xbYD-7Eeaoa6yGG_FwFA" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_m_w0UD-7Eeaoa6yGG_FwFA"/>
+          <ownedEnd xmi:id="_m_xbYD-7Eeaoa6yGG_FwFA" association="_m_w0UD-7Eeaoa6yGG_FwFA"/>
           <ownedEnd xmi:id="_m_xbYT-7Eeaoa6yGG_FwFA" type="_yNlCgD-5Eeaoa6yGG_FwFA" association="_m_w0UD-7Eeaoa6yGG_FwFA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_oVobED-7Eeaoa6yGG_FwFA" memberEnd="_oVobET-7Eeaoa6yGG_FwFA _oVpCID-7Eeaoa6yGG_FwFA">
-          <ownedEnd xmi:id="_oVobET-7Eeaoa6yGG_FwFA" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_oVobED-7Eeaoa6yGG_FwFA"/>
+          <ownedEnd xmi:id="_oVobET-7Eeaoa6yGG_FwFA" association="_oVobED-7Eeaoa6yGG_FwFA"/>
           <ownedEnd xmi:id="_oVpCID-7Eeaoa6yGG_FwFA" type="_4SHX0D-5Eeaoa6yGG_FwFA" association="_oVobED-7Eeaoa6yGG_FwFA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_tkz1sD-7Eeaoa6yGG_FwFA" memberEnd="_tkz1sT-7Eeaoa6yGG_FwFA _tk0cwD-7Eeaoa6yGG_FwFA">
-          <ownedEnd xmi:id="_tkz1sT-7Eeaoa6yGG_FwFA" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_tkz1sD-7Eeaoa6yGG_FwFA"/>
+          <ownedEnd xmi:id="_tkz1sT-7Eeaoa6yGG_FwFA" association="_tkz1sD-7Eeaoa6yGG_FwFA"/>
           <ownedEnd xmi:id="_tk0cwD-7Eeaoa6yGG_FwFA" type="_7MrrgD-5Eeaoa6yGG_FwFA" association="_tkz1sD-7Eeaoa6yGG_FwFA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_x3krYD-7Eeaoa6yGG_FwFA" memberEnd="_x3lScD-7Eeaoa6yGG_FwFA _x3l5gD-7Eeaoa6yGG_FwFA">
-          <ownedEnd xmi:id="_x3lScD-7Eeaoa6yGG_FwFA" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_x3krYD-7Eeaoa6yGG_FwFA"/>
+          <ownedEnd xmi:id="_x3lScD-7Eeaoa6yGG_FwFA" association="_x3krYD-7Eeaoa6yGG_FwFA"/>
           <ownedEnd xmi:id="_x3l5gD-7Eeaoa6yGG_FwFA" type="_DXnFkD-6Eeaoa6yGG_FwFA" association="_x3krYD-7Eeaoa6yGG_FwFA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_zSuawD-7Eeaoa6yGG_FwFA" memberEnd="_zSuawT-7Eeaoa6yGG_FwFA _zSuawj-7Eeaoa6yGG_FwFA">
-          <ownedEnd xmi:id="_zSuawT-7Eeaoa6yGG_FwFA" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_zSuawD-7Eeaoa6yGG_FwFA"/>
+          <ownedEnd xmi:id="_zSuawT-7Eeaoa6yGG_FwFA" association="_zSuawD-7Eeaoa6yGG_FwFA"/>
           <ownedEnd xmi:id="_zSuawj-7Eeaoa6yGG_FwFA" type="_HlcX8D-6Eeaoa6yGG_FwFA" association="_zSuawD-7Eeaoa6yGG_FwFA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Activity" xmi:id="_Xm5BMEO-EeaRnrYFrIkXNQ" name="Cargos" node="_YiVzMER2EealGMy2SlvhnQ _tUQi8ER2EealGMy2SlvhnQ _5aU84ER2EealGMy2SlvhnQ _9us8IER2EealGMy2SlvhnQ _HaH4kER3EealGMy2SlvhnQ _QOq3YER3EealGMy2SlvhnQ _bzGj4ER3EealGMy2SlvhnQ _oCjjUER3EealGMy2SlvhnQ _yhr0oER3EealGMy2SlvhnQ _J8MXQER4EealGMy2SlvhnQ _ALzJUER6EealGMy2SlvhnQ _uc7eYER6EealGMy2SlvhnQ _zy3oUER6EealGMy2SlvhnQ _C479oER9EealGMy2SlvhnQ _kDZ-cER9EealGMy2SlvhnQ _54-p8ESFEeaia6hSjQCU2A" group="_NeAjEER2EealGMy2SlvhnQ _TmdIAER2EealGMy2SlvhnQ" partition="_NeAjEER2EealGMy2SlvhnQ _TmdIAER2EealGMy2SlvhnQ">
@@ -971,41 +971,28 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_GVSpkD-4Eeaoa6yGG_FwFA" name="Auditoria"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_uE2RcEO9EeaRnrYFrIkXNQ" name="Atores">
-      <packagedElement xmi:type="uml:Actor" xmi:id="_qKyGMD-4Eeaoa6yGG_FwFA" name="Operador de RH"/>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_zT2jgD-4Eeaoa6yGG_FwFA" name="UCRH">
-        <generalization xmi:id="_A3mcYD-5Eeaoa6yGG_FwFA" general="_qKyGMD-4Eeaoa6yGG_FwFA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_2ZSqcD-4Eeaoa6yGG_FwFA" name="Setorial de RH">
-        <eAnnotations xmi:id="_O6M0kGojEeauwszEdgVhow" source="http://www.eclipse.org/uml2/2.0.0/UML">
-          <details xmi:id="_O6OCsGojEeauwszEdgVhow" key="Human"/>
-        </eAnnotations>
-        <generalization xmi:id="_BWtaQD-5Eeaoa6yGG_FwFA" general="_qKyGMD-4Eeaoa6yGG_FwFA"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Actor" xmi:id="_4WjoYD-4Eeaoa6yGG_FwFA" name="Subsetorial de RH">
-        <generalization xmi:id="_B3H_sD-5Eeaoa6yGG_FwFA" general="_qKyGMD-4Eeaoa6yGG_FwFA"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_DkwvoEO-EeaRnrYFrIkXNQ" memberEnd="_DkwvoUO-EeaRnrYFrIkXNQ _DkwvokO-EeaRnrYFrIkXNQ">
-        <ownedEnd xmi:id="_DkwvoUO-EeaRnrYFrIkXNQ" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_DkwvoEO-EeaRnrYFrIkXNQ"/>
+        <ownedEnd xmi:id="_DkwvoUO-EeaRnrYFrIkXNQ" association="_DkwvoEO-EeaRnrYFrIkXNQ"/>
         <ownedEnd xmi:id="_DkwvokO-EeaRnrYFrIkXNQ" type="_U10uQD_NEeaoa6yGG_FwFA" association="_DkwvoEO-EeaRnrYFrIkXNQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_ELVncEO-EeaRnrYFrIkXNQ" memberEnd="_ELVncUO-EeaRnrYFrIkXNQ _ELVnckO-EeaRnrYFrIkXNQ">
-        <ownedEnd xmi:id="_ELVncUO-EeaRnrYFrIkXNQ" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_ELVncEO-EeaRnrYFrIkXNQ"/>
+        <ownedEnd xmi:id="_ELVncUO-EeaRnrYFrIkXNQ" association="_ELVncEO-EeaRnrYFrIkXNQ"/>
         <ownedEnd xmi:id="_ELVnckO-EeaRnrYFrIkXNQ" type="_bJ9l0D_NEeaoa6yGG_FwFA" association="_ELVncEO-EeaRnrYFrIkXNQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_Ev7iQEO-EeaRnrYFrIkXNQ" memberEnd="_Ev7iQUO-EeaRnrYFrIkXNQ _Ev7iQkO-EeaRnrYFrIkXNQ">
-        <ownedEnd xmi:id="_Ev7iQUO-EeaRnrYFrIkXNQ" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_Ev7iQEO-EeaRnrYFrIkXNQ"/>
+        <ownedEnd xmi:id="_Ev7iQUO-EeaRnrYFrIkXNQ" association="_Ev7iQEO-EeaRnrYFrIkXNQ"/>
         <ownedEnd xmi:id="_Ev7iQkO-EeaRnrYFrIkXNQ" type="_eskJ4D_NEeaoa6yGG_FwFA" association="_Ev7iQEO-EeaRnrYFrIkXNQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_FXbnIEO-EeaRnrYFrIkXNQ" memberEnd="_FXbnIUO-EeaRnrYFrIkXNQ _FXbnIkO-EeaRnrYFrIkXNQ">
-        <ownedEnd xmi:id="_FXbnIUO-EeaRnrYFrIkXNQ" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_FXbnIEO-EeaRnrYFrIkXNQ"/>
+        <ownedEnd xmi:id="_FXbnIUO-EeaRnrYFrIkXNQ" association="_FXbnIEO-EeaRnrYFrIkXNQ"/>
         <ownedEnd xmi:id="_FXbnIkO-EeaRnrYFrIkXNQ" type="_iC0UAD_NEeaoa6yGG_FwFA" association="_FXbnIEO-EeaRnrYFrIkXNQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_pZv6UFshEeaPguYNUcBx6Q" name="A_operador de RH_cadastrar Férias" memberEnd="_pZwhYFshEeaPguYNUcBx6Q _pZxIcFshEeaPguYNUcBx6Q">
-        <ownedEnd xmi:id="_pZwhYFshEeaPguYNUcBx6Q" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_pZv6UFshEeaPguYNUcBx6Q"/>
+        <ownedEnd xmi:id="_pZwhYFshEeaPguYNUcBx6Q" association="_pZv6UFshEeaPguYNUcBx6Q"/>
         <ownedEnd xmi:id="_pZxIcFshEeaPguYNUcBx6Q" type="_R0_PgFshEeaPguYNUcBx6Q" association="_pZv6UFshEeaPguYNUcBx6Q"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_rqDJAFshEeaPguYNUcBx6Q" memberEnd="_rqDJAVshEeaPguYNUcBx6Q _rqDwEFshEeaPguYNUcBx6Q">
-        <ownedEnd xmi:id="_rqDJAVshEeaPguYNUcBx6Q" type="_qKyGMD-4Eeaoa6yGG_FwFA" association="_rqDJAFshEeaPguYNUcBx6Q"/>
+        <ownedEnd xmi:id="_rqDJAVshEeaPguYNUcBx6Q" association="_rqDJAFshEeaPguYNUcBx6Q"/>
         <ownedEnd xmi:id="_rqDwEFshEeaPguYNUcBx6Q" type="_XLwf4FshEeaPguYNUcBx6Q" association="_rqDJAFshEeaPguYNUcBx6Q"/>
       </packagedElement>
     </packagedElement>
@@ -1399,6 +1386,60 @@
           <node xmi:type="uml:OpaqueAction" xmi:id="_TPib8HFcEeaL7qEuEzXB1w" name="FA.01.4 - Valida as informações do arquivo importado" incoming="_XUPngHFcEeaL7qEuEzXB1w" outgoing="_Zc9ngHFcEeaL7qEuEzXB1w" inPartition="_KihiwF_oEeaxIuE2tiiodQ">
             <body>// TODO body of OpaqueAction19</body>
           </node>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Dc_ccIEDEea7xOuiynXcmQ" name="Afastamento">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_JzJGMIEDEea7xOuiynXcmQ" name="Afastamento" useCase="_DiwQwIEEEea7xOuiynXcmQ _H2SigIEEEea7xOuiynXcmQ _LbSTQIEEEea7xOuiynXcmQ _XUZPQIEEEea7xOuiynXcmQ _e3t2wIEEEea7xOuiynXcmQ _gx8u0IEEEea7xOuiynXcmQ _iS_q0IEEEea7xOuiynXcmQ">
+          <ownedUseCase xmi:id="_DiwQwIEEEea7xOuiynXcmQ" name="Consultar Afastamento" subject="_JzJGMIEDEea7xOuiynXcmQ">
+            <include xmi:id="_Ro2owIEEEea7xOuiynXcmQ" addition="_H2SigIEEEea7xOuiynXcmQ"/>
+            <include xmi:id="_SMpSUIEEEea7xOuiynXcmQ" addition="_LbSTQIEEEea7xOuiynXcmQ"/>
+            <include xmi:id="_a18qcIEEEea7xOuiynXcmQ" addition="_XUZPQIEEEea7xOuiynXcmQ"/>
+          </ownedUseCase>
+          <ownedUseCase xmi:id="_H2SigIEEEea7xOuiynXcmQ" name="Prorrogar Afastamento Massivo" subject="_JzJGMIEDEea7xOuiynXcmQ"/>
+          <ownedUseCase xmi:id="_LbSTQIEEEea7xOuiynXcmQ" name="Cessar Afastamento Massivo" subject="_JzJGMIEDEea7xOuiynXcmQ"/>
+          <ownedUseCase xmi:id="_XUZPQIEEEea7xOuiynXcmQ" name="Cadastrar Afastamento Massivo" subject="_JzJGMIEDEea7xOuiynXcmQ"/>
+          <ownedUseCase xmi:id="_e3t2wIEEEea7xOuiynXcmQ" name="Cadastrar Afastamento" subject="_JzJGMIEDEea7xOuiynXcmQ"/>
+          <ownedUseCase xmi:id="_gx8u0IEEEea7xOuiynXcmQ" name="Alterar Afastamento" subject="_JzJGMIEDEea7xOuiynXcmQ"/>
+          <ownedUseCase xmi:id="_iS_q0IEEEea7xOuiynXcmQ" name="Excluir Afastamento" subject="_JzJGMIEDEea7xOuiynXcmQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_7ZuUIIEDEea7xOuiynXcmQ" name="Operador de RH">
+          <eAnnotations xmi:id="_7Zu7MIEDEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_7ZviQIEDEea7xOuiynXcmQ" key="Human"/>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_QbXh8IEEEea7xOuiynXcmQ" name="A_operador de RH_consultar Afastamento" memberEnd="_QbYwEIEEEea7xOuiynXcmQ _QbZ-MIEEEea7xOuiynXcmQ">
+          <ownedEnd xmi:id="_QbYwEIEEEea7xOuiynXcmQ" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_QbXh8IEEEea7xOuiynXcmQ"/>
+          <ownedEnd xmi:id="_QbZ-MIEEEea7xOuiynXcmQ" type="_DiwQwIEEEea7xOuiynXcmQ" association="_QbXh8IEEEea7xOuiynXcmQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_pwEgYIEEEea7xOuiynXcmQ" name="A_operador de RH_cadastrar Afastamento" memberEnd="_pwFHcIEEEea7xOuiynXcmQ _pwFHcYEEEea7xOuiynXcmQ">
+          <ownedEnd xmi:id="_pwFHcIEEEea7xOuiynXcmQ" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_pwEgYIEEEea7xOuiynXcmQ"/>
+          <ownedEnd xmi:id="_pwFHcYEEEea7xOuiynXcmQ" type="_e3t2wIEEEea7xOuiynXcmQ" association="_pwEgYIEEEea7xOuiynXcmQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_WUe08IEFEea7xOuiynXcmQ" memberEnd="_WUe08YEFEea7xOuiynXcmQ _WUfcAIEFEea7xOuiynXcmQ">
+          <ownedEnd xmi:id="_WUe08YEFEea7xOuiynXcmQ" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_WUe08IEFEea7xOuiynXcmQ"/>
+          <ownedEnd xmi:id="_WUfcAIEFEea7xOuiynXcmQ" type="_gx8u0IEEEea7xOuiynXcmQ" association="_WUe08IEFEea7xOuiynXcmQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Xpxz8IEFEea7xOuiynXcmQ" memberEnd="_XpybAIEFEea7xOuiynXcmQ _XpybAYEFEea7xOuiynXcmQ">
+          <ownedEnd xmi:id="_XpybAIEFEea7xOuiynXcmQ" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_Xpxz8IEFEea7xOuiynXcmQ"/>
+          <ownedEnd xmi:id="_XpybAYEFEea7xOuiynXcmQ" type="_iS_q0IEEEea7xOuiynXcmQ" association="_Xpxz8IEFEea7xOuiynXcmQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_hHTeUIEFEea7xOuiynXcmQ" name="UCRH">
+          <eAnnotations xmi:id="_hHUFYIEFEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_hHUFYYEFEea7xOuiynXcmQ" key="Human"/>
+          </eAnnotations>
+          <generalization xmi:id="_vThFYIEFEea7xOuiynXcmQ" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_jxl6UIEFEea7xOuiynXcmQ" name="Setorial de RH">
+          <eAnnotations xmi:id="_jxl6UYEFEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_jxmhYIEFEea7xOuiynXcmQ" key="Human"/>
+          </eAnnotations>
+          <generalization xmi:id="_x8gg4IEFEea7xOuiynXcmQ" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_lTH-gIEFEea7xOuiynXcmQ" name="Subsetorial de RH">
+          <eAnnotations xmi:id="_lTIlkIEFEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_lTIlkYEFEea7xOuiynXcmQ" key="Human"/>
+          </eAnnotations>
+          <generalization xmi:id="_yxExYIEFEea7xOuiynXcmQ" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
         </packagedElement>
       </packagedElement>
     </packagedElement>
