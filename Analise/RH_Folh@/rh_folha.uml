@@ -1529,6 +1529,245 @@
           </node>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_3nUzQI8qEeaRtt8Fp98W0A" name="Eventos Genéricos">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_dOn6AI9SEeammZ5aviHwxw" name="Eventos Genéricos" node="_rENw0I9SEeammZ5aviHwxw _vxAQEI9SEeammZ5aviHwxw _I3fMUI9TEeammZ5aviHwxw _OPTlkI9TEeammZ5aviHwxw _Z2BxEI9TEeammZ5aviHwxw _j0XpgI9TEeammZ5aviHwxw _t7Fa0I9TEeammZ5aviHwxw _zzbHMI9TEeammZ5aviHwxw _RjF1EI9UEeammZ5aviHwxw _XW4YoI9UEeammZ5aviHwxw _eZCMwI9UEeammZ5aviHwxw _vtORYI9UEeammZ5aviHwxw _4TTWYI9UEeammZ5aviHwxw _UvqCQI9VEeammZ5aviHwxw _uHjeoI9VEeammZ5aviHwxw _3PnPUI9VEeammZ5aviHwxw _Bsk9cI9WEeammZ5aviHwxw _I2TZMI9WEeammZ5aviHwxw _dvYg4I9WEeammZ5aviHwxw _n5dIMI9WEeammZ5aviHwxw _35VsUI9WEeammZ5aviHwxw _A75R8I9XEeammZ5aviHwxw _HYqhEI9XEeammZ5aviHwxw _P3mcQI9XEeammZ5aviHwxw _VCIncI9XEeammZ5aviHwxw _bEsm0I9XEeammZ5aviHwxw _mStXYI9XEeammZ5aviHwxw _zNyGsI9XEeammZ5aviHwxw _9V8CcI9XEeammZ5aviHwxw _DqDE0I9YEeammZ5aviHwxw _I6S2cI9YEeammZ5aviHwxw" group="_e9DKsI9SEeammZ5aviHwxw _hqoLQI9SEeammZ5aviHwxw" partition="_e9DKsI9SEeammZ5aviHwxw _hqoLQI9SEeammZ5aviHwxw">
+          <edge xmi:type="uml:ControlFlow" xmi:id="_3dWQsI9SEeammZ5aviHwxw" target="_vxAQEI9SEeammZ5aviHwxw" source="_rENw0I9SEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_3dZUAI9SEeammZ5aviHwxw" name="Início de Atividade_To_FB.01 - Seleciona a opção para cadastro de um evento em massa_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_3dbJMI9SEeammZ5aviHwxw" name="Início de Atividade_To_FB.01 - Seleciona a opção para cadastro de um evento em massa_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_M36U0I9TEeammZ5aviHwxw" target="_I3fMUI9TEeammZ5aviHwxw" source="_vxAQEI9SEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_M3674I9TEeammZ5aviHwxw" name="FB.01 - Seleciona a opção para cadastro de um evento em massa_To_FB.02 - Verifica se o evento possui subtipo_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_M37i8I9TEeammZ5aviHwxw" name="FB.01 - Seleciona a opção para cadastro de um evento em massa_To_FB.02 - Verifica se o evento possui subtipo_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_YZUigI9TEeammZ5aviHwxw" target="_OPTlkI9TEeammZ5aviHwxw" source="_I3fMUI9TEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_YZVJkI9TEeammZ5aviHwxw" name="FB.02 - Verifica se o evento possui subtipo_To_FA.01.1 - O evento possui subtipo?_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_YZVwoI9TEeammZ5aviHwxw" name="FB.02 - Verifica se o evento possui subtipo_To_FA.01.1 - O evento possui subtipo?_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fXDwsI9TEeammZ5aviHwxw" name="Sim" target="_Z2BxEI9TEeammZ5aviHwxw" source="_OPTlkI9TEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_LZR-MI9UEeammZ5aviHwxw" name="null_guard">
+              <body>Sim</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_fXE-0I9TEeammZ5aviHwxw" name="FA.01.1 - O evento possui subtipo?_To_FB.03 - Apresenta os subtipos do evento_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_oBJzAI9TEeammZ5aviHwxw" target="_j0XpgI9TEeammZ5aviHwxw" source="_Z2BxEI9TEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_oBKaEI9TEeammZ5aviHwxw" name="FB.03 - Apresenta os subtipos do evento_To_FB.04 - Seleciona e submete o subtipo do evento_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_oBLBII9TEeammZ5aviHwxw" name="FB.03 - Apresenta os subtipos do evento_To_FB.04 - Seleciona e submete o subtipo do evento_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_0xob4I9TEeammZ5aviHwxw" name="Não" target="_zzbHMI9TEeammZ5aviHwxw" source="_OPTlkI9TEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_Jm0iEI9UEeammZ5aviHwxw" name="null_guard">
+              <body>Não</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_0xpqAI9TEeammZ5aviHwxw" name="FA.01.1 - O evento possui subtipo?_To_Merge1_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_2R5UwI9TEeammZ5aviHwxw" target="_zzbHMI9TEeammZ5aviHwxw" source="_j0XpgI9TEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_2R570I9TEeammZ5aviHwxw" name="FB.04 - Seleciona e submete o subtipo do evento_To_Merge1_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_2R6i4I9TEeammZ5aviHwxw" name="FB.04 - Seleciona e submete o subtipo do evento_To_Merge1_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_H-0CcI9UEeammZ5aviHwxw" target="_t7Fa0I9TEeammZ5aviHwxw" source="_zzbHMI9TEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_H-0pgI9UEeammZ5aviHwxw" name="Conector_To_FB.05 - Verifica se o evento possui motivo para cadastro_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_H-0pgY9UEeammZ5aviHwxw" name="Conector_To_FB.05 - Verifica se o evento possui motivo para cadastro_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_WWXW0I9UEeammZ5aviHwxw" target="_RjF1EI9UEeammZ5aviHwxw" source="_t7Fa0I9TEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_WWX94I9UEeammZ5aviHwxw" name="FB.05 - Verifica se o evento possui motivo para cadastro_To_FA.02.1 - O evento possui motivo?_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_WWYk8I9UEeammZ5aviHwxw" name="FB.05 - Verifica se o evento possui motivo para cadastro_To_FA.02.1 - O evento possui motivo?_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_b7WCUI9UEeammZ5aviHwxw" name="Sim" target="_XW4YoI9UEeammZ5aviHwxw" source="_RjF1EI9UEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_kb4gAI9UEeammZ5aviHwxw" name="ão_guard">
+              <body>Sim</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_b7XQcI9UEeammZ5aviHwxw" name="FA.02.1 - O evento possui motivo?_To_FB.06 - Apresenta os motivos do evento_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_iAKEcI9UEeammZ5aviHwxw" target="_eZCMwI9UEeammZ5aviHwxw" source="_XW4YoI9UEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_iAKrgI9UEeammZ5aviHwxw" name="FB.06 - Apresenta os motivos do evento_To_FB.07 - Seleciona e submete o motivo do evento_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_iAKrgY9UEeammZ5aviHwxw" name="FB.06 - Apresenta os motivos do evento_To_FB.07 - Seleciona e submete o motivo do evento_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_HpPloI9VEeammZ5aviHwxw" name="Não" target="_4TTWYI9UEeammZ5aviHwxw" source="_RjF1EI9UEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_JACZcI9VEeammZ5aviHwxw" name="null_guard">
+              <body>Não</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_HpQzwI9VEeammZ5aviHwxw" name="FA.02.1 - O evento possui motivo?_To_Conector_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_PBHyII9VEeammZ5aviHwxw" target="_4TTWYI9UEeammZ5aviHwxw" source="_eZCMwI9UEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_PBIZMI9VEeammZ5aviHwxw" name="FB.07 - Seleciona e submete o motivo do evento_To_Conector_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_PBJAQI9VEeammZ5aviHwxw" name="FB.07 - Seleciona e submete o motivo do evento_To_Conector_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Q_MoYI9VEeammZ5aviHwxw" target="_vtORYI9UEeammZ5aviHwxw" source="_4TTWYI9UEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_Q_NPcI9VEeammZ5aviHwxw" name="Conector_To_FB.08 - Apresenta os critérios para busca dos servidores desejados_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_Q_N2gI9VEeammZ5aviHwxw" name="Conector_To_FB.08 - Apresenta os critérios para busca dos servidores desejados_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_bVKWoI9VEeammZ5aviHwxw" target="_UvqCQI9VEeammZ5aviHwxw" source="_vtORYI9UEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_bVKWoY9VEeammZ5aviHwxw" name="FB.08 - Apresenta os critérios para busca dos servidores desejados_To_FB.09 - Seleciona os critérios desejados e submete a consulta_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_bVK9sI9VEeammZ5aviHwxw" name="FB.08 - Apresenta os critérios para busca dos servidores desejados_To_FB.09 - Seleciona os critérios desejados e submete a consulta_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_0uD4kI9VEeammZ5aviHwxw" target="_uHjeoI9VEeammZ5aviHwxw" source="_UvqCQI9VEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_0uEfoI9VEeammZ5aviHwxw" name="FB.09 - Seleciona os critérios desejados e submete a consulta_To_FB.10 - Verifica os critérios selecionados_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_0uFGsI9VEeammZ5aviHwxw" name="FB.09 - Seleciona os critérios desejados e submete a consulta_To_FB.10 - Verifica os critérios selecionados_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_-0Tv0I9VEeammZ5aviHwxw" target="_3PnPUI9VEeammZ5aviHwxw" source="_uHjeoI9VEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_-0UW4I9VEeammZ5aviHwxw" name="FB.10 - Verifica os critérios selecionados_To_FA.03.1 - Critérios selecionados válidos?_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_-0U98I9VEeammZ5aviHwxw" name="FB.10 - Verifica os critérios selecionados_To_FA.03.1 - Critérios selecionados válidos?_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_FuTtgI9WEeammZ5aviHwxw" name="Sim" target="_Bsk9cI9WEeammZ5aviHwxw" source="_3PnPUI9VEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_GV__oI9WEeammZ5aviHwxw" name="null_guard">
+              <body>Sim</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_FuUUkY9WEeammZ5aviHwxw" name="FA.03.1 - Critérios selecionados válidos?_To_FB.11 - Apresenta os servidores para seleção_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_Md_4oI9WEeammZ5aviHwxw" name="Não" target="_I2TZMI9WEeammZ5aviHwxw" source="_3PnPUI9VEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_M2IEwI9WEeammZ5aviHwxw" name="null_guard">
+              <body>Não</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_MeBGwI9WEeammZ5aviHwxw" name="FA.03.1 - Critérios selecionados válidos?_To_FA.03.2 - Exibe mensagem de erro_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_PzX5AI9WEeammZ5aviHwxw" target="_4TTWYI9UEeammZ5aviHwxw" source="_I2TZMI9WEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_PzYgEI9WEeammZ5aviHwxw" name="FA.03.2 - Exibe mensagem de erro_To_Conector_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_PzZHII9WEeammZ5aviHwxw" name="FA.03.2 - Exibe mensagem de erro_To_Conector_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_iF_UwI9WEeammZ5aviHwxw" target="_dvYg4I9WEeammZ5aviHwxw" source="_Bsk9cI9WEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_iF_70I9WEeammZ5aviHwxw" name="FB.11 - Apresenta os servidores para seleção_To_FB.12 - Seleciona os servidores desejados_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_iGAi4I9WEeammZ5aviHwxw" name="FB.11 - Apresenta os servidores para seleção_To_FB.12 - Seleciona os servidores desejados_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_tkHk8I9WEeammZ5aviHwxw" target="_35VsUI9WEeammZ5aviHwxw" source="_dvYg4I9WEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_tkIMAI9WEeammZ5aviHwxw" name="FB.12 - Seleciona e submete os servidores desejados_To_FB.13 - Apresenta o formulário de cadastro_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_tkIzEI9WEeammZ5aviHwxw" name="FB.12 - Seleciona e submete os servidores desejados_To_FB.13 - Apresenta o formulário de cadastro_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_8dKc0I9WEeammZ5aviHwxw" target="_n5dIMI9WEeammZ5aviHwxw" source="_35VsUI9WEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_8dLD4I9WEeammZ5aviHwxw" name="Conector_To_FB.13 - Apresenta o formulário de cadastro_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_8dLq8I9WEeammZ5aviHwxw" name="Conector_To_FB.13 - Apresenta o formulário de cadastro_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_FgjI4I9XEeammZ5aviHwxw" target="_A75R8I9XEeammZ5aviHwxw" source="_n5dIMI9WEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_FgjI4Y9XEeammZ5aviHwxw" name="FB.13 - Apresenta o formulário de cadastro_To_FB.14 - Preenche e submete o formulário de cadastro_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_Fgjv8I9XEeammZ5aviHwxw" name="FB.13 - Apresenta o formulário de cadastro_To_FB.14 - Preenche e submete o formulário de cadastro_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_K1yIMI9XEeammZ5aviHwxw" target="_HYqhEI9XEeammZ5aviHwxw" source="_A75R8I9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_K1yvQI9XEeammZ5aviHwxw" name="FB.14 - Preenche e submete o formulário de cadastro_To_FB.15 - Valida os dados preenchidos no formulário_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_K1yvQY9XEeammZ5aviHwxw" name="FB.14 - Preenche e submete o formulário de cadastro_To_FB.15 - Valida os dados preenchidos no formulário_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_UlMz0I9XEeammZ5aviHwxw" target="_P3mcQI9XEeammZ5aviHwxw" source="_HYqhEI9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_UlNa4I9XEeammZ5aviHwxw" name="FB.15 - Valida os dados preenchidos no formulário_To_FA.04.1 - Cadastro pode ser realizado?_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_UlOB8I9XEeammZ5aviHwxw" name="FB.15 - Valida os dados preenchidos no formulário_To_FA.04.1 - Cadastro pode ser realizado?_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ZW194I9XEeammZ5aviHwxw" name="Sim" target="_VCIncI9XEeammZ5aviHwxw" source="_P3mcQI9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_ZqJ7cI9XEeammZ5aviHwxw" name="null_guard">
+              <body>Sim</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_ZW3MAI9XEeammZ5aviHwxw" name="FA.04.1 - Cadastro pode ser realizado?_To_FB.16 - Apresenta informações para confirmação_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fE67AI9XEeammZ5aviHwxw" name="Não" target="_bEsm0I9XEeammZ5aviHwxw" source="_P3mcQI9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_f_V74I9XEeammZ5aviHwxw" name="null_guard">
+              <body>Não</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_fE8JII9XEeammZ5aviHwxw" name="FA.04.1 - Cadastro pode ser realizado?_To_FA.04.2 - Apresenta as razões pelas quais o evento não pode ser cadastrado_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_iys0UI9XEeammZ5aviHwxw" target="_35VsUI9WEeammZ5aviHwxw" source="_bEsm0I9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_iytbYI9XEeammZ5aviHwxw" name="FA.04.2 - Apresenta as razões pelas quais o evento não pode ser cadastrado_To_Conector_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_iyuCcI9XEeammZ5aviHwxw" name="FA.04.2 - Apresenta as razões pelas quais o evento não pode ser cadastrado_To_Conector_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_qvmZcI9XEeammZ5aviHwxw" target="_mStXYI9XEeammZ5aviHwxw" source="_VCIncI9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_qvnAgI9XEeammZ5aviHwxw" name="FB.16 - Apresenta informações para confirmação_To_FA.05.1 - Identificada necessidade de correção das informações?_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_qvnAgY9XEeammZ5aviHwxw" name="FB.16 - Apresenta informações para confirmação_To_FA.05.1 - Identificada necessidade de correção das informações?_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_tEGLoI9XEeammZ5aviHwxw" name="Sim" target="_35VsUI9WEeammZ5aviHwxw" source="_mStXYI9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_wo69QI9XEeammZ5aviHwxw" name="null_guard">
+              <body>Sim</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_tEHZwI9XEeammZ5aviHwxw" name="FA.05.1 - Identificada necessidade de correção das informações?_To_Conector_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_3QCbMI9XEeammZ5aviHwxw" name="Não" target="_zNyGsI9XEeammZ5aviHwxw" source="_mStXYI9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_3lXyAI9XEeammZ5aviHwxw" name="null_guard">
+              <body>Não</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_3QDpUI9XEeammZ5aviHwxw" name="FA.05.1 - Identificada necessidade de correção das informações?_To_FB.17 - Submete a operação_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ByMyYI9YEeammZ5aviHwxw" target="_9V8CcI9XEeammZ5aviHwxw" source="_zNyGsI9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_ByOAgI9YEeammZ5aviHwxw" name="FB.17 - Submete a operação_To_FB.18 - Efetua a operação e retorna mensagem de confirmação_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_ByOnkI9YEeammZ5aviHwxw" name="FB.17 - Submete a operação_To_FB.18 - Efetua a operação e retorna mensagem de confirmação_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_G_SiUI9YEeammZ5aviHwxw" target="_DqDE0I9YEeammZ5aviHwxw" source="_9V8CcI9XEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_G_TJYI9YEeammZ5aviHwxw" name="FB.18 - Efetua a operação e retorna mensagem de confirmação_To_FB.19 - Encerra a operação_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_G_TJYY9YEeammZ5aviHwxw" name="FB.18 - Efetua a operação e retorna mensagem de confirmação_To_FB.19 - Encerra a operação_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_MyXUMI9YEeammZ5aviHwxw" target="_I6S2cI9YEeammZ5aviHwxw" source="_DqDE0I9YEeammZ5aviHwxw">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_MyX7QI9YEeammZ5aviHwxw" name="FB.19 - Encerra a operação_To_Fim de Atividade_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_MyYiUI9YEeammZ5aviHwxw" name="FB.19 - Encerra a operação_To_Fim de Atividade_weight"/>
+          </edge>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_e9DKsI9SEeammZ5aviHwxw" name="Operador" node="_rENw0I9SEeammZ5aviHwxw _vxAQEI9SEeammZ5aviHwxw _j0XpgI9TEeammZ5aviHwxw _eZCMwI9UEeammZ5aviHwxw _UvqCQI9VEeammZ5aviHwxw _dvYg4I9WEeammZ5aviHwxw _A75R8I9XEeammZ5aviHwxw _zNyGsI9XEeammZ5aviHwxw _DqDE0I9YEeammZ5aviHwxw _I6S2cI9YEeammZ5aviHwxw"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_hqoLQI9SEeammZ5aviHwxw" name="Sistema" node="_I3fMUI9TEeammZ5aviHwxw _OPTlkI9TEeammZ5aviHwxw _Z2BxEI9TEeammZ5aviHwxw _t7Fa0I9TEeammZ5aviHwxw _zzbHMI9TEeammZ5aviHwxw _RjF1EI9UEeammZ5aviHwxw _XW4YoI9UEeammZ5aviHwxw _vtORYI9UEeammZ5aviHwxw _4TTWYI9UEeammZ5aviHwxw _uHjeoI9VEeammZ5aviHwxw _3PnPUI9VEeammZ5aviHwxw _Bsk9cI9WEeammZ5aviHwxw _I2TZMI9WEeammZ5aviHwxw _n5dIMI9WEeammZ5aviHwxw _35VsUI9WEeammZ5aviHwxw _HYqhEI9XEeammZ5aviHwxw _P3mcQI9XEeammZ5aviHwxw _VCIncI9XEeammZ5aviHwxw _bEsm0I9XEeammZ5aviHwxw _mStXYI9XEeammZ5aviHwxw _9V8CcI9XEeammZ5aviHwxw"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_rENw0I9SEeammZ5aviHwxw" name="Início de Atividade" outgoing="_3dWQsI9SEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_vxAQEI9SEeammZ5aviHwxw" name="FB.01 - Seleciona a opção para cadastro de um evento em massa" incoming="_3dWQsI9SEeammZ5aviHwxw" outgoing="_M36U0I9TEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction1</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_I3fMUI9TEeammZ5aviHwxw" name="FB.02 - Verifica se o evento possui subtipo" incoming="_M36U0I9TEeammZ5aviHwxw" outgoing="_YZUigI9TEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction2</body>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_OPTlkI9TEeammZ5aviHwxw" name="FA.01.1 - O evento possui subtipo?" incoming="_YZUigI9TEeammZ5aviHwxw" outgoing="_fXDwsI9TEeammZ5aviHwxw _0xob4I9TEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_Z2BxEI9TEeammZ5aviHwxw" name="FB.03 - Apresenta os subtipos do evento" incoming="_fXDwsI9TEeammZ5aviHwxw" outgoing="_oBJzAI9TEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction3</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_j0XpgI9TEeammZ5aviHwxw" name="FB.04 - Seleciona e submete o subtipo do evento" incoming="_oBJzAI9TEeammZ5aviHwxw" outgoing="_2R5UwI9TEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction4</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_t7Fa0I9TEeammZ5aviHwxw" name="FB.05 - Verifica se o evento possui motivo para cadastro" incoming="_H-0CcI9UEeammZ5aviHwxw" outgoing="_WWXW0I9UEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction5</body>
+          </node>
+          <node xmi:type="uml:MergeNode" xmi:id="_zzbHMI9TEeammZ5aviHwxw" name="Conector" incoming="_0xob4I9TEeammZ5aviHwxw _2R5UwI9TEeammZ5aviHwxw" outgoing="_H-0CcI9UEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:DecisionNode" xmi:id="_RjF1EI9UEeammZ5aviHwxw" name="FA.02.1 - O evento possui motivo?" incoming="_WWXW0I9UEeammZ5aviHwxw" outgoing="_b7WCUI9UEeammZ5aviHwxw _HpPloI9VEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_XW4YoI9UEeammZ5aviHwxw" name="FB.06 - Apresenta os motivos do evento" incoming="_b7WCUI9UEeammZ5aviHwxw" outgoing="_iAKEcI9UEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction6</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_eZCMwI9UEeammZ5aviHwxw" name="FB.07 - Seleciona e submete o motivo do evento" incoming="_iAKEcI9UEeammZ5aviHwxw" outgoing="_PBHyII9VEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction7</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_vtORYI9UEeammZ5aviHwxw" name="FB.08 - Apresenta os critérios para busca dos servidores desejados" incoming="_Q_MoYI9VEeammZ5aviHwxw" outgoing="_bVKWoI9VEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction8</body>
+          </node>
+          <node xmi:type="uml:MergeNode" xmi:id="_4TTWYI9UEeammZ5aviHwxw" name="Conector" incoming="_HpPloI9VEeammZ5aviHwxw _PBHyII9VEeammZ5aviHwxw _PzX5AI9WEeammZ5aviHwxw" outgoing="_Q_MoYI9VEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_UvqCQI9VEeammZ5aviHwxw" name="FB.09 - Seleciona os critérios desejados e submete a consulta" incoming="_bVKWoI9VEeammZ5aviHwxw" outgoing="_0uD4kI9VEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction9</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_uHjeoI9VEeammZ5aviHwxw" name="FB.10 - Verifica os critérios selecionados" incoming="_0uD4kI9VEeammZ5aviHwxw" outgoing="_-0Tv0I9VEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction10</body>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_3PnPUI9VEeammZ5aviHwxw" name="FA.03.1 - Critérios selecionados válidos?" incoming="_-0Tv0I9VEeammZ5aviHwxw" outgoing="_FuTtgI9WEeammZ5aviHwxw _Md_4oI9WEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_Bsk9cI9WEeammZ5aviHwxw" name="FB.11 - Apresenta os servidores para seleção" incoming="_FuTtgI9WEeammZ5aviHwxw" outgoing="_iF_UwI9WEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction11</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_I2TZMI9WEeammZ5aviHwxw" name="FA.03.2 - Exibe mensagem de erro" incoming="_Md_4oI9WEeammZ5aviHwxw" outgoing="_PzX5AI9WEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction12</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_dvYg4I9WEeammZ5aviHwxw" name="FB.12 - Seleciona e submete os servidores desejados" incoming="_iF_UwI9WEeammZ5aviHwxw" outgoing="_tkHk8I9WEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction13</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_n5dIMI9WEeammZ5aviHwxw" name="FB.13 - Apresenta o formulário de cadastro" incoming="_8dKc0I9WEeammZ5aviHwxw" outgoing="_FgjI4I9XEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction14</body>
+          </node>
+          <node xmi:type="uml:MergeNode" xmi:id="_35VsUI9WEeammZ5aviHwxw" name="Conector" incoming="_tkHk8I9WEeammZ5aviHwxw _iys0UI9XEeammZ5aviHwxw _tEGLoI9XEeammZ5aviHwxw" outgoing="_8dKc0I9WEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_A75R8I9XEeammZ5aviHwxw" name="FB.14 - Preenche e submete o formulário de cadastro" incoming="_FgjI4I9XEeammZ5aviHwxw" outgoing="_K1yIMI9XEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction15</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_HYqhEI9XEeammZ5aviHwxw" name="FB.15 - Valida os dados preenchidos no formulário" incoming="_K1yIMI9XEeammZ5aviHwxw" outgoing="_UlMz0I9XEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction16</body>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_P3mcQI9XEeammZ5aviHwxw" name="FA.04.1 - Cadastro pode ser realizado?" incoming="_UlMz0I9XEeammZ5aviHwxw" outgoing="_ZW194I9XEeammZ5aviHwxw _fE67AI9XEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_VCIncI9XEeammZ5aviHwxw" name="FB.16 - Apresenta informações para confirmação" incoming="_ZW194I9XEeammZ5aviHwxw" outgoing="_qvmZcI9XEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction17</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_bEsm0I9XEeammZ5aviHwxw" name="FA.04.2 - Apresenta as razões pelas quais o evento não pode ser cadastrado" incoming="_fE67AI9XEeammZ5aviHwxw" outgoing="_iys0UI9XEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction18</body>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_mStXYI9XEeammZ5aviHwxw" name="FA.05.1 - Identificada necessidade de correção das informações?" incoming="_qvmZcI9XEeammZ5aviHwxw" outgoing="_tEGLoI9XEeammZ5aviHwxw _3QCbMI9XEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_zNyGsI9XEeammZ5aviHwxw" name="FB.17 - Submete a operação" incoming="_3QCbMI9XEeammZ5aviHwxw" outgoing="_ByMyYI9YEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction19</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_9V8CcI9XEeammZ5aviHwxw" name="FB.18 - Efetua a operação e retorna mensagem de confirmação" incoming="_ByMyYI9YEeammZ5aviHwxw" outgoing="_G_SiUI9YEeammZ5aviHwxw" inPartition="_hqoLQI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction20</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_DqDE0I9YEeammZ5aviHwxw" name="FB.19 - Encerra a operação" incoming="_G_SiUI9YEeammZ5aviHwxw" outgoing="_MyXUMI9YEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw">
+            <body>// TODO body of OpaqueAction21</body>
+          </node>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_I6S2cI9YEeammZ5aviHwxw" name="Fim de Atividade" incoming="_MyXUMI9YEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw"/>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_VcDMMEO8EeaRnrYFrIkXNQ" name="CicloVidaEventos">
