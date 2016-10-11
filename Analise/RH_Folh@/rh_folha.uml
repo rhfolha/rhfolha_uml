@@ -2217,24 +2217,30 @@
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_N8BAsIzjEeanArxFswAO3g" guard="_PBRYkIzjEeanArxFswAO3g" source="_yvoH4IziEeanArxFswAO3g" target="_zcTAoIziEeanArxFswAO3g">
+            <transition xmi:id="_N8BAsIzjEeanArxFswAO3g" guard="_PBRYkIzjEeanArxFswAO3g" source="_yvoH4IziEeanArxFswAO3g">
               <ownedRule xmi:id="_PBRYkIzjEeanArxFswAO3g" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_PBRYkYzjEeanArxFswAO3g" name="null_guard">
                   <body>SUSP-CANC</body>
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_QbHgYIzjEeanArxFswAO3g" guard="_TIKVcIzjEeanArxFswAO3g" source="_yEgHQIziEeanArxFswAO3g" target="_zcTAoIziEeanArxFswAO3g">
+            <transition xmi:id="_QbHgYIzjEeanArxFswAO3g" guard="_TIKVcIzjEeanArxFswAO3g" source="_yEgHQIziEeanArxFswAO3g">
               <ownedRule xmi:id="_TIKVcIzjEeanArxFswAO3g" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_TIKVcYzjEeanArxFswAO3g" name="null_guard">
                   <body>ATV-CANC</body>
                 </specification>
               </ownedRule>
             </transition>
+            <transition xmi:id="_p_oKQI_1EeanArSZIIDdNw" guard="_sig9wI_1EeanArSZIIDdNw" source="_yvoH4IziEeanArxFswAO3g" target="_0D-rsIziEeanArxFswAO3g">
+              <ownedRule xmi:id="_sig9wI_1EeanArSZIIDdNw" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_sig9wY_1EeanArSZIIDdNw" name="null_guard">
+                  <body>SUSP-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
             <subvertex xmi:type="uml:State" xmi:id="_xDXaYIziEeanArxFswAO3g" name="Novo"/>
             <subvertex xmi:type="uml:State" xmi:id="_yEgHQIziEeanArxFswAO3g" name="Ativo"/>
             <subvertex xmi:type="uml:State" xmi:id="_yvoH4IziEeanArxFswAO3g" name="Suspenso"/>
-            <subvertex xmi:type="uml:State" xmi:id="_zcTAoIziEeanArxFswAO3g" name="Cancelado"/>
             <subvertex xmi:type="uml:State" xmi:id="_0D-rsIziEeanArxFswAO3g" name="Encerrado"/>
           </region>
         </packagedElement>
