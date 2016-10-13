@@ -2238,10 +2238,25 @@
                 </specification>
               </ownedRule>
             </transition>
+            <transition xmi:id="_cLb_IJFJEea3b5a3OKQP2Q" guard="_mTAsEJFJEea3b5a3OKQP2Q" source="_yEgHQIziEeanArxFswAO3g" target="_X2Tx8JFJEea3b5a3OKQP2Q">
+              <ownedRule xmi:id="_mTAsEJFJEea3b5a3OKQP2Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_mTAsEZFJEea3b5a3OKQP2Q" name="null_guard">
+                  <body>ATV-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_pcBrcJFJEea3b5a3OKQP2Q" guard="_rQG4MJFJEea3b5a3OKQP2Q" source="_yvoH4IziEeanArxFswAO3g" target="_X2Tx8JFJEea3b5a3OKQP2Q">
+              <ownedRule xmi:id="_rQG4MJFJEea3b5a3OKQP2Q" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_rQG4MZFJEea3b5a3OKQP2Q" name="null_guard">
+                  <body>SUSP-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
             <subvertex xmi:type="uml:State" xmi:id="_xDXaYIziEeanArxFswAO3g" name="Novo"/>
             <subvertex xmi:type="uml:State" xmi:id="_yEgHQIziEeanArxFswAO3g" name="Ativo"/>
             <subvertex xmi:type="uml:State" xmi:id="_yvoH4IziEeanArxFswAO3g" name="Suspenso"/>
             <subvertex xmi:type="uml:State" xmi:id="_0D-rsIziEeanArxFswAO3g" name="Encerrado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_X2Tx8JFJEea3b5a3OKQP2Q" name="Excluído"/>
           </region>
         </packagedElement>
       </packagedElement>
