@@ -1050,10 +1050,6 @@
         <ownedEnd xmi:id="_2HTgQIzgEeanArxFswAO3g" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_2HSSIIzgEeanArxFswAO3g"/>
         <ownedEnd xmi:id="_2HUuYIzgEeanArxFswAO3g" type="_aLwbYIzgEeanArxFswAO3g" association="_2HSSIIzgEeanArxFswAO3g"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_3AwQwIzgEeanArxFswAO3g" memberEnd="_3AwQwYzgEeanArxFswAO3g _3Aw30IzgEeanArxFswAO3g">
-        <ownedEnd xmi:id="_3AwQwYzgEeanArxFswAO3g" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_3AwQwIzgEeanArxFswAO3g"/>
-        <ownedEnd xmi:id="_3Aw30IzgEeanArxFswAO3g" type="_mWQpYIzgEeanArxFswAO3g" association="_3AwQwIzgEeanArxFswAO3g"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_fE9CIIzkEeanArxFswAO3g" memberEnd="_fE9pMIzkEeanArxFswAO3g _fE9pMYzkEeanArxFswAO3g">
         <ownedEnd xmi:id="_fE9pMIzkEeanArxFswAO3g" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_fE9CIIzkEeanArxFswAO3g"/>
         <ownedEnd xmi:id="_fE9pMYzkEeanArxFswAO3g" type="_N6I78IzkEeanArxFswAO3g" association="_fE9CIIzkEeanArxFswAO3g"/>
@@ -1504,6 +1500,7 @@
           <ownedUseCase xmi:id="_aLwbYIzgEeanArxFswAO3g" name="Consultar Vantagem" subject="_AON7UIzgEeanArxFswAO3g">
             <include xmi:id="_zBK1wIzgEeanArxFswAO3g" addition="_j0nzEIzgEeanArxFswAO3g"/>
             <include xmi:id="_00MSkIzgEeanArxFswAO3g" addition="_k9RdMIzgEeanArxFswAO3g"/>
+            <include xmi:id="_ZyUSIJI6Eeay6b0_mBhzMQ" addition="_mWQpYIzgEeanArxFswAO3g"/>
           </ownedUseCase>
           <ownedUseCase xmi:id="_j0nzEIzgEeanArxFswAO3g" name="Alterar Vantagem" subject="_AON7UIzgEeanArxFswAO3g"/>
           <ownedUseCase xmi:id="_k9RdMIzgEeanArxFswAO3g" name="Excluir Vantagem" subject="_AON7UIzgEeanArxFswAO3g"/>
@@ -1515,15 +1512,15 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rozZsIzjEeanArxFswAO3g" name="Benefícios">
         <packagedElement xmi:type="uml:Activity" xmi:id="_uiIXQIzjEeanArxFswAO3g" name="Benefícios" useCase="_IhBiMIzkEeanArxFswAO3g _JfdgYIzkEeanArxFswAO3g _KbKToIzkEeanArxFswAO3g _N6I78IzkEeanArxFswAO3g _PVb1QIzkEeanArxFswAO3g" node="_5V6C4IzjEeanArxFswAO3g">
-          <ownedUseCase xmi:id="_IhBiMIzkEeanArxFswAO3g" name="Alterar Benefício" subject="_uiIXQIzjEeanArxFswAO3g"/>
-          <ownedUseCase xmi:id="_JfdgYIzkEeanArxFswAO3g" name="Cadastrar Benefício Massivo" subject="_uiIXQIzjEeanArxFswAO3g"/>
+          <ownedUseCase xmi:id="_IhBiMIzkEeanArxFswAO3g" name="Cadastrar Benefício" subject="_uiIXQIzjEeanArxFswAO3g"/>
+          <ownedUseCase xmi:id="_JfdgYIzkEeanArxFswAO3g" name="Excluir Benefício" subject="_uiIXQIzjEeanArxFswAO3g"/>
           <ownedUseCase xmi:id="_KbKToIzkEeanArxFswAO3g" name="Consultar Benefício" subject="_uiIXQIzjEeanArxFswAO3g">
             <include xmi:id="_ayw0MIzkEeanArxFswAO3g" addition="_IhBiMIzkEeanArxFswAO3g"/>
             <include xmi:id="_beMW0IzkEeanArxFswAO3g" addition="_PVb1QIzkEeanArxFswAO3g"/>
             <include xmi:id="_c4d8cIzkEeanArxFswAO3g" addition="_JfdgYIzkEeanArxFswAO3g"/>
           </ownedUseCase>
-          <ownedUseCase xmi:id="_N6I78IzkEeanArxFswAO3g" name="Cadastrar Benefício" subject="_uiIXQIzjEeanArxFswAO3g"/>
-          <ownedUseCase xmi:id="_PVb1QIzkEeanArxFswAO3g" name="Excluir Benefício" subject="_uiIXQIzjEeanArxFswAO3g"/>
+          <ownedUseCase xmi:id="_N6I78IzkEeanArxFswAO3g" name="Cadastrar Benefício Massivo" subject="_uiIXQIzjEeanArxFswAO3g"/>
+          <ownedUseCase xmi:id="_PVb1QIzkEeanArxFswAO3g" name="Alterar Benefício" subject="_uiIXQIzjEeanArxFswAO3g"/>
           <node xmi:type="uml:OpaqueAction" xmi:id="_5V6C4IzjEeanArxFswAO3g" name="OpaqueAction1">
             <body>// TODO body of OpaqueAction1</body>
           </node>
@@ -2056,13 +2053,6 @@
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_Py9YMIpGEeaP0J3TDiwt2A" guard="_RPSzUIpGEeaP0J3TDiwt2A" source="_0-sEcIpFEeaP0J3TDiwt2A" target="_6O-SUIpFEeaP0J3TDiwt2A">
-              <ownedRule xmi:id="_RPSzUIpGEeaP0J3TDiwt2A" name="null_transition">
-                <specification xmi:type="uml:OpaqueExpression" xmi:id="_RPSzUYpGEeaP0J3TDiwt2A" name="null_guard">
-                  <body>ATV-ENC</body>
-                </specification>
-              </ownedRule>
-            </transition>
             <transition xmi:id="_R4m2EIpGEeaP0J3TDiwt2A" guard="_TklPsIpGEeaP0J3TDiwt2A" source="_0-sEcIpFEeaP0J3TDiwt2A" target="_2HT5YIpFEeaP0J3TDiwt2A">
               <ownedRule xmi:id="_TklPsIpGEeaP0J3TDiwt2A" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_TklPsYpGEeaP0J3TDiwt2A" name="null_guard">
@@ -2077,17 +2067,17 @@
                 </specification>
               </ownedRule>
             </transition>
-            <transition xmi:id="_YOW3MIpGEeaP0J3TDiwt2A" guard="_Z_yYkIpGEeaP0J3TDiwt2A" source="_2HT5YIpFEeaP0J3TDiwt2A" target="_CjGrsIpGEeaP0J3TDiwt2A">
-              <ownedRule xmi:id="_Z_yYkIpGEeaP0J3TDiwt2A" name="null_transition">
-                <specification xmi:type="uml:OpaqueExpression" xmi:id="_Z_yYkYpGEeaP0J3TDiwt2A" name="null_guard">
-                  <body>SUSP-CANC</body>
+            <transition xmi:id="_YOW3MIpGEeaP0J3TDiwt2A" guard="_Ozp3EJI4Eeay6b0_mBhzMQ" source="_2HT5YIpFEeaP0J3TDiwt2A" target="_CjGrsIpGEeaP0J3TDiwt2A">
+              <ownedRule xmi:id="_Ozp3EJI4Eeay6b0_mBhzMQ" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_Ozp3EZI4Eeay6b0_mBhzMQ" name="null_guard">
+                  <body>SUSP-EXC</body>
                 </specification>
               </ownedRule>
             </transition>
             <transition xmi:id="_a--ksIpGEeaP0J3TDiwt2A" guard="_da7CsIpGEeaP0J3TDiwt2A" source="_0-sEcIpFEeaP0J3TDiwt2A" target="_CjGrsIpGEeaP0J3TDiwt2A">
               <ownedRule xmi:id="_da7CsIpGEeaP0J3TDiwt2A" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_da7CsYpGEeaP0J3TDiwt2A" name="null_guard">
-                  <body>ATV-CANC</body>
+                  <body>ATV-EXC</body>
                 </specification>
               </ownedRule>
             </transition>
@@ -2112,12 +2102,19 @@
                 </specification>
               </ownedRule>
             </transition>
+            <transition xmi:id="_zE2YQJI4Eeay6b0_mBhzMQ" guard="_2sBTQJI4Eeay6b0_mBhzMQ" source="_4tPZ0IpFEeaP0J3TDiwt2A" target="_CjGrsIpGEeaP0J3TDiwt2A">
+              <ownedRule xmi:id="_2sBTQJI4Eeay6b0_mBhzMQ" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_2sBTQZI4Eeay6b0_mBhzMQ" name="null_guard">
+                  <body>AGCESS-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
             <subvertex xmi:type="uml:State" xmi:id="_0Hk2QIpFEeaP0J3TDiwt2A" name="Novo"/>
             <subvertex xmi:type="uml:State" xmi:id="_0-sEcIpFEeaP0J3TDiwt2A" name="Ativo"/>
             <subvertex xmi:type="uml:State" xmi:id="_2HT5YIpFEeaP0J3TDiwt2A" name="Suspenso"/>
             <subvertex xmi:type="uml:State" xmi:id="_4tPZ0IpFEeaP0J3TDiwt2A" name="Aguardando Cessação"/>
             <subvertex xmi:type="uml:State" xmi:id="_6O-SUIpFEeaP0J3TDiwt2A" name="Encerrado"/>
-            <subvertex xmi:type="uml:State" xmi:id="_CjGrsIpGEeaP0J3TDiwt2A" name="Cancelado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_CjGrsIpGEeaP0J3TDiwt2A" name="Excluído"/>
           </region>
         </packagedElement>
         <packagedElement xmi:type="uml:StateMachine" xmi:id="_DTULMIpHEeaP0J3TDiwt2A" name="Vantagens">
@@ -2146,14 +2143,14 @@
             <transition xmi:id="_7YnnsIpVEeaP0J3TDiwt2A" guard="_ydJ_MIzfEeanArxFswAO3g" source="_LgQ-gIpHEeaP0J3TDiwt2A" target="_MKEwgIpHEeaP0J3TDiwt2A">
               <ownedRule xmi:id="_ydJ_MIzfEeanArxFswAO3g" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_ydJ_MYzfEeanArxFswAO3g" name="null_guard">
-                  <body>SUSP-CANC</body>
+                  <body>SUSP-EXC</body>
                 </specification>
               </ownedRule>
             </transition>
             <transition xmi:id="__ondQIpVEeaP0J3TDiwt2A" guard="_w_g8gIzfEeanArxFswAO3g" source="_INwE4IpHEeaP0J3TDiwt2A" target="_MKEwgIpHEeaP0J3TDiwt2A">
               <ownedRule xmi:id="_w_g8gIzfEeanArxFswAO3g" name="null_transition">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_w_g8gYzfEeanArxFswAO3g" name="null_guard">
-                  <body>ATV-CANC</body>
+                  <body>ATV-EXC</body>
                 </specification>
               </ownedRule>
             </transition>
@@ -2171,11 +2168,18 @@
                 </specification>
               </ownedRule>
             </transition>
+            <transition xmi:id="_ioTQ0JI5Eeay6b0_mBhzMQ" guard="_kMSMEJI5Eeay6b0_mBhzMQ" source="_LgQ-gIpHEeaP0J3TDiwt2A" target="_JUC-kIpHEeaP0J3TDiwt2A">
+              <ownedRule xmi:id="_kMSMEJI5Eeay6b0_mBhzMQ" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_kMSMEZI5Eeay6b0_mBhzMQ" name="null_guard">
+                  <body>SUSP-ENC</body>
+                </specification>
+              </ownedRule>
+            </transition>
             <subvertex xmi:type="uml:State" xmi:id="_Hdd3cIpHEeaP0J3TDiwt2A" name="Novo"/>
             <subvertex xmi:type="uml:State" xmi:id="_INwE4IpHEeaP0J3TDiwt2A" name="Ativo"/>
             <subvertex xmi:type="uml:State" xmi:id="_JUC-kIpHEeaP0J3TDiwt2A" name="Encerrado"/>
             <subvertex xmi:type="uml:State" xmi:id="_LgQ-gIpHEeaP0J3TDiwt2A" name="Suspenso"/>
-            <subvertex xmi:type="uml:State" xmi:id="_MKEwgIpHEeaP0J3TDiwt2A" name="Cancelado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_MKEwgIpHEeaP0J3TDiwt2A" name="Excluído"/>
           </region>
         </packagedElement>
       </packagedElement>
