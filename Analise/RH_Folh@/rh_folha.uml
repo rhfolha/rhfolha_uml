@@ -1058,6 +1058,18 @@
         <ownedEnd xmi:id="_gw6NoIzkEeanArxFswAO3g" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_gw5mkIzkEeanArxFswAO3g"/>
         <ownedEnd xmi:id="_gw6NoYzkEeanArxFswAO3g" type="_KbKToIzkEeanArxFswAO3g" association="_gw5mkIzkEeanArxFswAO3g"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_aPIe8JY1Eeao3t5WSaXS2A" memberEnd="_aPJGAJY1Eeao3t5WSaXS2A _aPJtEJY1Eeao3t5WSaXS2A">
+        <ownedEnd xmi:id="_aPJGAJY1Eeao3t5WSaXS2A" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_aPIe8JY1Eeao3t5WSaXS2A"/>
+        <ownedEnd xmi:id="_aPJtEJY1Eeao3t5WSaXS2A" type="_DaY70JY1Eeao3t5WSaXS2A" association="_aPIe8JY1Eeao3t5WSaXS2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fQVH8JY1Eeao3t5WSaXS2A" name="A_operador de RH_consultar Desligamento" memberEnd="_fQVH8ZY1Eeao3t5WSaXS2A _fQVvAJY1Eeao3t5WSaXS2A">
+        <ownedEnd xmi:id="_fQVH8ZY1Eeao3t5WSaXS2A" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_fQVH8JY1Eeao3t5WSaXS2A"/>
+        <ownedEnd xmi:id="_fQVvAJY1Eeao3t5WSaXS2A" type="_GRlLYJY1Eeao3t5WSaXS2A" association="_fQVH8JY1Eeao3t5WSaXS2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_j30QcJY1Eeao3t5WSaXS2A" memberEnd="_j303gJY1Eeao3t5WSaXS2A _j31ekJY1Eeao3t5WSaXS2A">
+        <ownedEnd xmi:id="_j303gJY1Eeao3t5WSaXS2A" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_j30QcJY1Eeao3t5WSaXS2A"/>
+        <ownedEnd xmi:id="_j31ekJY1Eeao3t5WSaXS2A" type="_JJcwYJY1Eeao3t5WSaXS2A" association="_j30QcJY1Eeao3t5WSaXS2A"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ZiPrkFsgEeaPguYNUcBx6Q" name="Vida Funcional">
       <packagedElement xmi:type="uml:Package" xmi:id="_b52cIFsgEeaPguYNUcBx6Q" name="Férias">
@@ -1763,6 +1775,19 @@
             <body>// TODO body of OpaqueAction21</body>
           </node>
           <node xmi:type="uml:ActivityFinalNode" xmi:id="_I6S2cI9YEeammZ5aviHwxw" name="Fim de Atividade" incoming="_MyXUMI9YEeammZ5aviHwxw" inPartition="_e9DKsI9SEeammZ5aviHwxw"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rOjC4JY0Eeao3t5WSaXS2A" name="Desligamento">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_teMKQJY0Eeao3t5WSaXS2A" name="Desligamento" useCase="_DaY70JY1Eeao3t5WSaXS2A _GRlLYJY1Eeao3t5WSaXS2A _HswI4JY1Eeao3t5WSaXS2A _JJcwYJY1Eeao3t5WSaXS2A _KbPvcJY1Eeao3t5WSaXS2A" group="_vL_I0JY0Eeao3t5WSaXS2A" partition="_vL_I0JY0Eeao3t5WSaXS2A">
+          <ownedUseCase xmi:id="_DaY70JY1Eeao3t5WSaXS2A" name="Cadastrar Desligamento" subject="_teMKQJY0Eeao3t5WSaXS2A"/>
+          <ownedUseCase xmi:id="_GRlLYJY1Eeao3t5WSaXS2A" name="Consultar Desligamento" subject="_teMKQJY0Eeao3t5WSaXS2A">
+            <include xmi:id="_VjHbwJY1Eeao3t5WSaXS2A" addition="_KbPvcJY1Eeao3t5WSaXS2A"/>
+            <include xmi:id="_XEAmwJY1Eeao3t5WSaXS2A" addition="_HswI4JY1Eeao3t5WSaXS2A"/>
+          </ownedUseCase>
+          <ownedUseCase xmi:id="_HswI4JY1Eeao3t5WSaXS2A" name="Excluir Desligamento" subject="_teMKQJY0Eeao3t5WSaXS2A"/>
+          <ownedUseCase xmi:id="_JJcwYJY1Eeao3t5WSaXS2A" name="Consultar Dados para Aposentadoria" subject="_teMKQJY0Eeao3t5WSaXS2A"/>
+          <ownedUseCase xmi:id="_KbPvcJY1Eeao3t5WSaXS2A" name="Alterar Desligamento" subject="_teMKQJY0Eeao3t5WSaXS2A"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_vL_I0JY0Eeao3t5WSaXS2A" name="ActivityPartition1"/>
         </packagedElement>
       </packagedElement>
     </packagedElement>
