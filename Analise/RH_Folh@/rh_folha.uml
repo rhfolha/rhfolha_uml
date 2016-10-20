@@ -1778,7 +1778,7 @@
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rOjC4JY0Eeao3t5WSaXS2A" name="Desligamento">
-        <packagedElement xmi:type="uml:Activity" xmi:id="_teMKQJY0Eeao3t5WSaXS2A" name="Desligamento" useCase="_DaY70JY1Eeao3t5WSaXS2A _GRlLYJY1Eeao3t5WSaXS2A _HswI4JY1Eeao3t5WSaXS2A _JJcwYJY1Eeao3t5WSaXS2A _KbPvcJY1Eeao3t5WSaXS2A" group="_vL_I0JY0Eeao3t5WSaXS2A" partition="_vL_I0JY0Eeao3t5WSaXS2A">
+        <packagedElement xmi:type="uml:Activity" xmi:id="_teMKQJY0Eeao3t5WSaXS2A" name="Consulta de Dados para Aposentadoria" useCase="_DaY70JY1Eeao3t5WSaXS2A _GRlLYJY1Eeao3t5WSaXS2A _HswI4JY1Eeao3t5WSaXS2A _JJcwYJY1Eeao3t5WSaXS2A _KbPvcJY1Eeao3t5WSaXS2A" node="_e98SMJcLEeaMMoFIqeIHhA _jqp48JcLEeaMMoFIqeIHhA _0hNmYJcLEeaMMoFIqeIHhA _GRWAIJcMEeaMMoFIqeIHhA _j-mTMJcMEeaMMoFIqeIHhA _2MOhQJcMEeaMMoFIqeIHhA _IjFj0JcNEeaMMoFIqeIHhA _UvmkAJcNEeaMMoFIqeIHhA _mg5bYJcNEeaMMoFIqeIHhA" group="_vL_I0JY0Eeao3t5WSaXS2A _YN3skJcLEeaMMoFIqeIHhA" partition="_vL_I0JY0Eeao3t5WSaXS2A _YN3skJcLEeaMMoFIqeIHhA">
           <ownedUseCase xmi:id="_DaY70JY1Eeao3t5WSaXS2A" name="Cadastrar Desligamento" subject="_teMKQJY0Eeao3t5WSaXS2A"/>
           <ownedUseCase xmi:id="_GRlLYJY1Eeao3t5WSaXS2A" name="Consultar Desligamento" subject="_teMKQJY0Eeao3t5WSaXS2A">
             <include xmi:id="_VjHbwJY1Eeao3t5WSaXS2A" addition="_KbPvcJY1Eeao3t5WSaXS2A"/>
@@ -1787,7 +1787,67 @@
           <ownedUseCase xmi:id="_HswI4JY1Eeao3t5WSaXS2A" name="Excluir Desligamento" subject="_teMKQJY0Eeao3t5WSaXS2A"/>
           <ownedUseCase xmi:id="_JJcwYJY1Eeao3t5WSaXS2A" name="Consultar Dados para Aposentadoria" subject="_teMKQJY0Eeao3t5WSaXS2A"/>
           <ownedUseCase xmi:id="_KbPvcJY1Eeao3t5WSaXS2A" name="Alterar Desligamento" subject="_teMKQJY0Eeao3t5WSaXS2A"/>
-          <group xmi:type="uml:ActivityPartition" xmi:id="_vL_I0JY0Eeao3t5WSaXS2A" name="ActivityPartition1"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_qIAW4JcLEeaMMoFIqeIHhA" target="_jqp48JcLEeaMMoFIqeIHhA" source="_e98SMJcLEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_qICzIJcLEeaMMoFIqeIHhA" name="Início de Atividade_To_FB.01 - Seleciona a opção para Consulta de Dados para Aposentadoria_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_qIISsJcLEeaMMoFIqeIHhA" name="Início de Atividade_To_FB.01 - Seleciona a opção para Consulta de Dados para Aposentadoria_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="__fD0AJcLEeaMMoFIqeIHhA" target="_0hNmYJcLEeaMMoFIqeIHhA" source="_jqp48JcLEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="__fEbEJcLEeaMMoFIqeIHhA" name="FB.01 - Seleciona a opção para Consulta de Dados para Aposentadoria_To_FB.02 - Apresenta os dados para aposentadoria de acordo com as informações do servidor_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="__fFCIJcLEeaMMoFIqeIHhA" name="FB.01 - Seleciona a opção para Consulta de Dados para Aposentadoria_To_FB.02 - Apresenta os dados para aposentadoria de acordo com as informações do servidor_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_eqhKcJcMEeaMMoFIqeIHhA" target="_GRWAIJcMEeaMMoFIqeIHhA" source="_0hNmYJcLEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_eqiYkJcMEeaMMoFIqeIHhA" name="FB.02 - Apresenta os dados para aposentadoria de acordo com as informações do servidor_To_FA.01.1 - Deseja consultar regras da aposentadoria?_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_eq2hoJcMEeaMMoFIqeIHhA" name="FB.02 - Apresenta os dados para aposentadoria de acordo com as informações do servidor_To_FA.01.1 - Deseja consultar regras da aposentadoria?_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ndxIwJcMEeaMMoFIqeIHhA" name="Não" target="_mg5bYJcNEeaMMoFIqeIHhA" source="_GRWAIJcMEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_oRzNwJcMEeaMMoFIqeIHhA" name="null_guard">
+              <body>Não</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_ndxv0JcMEeaMMoFIqeIHhA" name="FA.01.1 - Deseja consultar regras para aposentadoria?_To_Fim de Atividade_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_8ti5MJcMEeaMMoFIqeIHhA" name="Sim" target="_2MOhQJcMEeaMMoFIqeIHhA" source="_GRWAIJcMEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:OpaqueExpression" xmi:id="_-EznEJcMEeaMMoFIqeIHhA" name="null_guard">
+              <body>Sim</body>
+            </guard>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_8tkHUJcMEeaMMoFIqeIHhA" name="FA.01.1 - Deseja consultar regras para aposentadoria?_To_FA.01.2 - Seleciona o motivo de aposentadoria e submete a consulta_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_RNa2sJcNEeaMMoFIqeIHhA" target="_IjFj0JcNEeaMMoFIqeIHhA" source="_2MOhQJcMEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_RNbdwJcNEeaMMoFIqeIHhA" name="FA.01.2 - Seleciona o motivo de aposentadoria e submete a consulta_To_FA.01.3 - Valida a seleção e apresenta as regras de acordo com o motivo selecionado_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_RNcE0JcNEeaMMoFIqeIHhA" name="FA.01.2 - Seleciona o motivo de aposentadoria e submete a consulta_To_FA.01.3 - Valida a seleção e apresenta as regras de acordo com o motivo selecionado_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_yMECAJcNEeaMMoFIqeIHhA" target="_mg5bYJcNEeaMMoFIqeIHhA" source="_IjFj0JcNEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_yMEpEJcNEeaMMoFIqeIHhA" name="FA.01.3 - Valida a seleção e apresenta as regras de acordo com o motivo selecionado_To_Conector_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_yMFQIJcNEeaMMoFIqeIHhA" name="FA.01.3 - Valida a seleção e apresenta as regras de acordo com o motivo selecionado_To_Conector_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_48AEwJcNEeaMMoFIqeIHhA" target="_UvmkAJcNEeaMMoFIqeIHhA" source="_mg5bYJcNEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_48Ar0JcNEeaMMoFIqeIHhA" name="Conector_To_FB.03 - Encerra a operação_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_48BS4JcNEeaMMoFIqeIHhA" name="Conector_To_FB.03 - Encerra a operação_weight"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_6JfLkJcNEeaMMoFIqeIHhA" target="_j-mTMJcMEeaMMoFIqeIHhA" source="_UvmkAJcNEeaMMoFIqeIHhA">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_6JgZsJcNEeaMMoFIqeIHhA" name="FB.03 - Encerra a operação_To_Fim de Atividade_guard" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_6JgZsZcNEeaMMoFIqeIHhA" name="FB.03 - Encerra a operação_To_Fim de Atividade_weight"/>
+          </edge>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_vL_I0JY0Eeao3t5WSaXS2A" name="Operador" node="_e98SMJcLEeaMMoFIqeIHhA _jqp48JcLEeaMMoFIqeIHhA _GRWAIJcMEeaMMoFIqeIHhA _j-mTMJcMEeaMMoFIqeIHhA _2MOhQJcMEeaMMoFIqeIHhA _UvmkAJcNEeaMMoFIqeIHhA _mg5bYJcNEeaMMoFIqeIHhA"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_YN3skJcLEeaMMoFIqeIHhA" name="Sistema" node="_0hNmYJcLEeaMMoFIqeIHhA _IjFj0JcNEeaMMoFIqeIHhA"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_e98SMJcLEeaMMoFIqeIHhA" name="Início de Atividade" outgoing="_qIAW4JcLEeaMMoFIqeIHhA" inPartition="_vL_I0JY0Eeao3t5WSaXS2A"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_jqp48JcLEeaMMoFIqeIHhA" name="FB.01 - Seleciona a opção para Consulta de Dados para Aposentadoria" incoming="_qIAW4JcLEeaMMoFIqeIHhA" outgoing="__fD0AJcLEeaMMoFIqeIHhA" inPartition="_vL_I0JY0Eeao3t5WSaXS2A">
+            <body>// TODO body of OpaqueAction1</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_0hNmYJcLEeaMMoFIqeIHhA" name="FB.02 - Apresenta os dados para aposentadoria de acordo com as informações do servidor" incoming="__fD0AJcLEeaMMoFIqeIHhA" outgoing="_eqhKcJcMEeaMMoFIqeIHhA" inPartition="_YN3skJcLEeaMMoFIqeIHhA">
+            <body>// TODO body of OpaqueAction2</body>
+          </node>
+          <node xmi:type="uml:DecisionNode" xmi:id="_GRWAIJcMEeaMMoFIqeIHhA" name="FA.01.1 - Deseja consultar regras para aposentadoria?" incoming="_eqhKcJcMEeaMMoFIqeIHhA" outgoing="_ndxIwJcMEeaMMoFIqeIHhA _8ti5MJcMEeaMMoFIqeIHhA" inPartition="_vL_I0JY0Eeao3t5WSaXS2A"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_j-mTMJcMEeaMMoFIqeIHhA" name="Fim de Atividade" incoming="_6JfLkJcNEeaMMoFIqeIHhA" inPartition="_vL_I0JY0Eeao3t5WSaXS2A"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_2MOhQJcMEeaMMoFIqeIHhA" name="FA.01.2 - Seleciona o motivo de aposentadoria e submete a consulta" incoming="_8ti5MJcMEeaMMoFIqeIHhA" outgoing="_RNa2sJcNEeaMMoFIqeIHhA" inPartition="_vL_I0JY0Eeao3t5WSaXS2A">
+            <body>// TODO body of OpaqueAction3</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_IjFj0JcNEeaMMoFIqeIHhA" name="FA.01.3 - Valida a seleção e apresenta as regras de acordo com o motivo selecionado" incoming="_RNa2sJcNEeaMMoFIqeIHhA" outgoing="_yMECAJcNEeaMMoFIqeIHhA" inPartition="_YN3skJcLEeaMMoFIqeIHhA">
+            <body>// TODO body of OpaqueAction4</body>
+          </node>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_UvmkAJcNEeaMMoFIqeIHhA" name="FB.03 - Encerra a operação" incoming="_48AEwJcNEeaMMoFIqeIHhA" outgoing="_6JfLkJcNEeaMMoFIqeIHhA" inPartition="_vL_I0JY0Eeao3t5WSaXS2A">
+            <body>// TODO body of OpaqueAction5</body>
+          </node>
+          <node xmi:type="uml:MergeNode" xmi:id="_mg5bYJcNEeaMMoFIqeIHhA" name="Conector" incoming="_ndxIwJcMEeaMMoFIqeIHhA _yMECAJcNEeaMMoFIqeIHhA" outgoing="_48AEwJcNEeaMMoFIqeIHhA" inPartition="_vL_I0JY0Eeao3t5WSaXS2A"/>
         </packagedElement>
       </packagedElement>
     </packagedElement>
