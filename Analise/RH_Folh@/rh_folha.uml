@@ -2349,6 +2349,73 @@
           </region>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_IFj_cJe_EeaDGO2W6-MjMg" name="Desligamento">
+        <packagedElement xmi:type="uml:StateMachine" xmi:id="_MXThcJe_EeaDGO2W6-MjMg" name="Desligamento">
+          <region xmi:id="_MmTmwJe_EeaDGO2W6-MjMg" name="Region1">
+            <transition xmi:id="_mH7m4Je_EeaDGO2W6-MjMg" guard="_xblFYJe_EeaDGO2W6-MjMg" source="_UjAXkJe_EeaDGO2W6-MjMg" target="_VgVigJe_EeaDGO2W6-MjMg">
+              <ownedRule xmi:id="_xblFYJe_EeaDGO2W6-MjMg" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_xblFYZe_EeaDGO2W6-MjMg" name="null_guard">
+                  <body>NV-AGPUBL</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_mqorUJe_EeaDGO2W6-MjMg" guard="_08dyMJe_EeaDGO2W6-MjMg" source="_VgVigJe_EeaDGO2W6-MjMg" target="_W-qhsJe_EeaDGO2W6-MjMg">
+              <ownedRule xmi:id="_08dyMJe_EeaDGO2W6-MjMg" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_08dyMZe_EeaDGO2W6-MjMg" name="null_guard">
+                  <body>AGPUBL-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_nDLuMJe_EeaDGO2W6-MjMg" guard="_y7G-cJe_EeaDGO2W6-MjMg" source="_VgVigJe_EeaDGO2W6-MjMg" target="_VgVigJe_EeaDGO2W6-MjMg">
+              <ownedRule xmi:id="_y7G-cJe_EeaDGO2W6-MjMg" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_y7G-cZe_EeaDGO2W6-MjMg" name="null_guard">
+                  <body>AGPUBL-AGPUBL</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_qccJAJe_EeaDGO2W6-MjMg" guard="_3GEjAJe_EeaDGO2W6-MjMg" source="_W-qhsJe_EeaDGO2W6-MjMg" target="_W-qhsJe_EeaDGO2W6-MjMg">
+              <ownedRule xmi:id="_3GEjAJe_EeaDGO2W6-MjMg" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_3GEjAZe_EeaDGO2W6-MjMg" name="null_guard">
+                  <body>EFET-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_thiRsJe_EeaDGO2W6-MjMg" guard="_APWbsJfAEeaDGO2W6-MjMg" source="_W-qhsJe_EeaDGO2W6-MjMg" target="_X-3acJe_EeaDGO2W6-MjMg">
+              <ownedRule xmi:id="_APWbsJfAEeaDGO2W6-MjMg" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_APWbsZfAEeaDGO2W6-MjMg" name="null_guard">
+                  <body>EFET-TINSUB</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_uBhZUJe_EeaDGO2W6-MjMg" guard="_5UAaMJe_EeaDGO2W6-MjMg" source="_W-qhsJe_EeaDGO2W6-MjMg" target="_ZJkTAJe_EeaDGO2W6-MjMg">
+              <ownedRule xmi:id="_5UAaMJe_EeaDGO2W6-MjMg" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_5UAaMZe_EeaDGO2W6-MjMg" name="null_guard">
+                  <body>EFET-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_vMglwJe_EeaDGO2W6-MjMg" guard="_8_Fk0Je_EeaDGO2W6-MjMg" source="_VgVigJe_EeaDGO2W6-MjMg" target="_ZJkTAJe_EeaDGO2W6-MjMg">
+              <ownedRule xmi:id="_8_Fk0Je_EeaDGO2W6-MjMg" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_8_Fk0Ze_EeaDGO2W6-MjMg" name="null_guard">
+                  <body>AGPUBL-EXC</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <transition xmi:id="_X9lEMJfDEeaDGO2W6-MjMg" guard="_yrsFkJfDEeaDGO2W6-MjMg" source="_UjAXkJe_EeaDGO2W6-MjMg" target="_W-qhsJe_EeaDGO2W6-MjMg">
+              <ownedRule xmi:id="_yrsFkJfDEeaDGO2W6-MjMg" name="null_transition">
+                <specification xmi:type="uml:OpaqueExpression" xmi:id="_yrsFkZfDEeaDGO2W6-MjMg" name="null_guard">
+                  <body>NV-EFET</body>
+                </specification>
+              </ownedRule>
+            </transition>
+            <subvertex xmi:type="uml:State" xmi:id="_UjAXkJe_EeaDGO2W6-MjMg" name="Novo"/>
+            <subvertex xmi:type="uml:State" xmi:id="_VgVigJe_EeaDGO2W6-MjMg" name="Aguardando Publicação"/>
+            <subvertex xmi:type="uml:State" xmi:id="_W-qhsJe_EeaDGO2W6-MjMg" name="Efetivado"/>
+            <subvertex xmi:type="uml:State" xmi:id="_X-3acJe_EeaDGO2W6-MjMg" name="Tornado Insubsistente"/>
+            <subvertex xmi:type="uml:State" xmi:id="_ZJkTAJe_EeaDGO2W6-MjMg" name="Excluído"/>
+          </region>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_mCfMIHOiEeaYXvGbrF280Q" name="Cadastro Base">
       <packagedElement xmi:type="uml:Package" xmi:id="_NWcwMHOiEeaYXvGbrF280Q" name="Cargos">
@@ -3555,6 +3622,14 @@
         <subvertex xmi:type="uml:Pseudostate" xmi:id="_zQQo8E3aEeawn_P5QTRtmQ" name="Initial2"/>
         <subvertex xmi:type="uml:Pseudostate" xmi:id="_W9EDoE3bEeawn_P5QTRtmQ" name="Initial3"/>
         <subvertex xmi:type="uml:Pseudostate" xmi:id="_YGg_AE3bEeawn_P5QTRtmQ" name="1" kind="shallowHistory"/>
+      </region>
+    </packagedElement>
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_xEPuAJfAEeaDGO2W6-MjMg" name="Desligamento">
+      <region xmi:id="_xiABAJfAEeaDGO2W6-MjMg" name="Region1">
+        <subvertex xmi:type="uml:State" xmi:id="_2to_cJfAEeaDGO2W6-MjMg" name="Novo"/>
+        <subvertex xmi:type="uml:State" xmi:id="_3RDOgJfAEeaDGO2W6-MjMg" name="Efetivado"/>
+        <subvertex xmi:type="uml:State" xmi:id="_CDmLEJfBEeaDGO2W6-MjMg" name="Tornado Insubsistente"/>
+        <subvertex xmi:type="uml:State" xmi:id="_E0mTEJfBEeaDGO2W6-MjMg" name="Excluído"/>
       </region>
     </packagedElement>
   </packagedElement>
