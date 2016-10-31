@@ -1850,6 +1850,181 @@
           <node xmi:type="uml:MergeNode" xmi:id="_mg5bYJcNEeaMMoFIqeIHhA" name="Conector" incoming="_ndxIwJcMEeaMMoFIqeIHhA _yMECAJcNEeaMMoFIqeIHhA" outgoing="_48AEwJcNEeaMMoFIqeIHhA" inPartition="_vL_I0JY0Eeao3t5WSaXS2A"/>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_Vhlp0J-NEeazpMIaimmURw" name="Ingresso">
+        <packagedElement xmi:type="uml:Package" xmi:id="_YL0bcJ-NEeazpMIaimmURw" name="Prontuário">
+          <packagedElement xmi:type="uml:Activity" xmi:id="_bJKWUJ-NEeazpMIaimmURw" name="Gerenciar Dados Cadastrais" node="_ljj4oJ-NEeazpMIaimmURw _tuVhsJ-NEeazpMIaimmURw _5GcCYJ-NEeazpMIaimmURw _HcrvMJ-OEeazpMIaimmURw _O8xcgJ-OEeazpMIaimmURw _Th3_YJ-OEeazpMIaimmURw _a5a0sJ-OEeazpMIaimmURw _jEFJAJ-OEeazpMIaimmURw _s8HlIJ-OEeazpMIaimmURw _47ikgJ-OEeazpMIaimmURw _EiNssJ-PEeazpMIaimmURw _aAqLQJ-PEeazpMIaimmURw _o6higJ-PEeazpMIaimmURw _XpYVYJ-QEeazpMIaimmURw _j9nHIJ-QEeazpMIaimmURw _wpzF4J-QEeazpMIaimmURw _L6jhUJ-REeazpMIaimmURw _jwuPwJ-SEeazpMIaimmURw _6TLJAJ-SEeazpMIaimmURw _E6K84J-TEeazpMIaimmURw _QWqOUJ-TEeazpMIaimmURw _p_gQwJ-TEeazpMIaimmURw _2KC7AJ-TEeazpMIaimmURw" group="_f9GmcJ-NEeazpMIaimmURw _hSHRkJ-NEeazpMIaimmURw" partition="_f9GmcJ-NEeazpMIaimmURw _hSHRkJ-NEeazpMIaimmURw">
+            <edge xmi:type="uml:ControlFlow" xmi:id="_4K6OQJ-NEeazpMIaimmURw" target="_tuVhsJ-NEeazpMIaimmURw" source="_ljj4oJ-NEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_4K7cYJ-NEeazpMIaimmURw" name="Ínício de Atividade_To_FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_4K9RkJ-NEeazpMIaimmURw" name="Ínício de Atividade_To_FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_-CKVgJ-NEeazpMIaimmURw" target="_5GcCYJ-NEeazpMIaimmURw" source="_tuVhsJ-NEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_-CLjoJ-NEeazpMIaimmURw" name="FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema_To_FB.02 - Apresenta o prontuário selecionado_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_-CMKsJ-NEeazpMIaimmURw" name="FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema_To_FB.02 - Apresenta o prontuário selecionado_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_MLpYsJ-OEeazpMIaimmURw" target="_HcrvMJ-OEeazpMIaimmURw" source="_5GcCYJ-NEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_MLp_wJ-OEeazpMIaimmURw" name="FB.02 - Apresenta o prontuário selecionado_To_FB.03 - Seleciona as informações cadastrais que deseja visualizar_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_MLqm0J-OEeazpMIaimmURw" name="FB.02 - Apresenta o prontuário selecionado_To_FB.03 - Seleciona as informações cadastrais que deseja visualizar_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_SOlLgJ-OEeazpMIaimmURw" target="_O8xcgJ-OEeazpMIaimmURw" source="_HcrvMJ-OEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_SOmZoJ-OEeazpMIaimmURw" name="FB.03 - Seleciona as informações cadastrais que deseja visualizar_To_FB.04 - Apresenta as informações selecionadas_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_SOnAsJ-OEeazpMIaimmURw" name="FB.03 - Seleciona as informações cadastrais que deseja visualizar_To_FB.04 - Apresenta as informações selecionadas_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_W5HA8J-OEeazpMIaimmURw" target="_Th3_YJ-OEeazpMIaimmURw" source="_O8xcgJ-OEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_W5HoAJ-OEeazpMIaimmURw" name="FB.04 - Apresenta as informações selecionadas_To_FB.05 - Seleciona a opção para Editar Dados_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_W5HoAZ-OEeazpMIaimmURw" name="FB.04 - Apresenta as informações selecionadas_To_FB.05 - Seleciona a opção para Editar Dados_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_fOD5sJ-OEeazpMIaimmURw" target="_aAqLQJ-PEeazpMIaimmURw" source="_Th3_YJ-OEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_fOEgwJ-OEeazpMIaimmURw" name="FB.05 - Seleciona a opção para Editar Dados_To_FB.06 - Habilita os campos referentes para edição_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_fOFH0J-OEeazpMIaimmURw" name="FB.05 - Seleciona a opção para Editar Dados_To_FB.06 - Habilita os campos referentes para edição_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_pCUCAJ-OEeazpMIaimmURw" target="_jEFJAJ-OEeazpMIaimmURw" source="_a5a0sJ-OEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_pCUpEJ-OEeazpMIaimmURw" name="FB.06 - Habilita os campos referentes para edição_To_FB.07 - Realiza as edições necessárias e seleciona opção para Salvar Dados_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_pCVQIJ-OEeazpMIaimmURw" name="FB.06 - Habilita os campos referentes para edição_To_FB.07 - Realiza as edições necessárias e seleciona opção para Salvar Dados_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_xP3SQJ-OEeazpMIaimmURw" target="_L6jhUJ-REeazpMIaimmURw" source="_jEFJAJ-OEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_xP35UJ-OEeazpMIaimmURw" name="FB.07 - Realiza as edições necessárias e seleciona opção para Salvar Dados_To_FB.08 - Valida os dados preenchidos_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_xP4gYJ-OEeazpMIaimmURw" name="FB.07 - Realiza as edições necessárias e seleciona opção para Salvar Dados_To_FB.08 - Valida os dados preenchidos_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_DqZT4J-PEeazpMIaimmURw" target="_47ikgJ-OEeazpMIaimmURw" source="_s8HlIJ-OEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_DqZ68J-PEeazpMIaimmURw" name="FB.08 - Valida os dados preenchidos_To_FA.01.1 - Existem informações inválidas?_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_DqaiAJ-PEeazpMIaimmURw" name="FB.08 - Valida os dados preenchidos_To_FA.01.1 - Existem informações inválidas?_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_W3QxYJ-PEeazpMIaimmURw" name="Sim" target="_EiNssJ-PEeazpMIaimmURw" source="_47ikgJ-OEeazpMIaimmURw">
+              <guard xmi:type="uml:OpaqueExpression" xmi:id="_8OE20J-PEeazpMIaimmURw" name="null_guard">
+                <body>Sim</body>
+              </guard>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_W3SmkJ-PEeazpMIaimmURw" name="FA.01.1 - Existem informações inválidas?_To_FA.01.2 - Apresenta as razões pelas quais não foi possível Salvar Dados_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_XdGpYJ-PEeazpMIaimmURw" target="_aAqLQJ-PEeazpMIaimmURw" source="_EiNssJ-PEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_XdHQcJ-PEeazpMIaimmURw" name="FA.01.2 - Apresenta as razões pelas quais não foi possível Salvar Dados_To_FB.06 - Habilita os campos referentes para edição_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_XdHQcZ-PEeazpMIaimmURw" name="FA.01.2 - Apresenta as razões pelas quais não foi possível Salvar Dados_To_FB.06 - Habilita os campos referentes para edição_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_fFGVgJ-PEeazpMIaimmURw" target="_a5a0sJ-OEeazpMIaimmURw" source="_aAqLQJ-PEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_fFHjoJ-PEeazpMIaimmURw" name="Conector_To_FB.06 - Habilita os campos referentes para edição_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_fFIKsJ-PEeazpMIaimmURw" name="Conector_To_FB.06 - Habilita os campos referentes para edição_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_2Qdo4J-PEeazpMIaimmURw" name="Não" target="_o6higJ-PEeazpMIaimmURw" source="_47ikgJ-OEeazpMIaimmURw">
+              <guard xmi:type="uml:OpaqueExpression" xmi:id="_9boPEJ-PEeazpMIaimmURw" name="null_guard">
+                <body>Não</body>
+              </guard>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_2QeP8Z-PEeazpMIaimmURw" name="FA.01.1 - Existem informações inválidas?_To_FB.09 - Efetua a operação realizada e retorna mensagem de confirmação_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_tOmKUJ-QEeazpMIaimmURw" name="Sim" target="_j9nHIJ-QEeazpMIaimmURw" source="_XpYVYJ-QEeazpMIaimmURw">
+              <guard xmi:type="uml:OpaqueExpression" xmi:id="_BIJcwJ-TEeazpMIaimmURw" name="null_guard">
+                <body>Sim</body>
+              </guard>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_tOnYcJ-QEeazpMIaimmURw" name="FA.02.1 - Deseja adicionar novos dados?_To_FA.02.2 - Seleciona a opção para Adicionar Dados_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_0Z1pAJ-QEeazpMIaimmURw" target="_wpzF4J-QEeazpMIaimmURw" source="_j9nHIJ-QEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_0Z2QEJ-QEeazpMIaimmURw" name="FA.02.2 - Seleciona a opção para Adicionar Dados_To_FA.02.3 - Apresenta os campos para preenchimento_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_0Z23IJ-QEeazpMIaimmURw" name="FA.02.2 - Seleciona a opção para Adicionar Dados_To_FA.02.3 - Apresenta os campos para preenchimento_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_RP7qkJ-REeazpMIaimmURw" target="_s8HlIJ-OEeazpMIaimmURw" source="_L6jhUJ-REeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_RP9fwJ-REeazpMIaimmURw" name="Conector_To_FB.08 - Valida os dados preenchidos_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_RP-G0J-REeazpMIaimmURw" name="Conector_To_FB.08 - Valida os dados preenchidos_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_o87O4J-SEeazpMIaimmURw" target="_jwuPwJ-SEeazpMIaimmURw" source="_wpzF4J-QEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_o8718J-SEeazpMIaimmURw" name="FA.02.3 - Apresenta os campos para preenchimento_To_FA.02.4 - Preenche os campos e seleciona opção para Salvar Dados_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_o8718Z-SEeazpMIaimmURw" name="FA.02.3 - Apresenta os campos para preenchimento_To_FA.02.4 - Preenche os campos e seleciona opção para Salvar Dados_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_veCygJ-SEeazpMIaimmURw" target="_L6jhUJ-REeazpMIaimmURw" source="_jwuPwJ-SEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_veDZkJ-SEeazpMIaimmURw" name="FA.02.4 - Preenche os campos e seleciona opção para Salvar Dados_To_Conector_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_veEAoJ-SEeazpMIaimmURw" name="FA.02.4 - Preenche os campos e seleciona opção para Salvar Dados_To_Conector_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_xlxUAJ-SEeazpMIaimmURw" target="_XpYVYJ-QEeazpMIaimmURw" source="_o6higJ-PEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_xlx7EJ-SEeazpMIaimmURw" name="FB.09 - Efetua a operação realizada e retorna mensagem de confirmação_To_FA.02.1 - Deseja adicionar novos dados?_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_xlyiIJ-SEeazpMIaimmURw" name="FB.09 - Efetua a operação realizada e retorna mensagem de confirmação_To_FA.02.1 - Deseja adicionar novos dados?_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="__ctOoJ-SEeazpMIaimmURw" name="Não" target="_6TLJAJ-SEeazpMIaimmURw" source="_XpYVYJ-QEeazpMIaimmURw">
+              <guard xmi:type="uml:OpaqueExpression" xmi:id="_ALcj8J-TEeazpMIaimmURw" name="null_guard">
+                <body>Não</body>
+              </guard>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="__cucwJ-SEeazpMIaimmURw" name="FA.02.1 - Deseja adicionar novos dados?_To_FA.03.1 - Deseja excluir dados?_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_OG9ckJ-TEeazpMIaimmURw" name="Sim" target="_E6K84J-TEeazpMIaimmURw" source="_6TLJAJ-SEeazpMIaimmURw">
+              <guard xmi:type="uml:OpaqueExpression" xmi:id="_jDoDwJ-TEeazpMIaimmURw" name="null_guard">
+                <body>Sim</body>
+              </guard>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_OG-DoZ-TEeazpMIaimmURw" name="FA.03.1 - Deseja excluir dados?_To_FA.03.2 - Seleciona a opção para Excluir Dados_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_crrDMJ-TEeazpMIaimmURw" target="_QWqOUJ-TEeazpMIaimmURw" source="_E6K84J-TEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_crrqQJ-TEeazpMIaimmURw" name="FA.03.2 - Seleciona o registro que deseja excluir_To_FA.03.3 - Seleciona opção para Excluir Dados e em seguida, Salvar Dados_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_crsRUJ-TEeazpMIaimmURw" name="FA.03.2 - Seleciona o registro que deseja excluir_To_FA.03.3 - Seleciona opção para Excluir Dados e em seguida, Salvar Dados_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_glkF4J-TEeazpMIaimmURw" target="_L6jhUJ-REeazpMIaimmURw" source="_QWqOUJ-TEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_glks8J-TEeazpMIaimmURw" name="FA.03.3 - Seleciona opção para Excluir Dados e em seguida, Salvar Dados_To_Conector_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_glks8Z-TEeazpMIaimmURw" name="FA.03.3 - Seleciona opção para Excluir Dados e em seguida, Salvar Dados_To_Conector_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_vkAbIJ-TEeazpMIaimmURw" name="Não" target="_p_gQwJ-TEeazpMIaimmURw" source="_6TLJAJ-SEeazpMIaimmURw">
+              <guard xmi:type="uml:OpaqueExpression" xmi:id="_xHLeEJ-TEeazpMIaimmURw" name="null_guard">
+                <body>Não</body>
+              </guard>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_vkBCMZ-TEeazpMIaimmURw" name="FA.03.1 - Deseja excluir dados?_To_FB.10 - Encerra a operação_weight"/>
+            </edge>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_4n9H4J-TEeazpMIaimmURw" target="_2KC7AJ-TEeazpMIaimmURw" source="_p_gQwJ-TEeazpMIaimmURw">
+              <guard xmi:type="uml:LiteralBoolean" xmi:id="_4n9u8J-TEeazpMIaimmURw" name="FB.10 - Encerra a operação_To_Fim de Atividade_guard" value="true"/>
+              <weight xmi:type="uml:LiteralInteger" xmi:id="_4n-WAJ-TEeazpMIaimmURw" name="FB.10 - Encerra a operação_To_Fim de Atividade_weight"/>
+            </edge>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_f9GmcJ-NEeazpMIaimmURw" name="Operador" node="_ljj4oJ-NEeazpMIaimmURw _tuVhsJ-NEeazpMIaimmURw _HcrvMJ-OEeazpMIaimmURw _Th3_YJ-OEeazpMIaimmURw _jEFJAJ-OEeazpMIaimmURw _j9nHIJ-QEeazpMIaimmURw _L6jhUJ-REeazpMIaimmURw _jwuPwJ-SEeazpMIaimmURw _E6K84J-TEeazpMIaimmURw _QWqOUJ-TEeazpMIaimmURw _p_gQwJ-TEeazpMIaimmURw _2KC7AJ-TEeazpMIaimmURw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_hSHRkJ-NEeazpMIaimmURw" name="Sistema" node="_5GcCYJ-NEeazpMIaimmURw _O8xcgJ-OEeazpMIaimmURw _a5a0sJ-OEeazpMIaimmURw _s8HlIJ-OEeazpMIaimmURw _47ikgJ-OEeazpMIaimmURw _EiNssJ-PEeazpMIaimmURw _aAqLQJ-PEeazpMIaimmURw _o6higJ-PEeazpMIaimmURw _XpYVYJ-QEeazpMIaimmURw _wpzF4J-QEeazpMIaimmURw _6TLJAJ-SEeazpMIaimmURw"/>
+            <node xmi:type="uml:InitialNode" xmi:id="_ljj4oJ-NEeazpMIaimmURw" name="Ínício de Atividade" outgoing="_4K6OQJ-NEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_tuVhsJ-NEeazpMIaimmURw" name="FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema" incoming="_4K6OQJ-NEeazpMIaimmURw" outgoing="_-CKVgJ-NEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction1</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_5GcCYJ-NEeazpMIaimmURw" name="FB.02 - Apresenta o prontuário selecionado" incoming="_-CKVgJ-NEeazpMIaimmURw" outgoing="_MLpYsJ-OEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction2</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_HcrvMJ-OEeazpMIaimmURw" name="FB.03 - Seleciona as informações cadastrais que deseja visualizar" incoming="_MLpYsJ-OEeazpMIaimmURw" outgoing="_SOlLgJ-OEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction3</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_O8xcgJ-OEeazpMIaimmURw" name="FB.04 - Apresenta as informações selecionadas" incoming="_SOlLgJ-OEeazpMIaimmURw" outgoing="_W5HA8J-OEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction4</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Th3_YJ-OEeazpMIaimmURw" name="FB.05 - Seleciona a opção para Editar Dados" incoming="_W5HA8J-OEeazpMIaimmURw" outgoing="_fOD5sJ-OEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction5</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_a5a0sJ-OEeazpMIaimmURw" name="FB.06 - Habilita os campos referentes para edição" incoming="_fFGVgJ-PEeazpMIaimmURw" outgoing="_pCUCAJ-OEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction6</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_jEFJAJ-OEeazpMIaimmURw" name="FB.07 - Realiza as edições necessárias e seleciona opção para Salvar Dados" incoming="_pCUCAJ-OEeazpMIaimmURw" outgoing="_xP3SQJ-OEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction7</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_s8HlIJ-OEeazpMIaimmURw" name="FB.08 - Valida os dados preenchidos" incoming="_RP7qkJ-REeazpMIaimmURw" outgoing="_DqZT4J-PEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction8</body>
+            </node>
+            <node xmi:type="uml:DecisionNode" xmi:id="_47ikgJ-OEeazpMIaimmURw" name="FA.01.1 - Existem informações inválidas?" incoming="_DqZT4J-PEeazpMIaimmURw" outgoing="_W3QxYJ-PEeazpMIaimmURw _2Qdo4J-PEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_EiNssJ-PEeazpMIaimmURw" name="FA.01.2 - Apresenta as razões pelas quais não foi possível Salvar Dados" incoming="_W3QxYJ-PEeazpMIaimmURw" outgoing="_XdGpYJ-PEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction9</body>
+            </node>
+            <node xmi:type="uml:MergeNode" xmi:id="_aAqLQJ-PEeazpMIaimmURw" name="Conector" incoming="_XdGpYJ-PEeazpMIaimmURw _fOD5sJ-OEeazpMIaimmURw" outgoing="_fFGVgJ-PEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_o6higJ-PEeazpMIaimmURw" name="FB.09 - Efetua a operação realizada e retorna mensagem de confirmação" incoming="_2Qdo4J-PEeazpMIaimmURw" outgoing="_xlxUAJ-SEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction10</body>
+            </node>
+            <node xmi:type="uml:DecisionNode" xmi:id="_XpYVYJ-QEeazpMIaimmURw" name="FA.02.1 - Deseja adicionar novos dados?" incoming="_xlxUAJ-SEeazpMIaimmURw" outgoing="_tOmKUJ-QEeazpMIaimmURw __ctOoJ-SEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_j9nHIJ-QEeazpMIaimmURw" name="FA.02.2 - Seleciona a opção para Adicionar Dados" incoming="_tOmKUJ-QEeazpMIaimmURw" outgoing="_0Z1pAJ-QEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction11</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_wpzF4J-QEeazpMIaimmURw" name="FA.02.3 - Apresenta os campos para preenchimento" incoming="_0Z1pAJ-QEeazpMIaimmURw" outgoing="_o87O4J-SEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction12</body>
+            </node>
+            <node xmi:type="uml:MergeNode" xmi:id="_L6jhUJ-REeazpMIaimmURw" name="Conector" incoming="_xP3SQJ-OEeazpMIaimmURw _veCygJ-SEeazpMIaimmURw _glkF4J-TEeazpMIaimmURw" outgoing="_RP7qkJ-REeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_jwuPwJ-SEeazpMIaimmURw" name="FA.02.4 - Preenche os campos e seleciona opção para Salvar Dados" incoming="_o87O4J-SEeazpMIaimmURw" outgoing="_veCygJ-SEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction13</body>
+            </node>
+            <node xmi:type="uml:DecisionNode" xmi:id="_6TLJAJ-SEeazpMIaimmURw" name="FA.03.1 - Deseja excluir dados?" incoming="__ctOoJ-SEeazpMIaimmURw" outgoing="_OG9ckJ-TEeazpMIaimmURw _vkAbIJ-TEeazpMIaimmURw" inPartition="_hSHRkJ-NEeazpMIaimmURw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_E6K84J-TEeazpMIaimmURw" name="FA.03.2 - Seleciona o registro que deseja excluir" incoming="_OG9ckJ-TEeazpMIaimmURw" outgoing="_crrDMJ-TEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction14</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QWqOUJ-TEeazpMIaimmURw" name="FA.03.3 - Seleciona opção para Excluir Dados e em seguida, Salvar Dados" incoming="_crrDMJ-TEeazpMIaimmURw" outgoing="_glkF4J-TEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction15</body>
+            </node>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_p_gQwJ-TEeazpMIaimmURw" name="FB.10 - Encerra a operação" incoming="_vkAbIJ-TEeazpMIaimmURw" outgoing="_4n9H4J-TEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw">
+              <body>// TODO body of OpaqueAction16</body>
+            </node>
+            <node xmi:type="uml:ActivityFinalNode" xmi:id="_2KC7AJ-TEeazpMIaimmURw" name="Fim de Atividade" incoming="_4n9H4J-TEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_VcDMMEO8EeaRnrYFrIkXNQ" name="CicloVidaEventos">
