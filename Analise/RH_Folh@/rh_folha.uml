@@ -1878,7 +1878,7 @@
             <ownedUseCase xmi:id="_KJC-4KHrEeaaNMsIWviPvg" name="Cadastrar Pessoa Vinculada" subject="_bJKWUJ-NEeazpMIaimmURw"/>
             <ownedUseCase xmi:id="_MNaqYKHrEeaaNMsIWviPvg" name="Alterar Pessoa Vinculada" subject="_bJKWUJ-NEeazpMIaimmURw"/>
             <ownedUseCase xmi:id="_Oc1vUKHrEeaaNMsIWviPvg" name="Excluir Pessoa Vinculada" subject="_bJKWUJ-NEeazpMIaimmURw"/>
-            <ownedUseCase xmi:id="_QjItcKHrEeaaNMsIWviPvg" name="Gerenciar Dados Cadastrais" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_QjItcKHrEeaaNMsIWviPvg" name="Gerenciar Informações do Prontuário" subject="_bJKWUJ-NEeazpMIaimmURw"/>
             <edge xmi:type="uml:ControlFlow" xmi:id="_4K6OQJ-NEeazpMIaimmURw" target="_tuVhsJ-NEeazpMIaimmURw" source="_ljj4oJ-NEeazpMIaimmURw">
               <guard xmi:type="uml:LiteralBoolean" xmi:id="_4K7cYJ-NEeazpMIaimmURw" name="Ínício de Atividade_To_FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema_guard" value="true"/>
               <weight xmi:type="uml:LiteralInteger" xmi:id="_4K9RkJ-NEeazpMIaimmURw" name="Ínício de Atividade_To_FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema_weight"/>

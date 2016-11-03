@@ -4766,7 +4766,7 @@
           </ownedStyle>
           <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Capture']/@ownedRepresentations[name='Use%20Case%20Diagram']/@defaultLayer/@nodeMappings[name='UCD_UseCase']"/>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Q082MKHrEeaaNMsIWviPvg" name="Gerenciar Dados Cadastrais" incomingEdges="_ropiMKHrEeaaNMsIWviPvg" width="14" height="14" resizeKind="NSEW">
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Q082MKHrEeaaNMsIWviPvg" name="Gerenciar Informações do Prontuário" incomingEdges="_ropiMKHrEeaaNMsIWviPvg" width="14" height="14" resizeKind="NSEW">
           <target xmi:type="uml:UseCase" href="rh_folha.uml#_QjItcKHrEeaaNMsIWviPvg"/>
           <semanticElements xmi:type="uml:UseCase" href="rh_folha.uml#_QjItcKHrEeaaNMsIWviPvg"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
