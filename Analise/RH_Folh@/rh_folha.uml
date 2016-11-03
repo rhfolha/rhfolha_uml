@@ -1020,19 +1020,19 @@
         <eAnnotations xmi:id="_hHUFYIEFEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_hHUFYYEFEea7xOuiynXcmQ" key="Human"/>
         </eAnnotations>
-        <generalization xmi:id="_vThFYIEFEea7xOuiynXcmQ" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
+        <generalization xmi:id="_m8ULYKHqEeaaNMsIWviPvg" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_jxl6UIEFEea7xOuiynXcmQ" name="Setorial de RH">
         <eAnnotations xmi:id="_jxl6UYEFEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_jxmhYIEFEea7xOuiynXcmQ" key="Human"/>
         </eAnnotations>
-        <generalization xmi:id="_x8gg4IEFEea7xOuiynXcmQ" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
+        <generalization xmi:id="_oECBYKHqEeaaNMsIWviPvg" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_lTH-gIEFEea7xOuiynXcmQ" name="Subsetorial de RH">
         <eAnnotations xmi:id="_lTIlkIEFEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_lTIlkYEFEea7xOuiynXcmQ" key="Human"/>
         </eAnnotations>
-        <generalization xmi:id="_yxExYIEFEea7xOuiynXcmQ" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
+        <generalization xmi:id="_orBI4KHqEeaaNMsIWviPvg" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_5rCx8IV7EearyO5uINI3lw" memberEnd="_5rCx8YV7EearyO5uINI3lw _5rCx8oV7EearyO5uINI3lw">
         <ownedEnd xmi:id="_5rCx8YV7EearyO5uINI3lw" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_5rCx8IV7EearyO5uINI3lw"/>
@@ -1069,6 +1069,10 @@
       <packagedElement xmi:type="uml:Association" xmi:id="_j30QcJY1Eeao3t5WSaXS2A" memberEnd="_j303gJY1Eeao3t5WSaXS2A _j31ekJY1Eeao3t5WSaXS2A">
         <ownedEnd xmi:id="_j303gJY1Eeao3t5WSaXS2A" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_j30QcJY1Eeao3t5WSaXS2A"/>
         <ownedEnd xmi:id="_j31ekJY1Eeao3t5WSaXS2A" type="_JJcwYJY1Eeao3t5WSaXS2A" association="_j30QcJY1Eeao3t5WSaXS2A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_wmulwKHrEeaaNMsIWviPvg" memberEnd="_wmulwaHrEeaaNMsIWviPvg _wmvM0KHrEeaaNMsIWviPvg">
+        <ownedEnd xmi:id="_wmulwaHrEeaaNMsIWviPvg" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_wmulwKHrEeaaNMsIWviPvg"/>
+        <ownedEnd xmi:id="_wmvM0KHrEeaaNMsIWviPvg" type="_x043cKHqEeaaNMsIWviPvg" association="_wmulwKHrEeaaNMsIWviPvg"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ZiPrkFsgEeaPguYNUcBx6Q" name="Vida Funcional">
@@ -1852,7 +1856,29 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_Vhlp0J-NEeazpMIaimmURw" name="Ingresso">
         <packagedElement xmi:type="uml:Package" xmi:id="_YL0bcJ-NEeazpMIaimmURw" name="Prontuário">
-          <packagedElement xmi:type="uml:Activity" xmi:id="_bJKWUJ-NEeazpMIaimmURw" name="Gerenciar Dados Cadastrais" node="_ljj4oJ-NEeazpMIaimmURw _tuVhsJ-NEeazpMIaimmURw _5GcCYJ-NEeazpMIaimmURw _HcrvMJ-OEeazpMIaimmURw _O8xcgJ-OEeazpMIaimmURw _Th3_YJ-OEeazpMIaimmURw _a5a0sJ-OEeazpMIaimmURw _jEFJAJ-OEeazpMIaimmURw _s8HlIJ-OEeazpMIaimmURw _47ikgJ-OEeazpMIaimmURw _EiNssJ-PEeazpMIaimmURw _aAqLQJ-PEeazpMIaimmURw _o6higJ-PEeazpMIaimmURw _XpYVYJ-QEeazpMIaimmURw _j9nHIJ-QEeazpMIaimmURw _wpzF4J-QEeazpMIaimmURw _L6jhUJ-REeazpMIaimmURw _jwuPwJ-SEeazpMIaimmURw _6TLJAJ-SEeazpMIaimmURw _E6K84J-TEeazpMIaimmURw _QWqOUJ-TEeazpMIaimmURw _p_gQwJ-TEeazpMIaimmURw _2KC7AJ-TEeazpMIaimmURw" group="_f9GmcJ-NEeazpMIaimmURw _hSHRkJ-NEeazpMIaimmURw" partition="_f9GmcJ-NEeazpMIaimmURw _hSHRkJ-NEeazpMIaimmURw">
+          <packagedElement xmi:type="uml:Activity" xmi:id="_bJKWUJ-NEeazpMIaimmURw" name="Prontuário" useCase="_x043cKHqEeaaNMsIWviPvg _6sntIKHqEeaaNMsIWviPvg _9XXcIKHqEeaaNMsIWviPvg __Vy3sKHqEeaaNMsIWviPvg _CVrwQKHrEeaaNMsIWviPvg _Dulc4KHrEeaaNMsIWviPvg _FQrhwKHrEeaaNMsIWviPvg _KJC-4KHrEeaaNMsIWviPvg _MNaqYKHrEeaaNMsIWviPvg _Oc1vUKHrEeaaNMsIWviPvg _QjItcKHrEeaaNMsIWviPvg" node="_ljj4oJ-NEeazpMIaimmURw _tuVhsJ-NEeazpMIaimmURw _5GcCYJ-NEeazpMIaimmURw _HcrvMJ-OEeazpMIaimmURw _O8xcgJ-OEeazpMIaimmURw _Th3_YJ-OEeazpMIaimmURw _a5a0sJ-OEeazpMIaimmURw _jEFJAJ-OEeazpMIaimmURw _s8HlIJ-OEeazpMIaimmURw _47ikgJ-OEeazpMIaimmURw _EiNssJ-PEeazpMIaimmURw _aAqLQJ-PEeazpMIaimmURw _o6higJ-PEeazpMIaimmURw _XpYVYJ-QEeazpMIaimmURw _j9nHIJ-QEeazpMIaimmURw _wpzF4J-QEeazpMIaimmURw _L6jhUJ-REeazpMIaimmURw _jwuPwJ-SEeazpMIaimmURw _6TLJAJ-SEeazpMIaimmURw _E6K84J-TEeazpMIaimmURw _QWqOUJ-TEeazpMIaimmURw _p_gQwJ-TEeazpMIaimmURw _2KC7AJ-TEeazpMIaimmURw" group="_f9GmcJ-NEeazpMIaimmURw _hSHRkJ-NEeazpMIaimmURw" partition="_f9GmcJ-NEeazpMIaimmURw _hSHRkJ-NEeazpMIaimmURw">
+            <ownedUseCase xmi:id="_x043cKHqEeaaNMsIWviPvg" name="Consultar Prontuário" subject="_bJKWUJ-NEeazpMIaimmURw">
+              <include xmi:id="_f1h5cKHrEeaaNMsIWviPvg" addition="_6sntIKHqEeaaNMsIWviPvg"/>
+              <include xmi:id="_hT578KHrEeaaNMsIWviPvg" addition="_9XXcIKHqEeaaNMsIWviPvg"/>
+              <include xmi:id="_iT-R0KHrEeaaNMsIWviPvg" addition="__Vy3sKHqEeaaNMsIWviPvg"/>
+              <include xmi:id="_jTd_8KHrEeaaNMsIWviPvg" addition="_CVrwQKHrEeaaNMsIWviPvg"/>
+              <include xmi:id="_kRfucKHrEeaaNMsIWviPvg" addition="_Dulc4KHrEeaaNMsIWviPvg"/>
+              <include xmi:id="_lNmxYKHrEeaaNMsIWviPvg" addition="_FQrhwKHrEeaaNMsIWviPvg"/>
+              <include xmi:id="_m-wl8KHrEeaaNMsIWviPvg" addition="_KJC-4KHrEeaaNMsIWviPvg"/>
+              <include xmi:id="_omOTAKHrEeaaNMsIWviPvg" addition="_MNaqYKHrEeaaNMsIWviPvg"/>
+              <include xmi:id="_pnsXEKHrEeaaNMsIWviPvg" addition="_Oc1vUKHrEeaaNMsIWviPvg"/>
+              <include xmi:id="_rofKIKHrEeaaNMsIWviPvg" addition="_QjItcKHrEeaaNMsIWviPvg"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:id="_6sntIKHqEeaaNMsIWviPvg" name="Cadastrar Habilidade" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_9XXcIKHqEeaaNMsIWviPvg" name="Alterar Habilidade" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="__Vy3sKHqEeaaNMsIWviPvg" name="Excluir Habilidade" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_CVrwQKHrEeaaNMsIWviPvg" name="Cadastrar Formação" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_Dulc4KHrEeaaNMsIWviPvg" name="Alterar Formação" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_FQrhwKHrEeaaNMsIWviPvg" name="Excluir Formação" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_KJC-4KHrEeaaNMsIWviPvg" name="Cadastrar Pessoa Vinculada" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_MNaqYKHrEeaaNMsIWviPvg" name="Alterar Pessoa Vinculada" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_Oc1vUKHrEeaaNMsIWviPvg" name="Excluir Pessoa Vinculada" subject="_bJKWUJ-NEeazpMIaimmURw"/>
+            <ownedUseCase xmi:id="_QjItcKHrEeaaNMsIWviPvg" name="Gerenciar Dados Cadastrais" subject="_bJKWUJ-NEeazpMIaimmURw"/>
             <edge xmi:type="uml:ControlFlow" xmi:id="_4K6OQJ-NEeazpMIaimmURw" target="_tuVhsJ-NEeazpMIaimmURw" source="_ljj4oJ-NEeazpMIaimmURw">
               <guard xmi:type="uml:LiteralBoolean" xmi:id="_4K7cYJ-NEeazpMIaimmURw" name="Ínício de Atividade_To_FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema_guard" value="true"/>
               <weight xmi:type="uml:LiteralInteger" xmi:id="_4K9RkJ-NEeazpMIaimmURw" name="Ínício de Atividade_To_FB.01 - Seleciona o prontuário de pessoa cadastrada no sistema_weight"/>
