@@ -1020,7 +1020,7 @@
         <eAnnotations xmi:id="_hHUFYIEFEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <details xmi:id="_hHUFYYEFEea7xOuiynXcmQ" key="Human"/>
         </eAnnotations>
-        <generalization xmi:id="_m8ULYKHqEeaaNMsIWviPvg" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
+        <generalization xmi:id="_ww0T4LWJEeaWOL3Jbbf16A" general="_7ZuUIIEDEea7xOuiynXcmQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_jxl6UIEFEea7xOuiynXcmQ" name="Setorial de RH">
         <eAnnotations xmi:id="_jxl6UYEFEea7xOuiynXcmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -1073,6 +1073,18 @@
       <packagedElement xmi:type="uml:Association" xmi:id="_wmulwKHrEeaaNMsIWviPvg" memberEnd="_wmulwaHrEeaaNMsIWviPvg _wmvM0KHrEeaaNMsIWviPvg">
         <ownedEnd xmi:id="_wmulwaHrEeaaNMsIWviPvg" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_wmulwKHrEeaaNMsIWviPvg"/>
         <ownedEnd xmi:id="_wmvM0KHrEeaaNMsIWviPvg" type="_x043cKHqEeaaNMsIWviPvg" association="_wmulwKHrEeaaNMsIWviPvg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NXZdULWLEeaWOL3Jbbf16A" memberEnd="_NXZdUbWLEeaWOL3Jbbf16A _NXfj8LWLEeaWOL3Jbbf16A">
+        <ownedEnd xmi:id="_NXZdUbWLEeaWOL3Jbbf16A" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_NXZdULWLEeaWOL3Jbbf16A"/>
+        <ownedEnd xmi:id="_NXfj8LWLEeaWOL3Jbbf16A" type="_RkRi4LWKEeaWOL3Jbbf16A" association="_NXZdULWLEeaWOL3Jbbf16A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_N8MzgLWLEeaWOL3Jbbf16A" memberEnd="_N8MzgbWLEeaWOL3Jbbf16A _N8MzgrWLEeaWOL3Jbbf16A">
+        <ownedEnd xmi:id="_N8MzgbWLEeaWOL3Jbbf16A" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_N8MzgLWLEeaWOL3Jbbf16A"/>
+        <ownedEnd xmi:id="_N8MzgrWLEeaWOL3Jbbf16A" type="_4dY-ALWJEeaWOL3Jbbf16A" association="_N8MzgLWLEeaWOL3Jbbf16A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_3_VBoLWMEeaWOL3Jbbf16A" memberEnd="_3_VBobWMEeaWOL3Jbbf16A _3_VBorWMEeaWOL3Jbbf16A">
+        <ownedEnd xmi:id="_3_VBobWMEeaWOL3Jbbf16A" type="_7ZuUIIEDEea7xOuiynXcmQ" association="_3_VBoLWMEeaWOL3Jbbf16A"/>
+        <ownedEnd xmi:id="_3_VBorWMEeaWOL3Jbbf16A" type="_Y0g2ULWKEeaWOL3Jbbf16A" association="_3_VBoLWMEeaWOL3Jbbf16A"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ZiPrkFsgEeaPguYNUcBx6Q" name="Vida Funcional">
@@ -2050,6 +2062,43 @@
             <node xmi:type="uml:ActivityFinalNode" xmi:id="_2KC7AJ-TEeazpMIaimmURw" name="Fim de Atividade" incoming="_4n9H4J-TEeazpMIaimmURw" inPartition="_f9GmcJ-NEeazpMIaimmURw"/>
           </packagedElement>
         </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_P_UzwLWJEeaWOL3Jbbf16A" name="Provimento / Preenchimento">
+          <packagedElement xmi:type="uml:Activity" xmi:id="_aSMKsLWJEeaWOL3Jbbf16A" name="Provimento / Preenchimento" useCase="_4dY-ALWJEeaWOL3Jbbf16A _RkRi4LWKEeaWOL3Jbbf16A _Y0g2ULWKEeaWOL3Jbbf16A _lR2gwLWKEeaWOL3Jbbf16A __ZPgYLWKEeaWOL3Jbbf16A _CaNXALWLEeaWOL3Jbbf16A _JidzILWLEeaWOL3Jbbf16A _4-iRULWLEeaWOL3Jbbf16A _6k4kELWLEeaWOL3Jbbf16A _IMGnsLWMEeaWOL3Jbbf16A _OfKhMLWMEeaWOL3Jbbf16A _R2QY0LWMEeaWOL3Jbbf16A _9nwX0LWOEeaWOL3Jbbf16A">
+            <ownedUseCase xmi:id="_4dY-ALWJEeaWOL3Jbbf16A" name="Consultar Ingresso" subject="_aSMKsLWJEeaWOL3Jbbf16A">
+              <include xmi:id="_UOyL4LWLEeaWOL3Jbbf16A" addition="_Y0g2ULWKEeaWOL3Jbbf16A"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:id="_RkRi4LWKEeaWOL3Jbbf16A" name="Consultar Ingresso - Portal de Concursos" subject="_aSMKsLWJEeaWOL3Jbbf16A">
+              <include xmi:id="_Uu_V8LWLEeaWOL3Jbbf16A" addition="_Y0g2ULWKEeaWOL3Jbbf16A"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:id="_Y0g2ULWKEeaWOL3Jbbf16A" name="Cadastrar Previsão de Ingresso" subject="_aSMKsLWJEeaWOL3Jbbf16A">
+              <include xmi:id="_cYznALWLEeaWOL3Jbbf16A" addition="_lR2gwLWKEeaWOL3Jbbf16A"/>
+              <include xmi:id="_qqE3wLWMEeaWOL3Jbbf16A" addition="_IMGnsLWMEeaWOL3Jbbf16A"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:id="_lR2gwLWKEeaWOL3Jbbf16A" name="Cadastrar Nomeação / Admissão" subject="_aSMKsLWJEeaWOL3Jbbf16A">
+              <include xmi:id="_dgPwMLWLEeaWOL3Jbbf16A" addition="__ZPgYLWKEeaWOL3Jbbf16A"/>
+              <include xmi:id="_fffEELWLEeaWOL3Jbbf16A" addition="_CaNXALWLEeaWOL3Jbbf16A"/>
+              <include xmi:id="_kx2VkLWLEeaWOL3Jbbf16A" addition="_JidzILWLEeaWOL3Jbbf16A"/>
+              <include xmi:id="_y0m-ULWOEeaWOL3Jbbf16A" addition="_IMGnsLWMEeaWOL3Jbbf16A"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:id="__ZPgYLWKEeaWOL3Jbbf16A" name="Alterar Nomeação / Admissão" subject="_aSMKsLWJEeaWOL3Jbbf16A"/>
+            <ownedUseCase xmi:id="_CaNXALWLEeaWOL3Jbbf16A" name="Excluir Nomeação / Admissão" subject="_aSMKsLWJEeaWOL3Jbbf16A"/>
+            <ownedUseCase xmi:id="_JidzILWLEeaWOL3Jbbf16A" name="Cadastrar Posse" subject="_aSMKsLWJEeaWOL3Jbbf16A">
+              <include xmi:id="_9zPWcLWLEeaWOL3Jbbf16A" addition="_4-iRULWLEeaWOL3Jbbf16A"/>
+              <include xmi:id="_-yqMELWLEeaWOL3Jbbf16A" addition="_6k4kELWLEeaWOL3Jbbf16A"/>
+              <include xmi:id="_KiqZ8LWNEeaWOL3Jbbf16A" addition="_IMGnsLWMEeaWOL3Jbbf16A"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:id="_4-iRULWLEeaWOL3Jbbf16A" name="Alterar Posse" subject="_aSMKsLWJEeaWOL3Jbbf16A"/>
+            <ownedUseCase xmi:id="_6k4kELWLEeaWOL3Jbbf16A" name="Excluir Posse" subject="_aSMKsLWJEeaWOL3Jbbf16A"/>
+            <ownedUseCase xmi:id="_IMGnsLWMEeaWOL3Jbbf16A" name="Cadastrar Início de Exercício" subject="_aSMKsLWJEeaWOL3Jbbf16A">
+              <include xmi:id="_WqzF4LWMEeaWOL3Jbbf16A" addition="_OfKhMLWMEeaWOL3Jbbf16A"/>
+              <include xmi:id="_ZIiToLWMEeaWOL3Jbbf16A" addition="_R2QY0LWMEeaWOL3Jbbf16A"/>
+              <include xmi:id="_CtYN0LWPEeaWOL3Jbbf16A" addition="_9nwX0LWOEeaWOL3Jbbf16A"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:id="_OfKhMLWMEeaWOL3Jbbf16A" name="Alterar Início de Exercício" subject="_aSMKsLWJEeaWOL3Jbbf16A"/>
+            <ownedUseCase xmi:id="_R2QY0LWMEeaWOL3Jbbf16A" name="Excluir Início de Exercício" subject="_aSMKsLWJEeaWOL3Jbbf16A"/>
+            <ownedUseCase xmi:id="_9nwX0LWOEeaWOL3Jbbf16A" name="Prorrogar Contrato de Trabalho" subject="_aSMKsLWJEeaWOL3Jbbf16A"/>
+          </packagedElement>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
   </packagedElement>
@@ -2649,33 +2698,33 @@
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_Q_2wUKdqEeaYBNGu42EunA" name="Provimento / Preenchimento">
-          <packagedElement xmi:type="uml:StateMachine" xmi:id="_UZ51UKdqEeaYBNGu42EunA" name="Nomeação">
+          <packagedElement xmi:type="uml:StateMachine" xmi:id="_UZ51UKdqEeaYBNGu42EunA" name="Nomeação / Admissão">
             <region xmi:id="_VQgGIKdqEeaYBNGu42EunA" name="Region1">
               <transition xmi:id="_5rbLEKdqEeaYBNGu42EunA" guard="_-1vT0KdqEeaYBNGu42EunA" source="_ndA54KdqEeaYBNGu42EunA" target="_oPCzwKdqEeaYBNGu42EunA">
                 <ownedRule xmi:id="_-1vT0KdqEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_-1vT0adqEeaYBNGu42EunA" name="null_guard">
-                    <body>NV-EMAND</body>
+                    <body>NV-AGATL</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_6D4HUKdqEeaYBNGu42EunA" guard="_CUwYYKdrEeaYBNGu42EunA" source="_oPCzwKdqEeaYBNGu42EunA" target="_vBtaYKdqEeaYBNGu42EunA">
                 <ownedRule xmi:id="_CUwYYKdrEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_CUwYYadrEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-ENC</body>
+                    <body>AGATL-ENC</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_6cMgsKdqEeaYBNGu42EunA" guard="_ACXfAKdrEeaYBNGu42EunA" source="_oPCzwKdqEeaYBNGu42EunA" target="_oPCzwKdqEeaYBNGu42EunA">
                 <ownedRule xmi:id="_ACXfAKdrEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_ACXfAadrEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-EMAND</body>
+                    <body>AGATL-AGATL</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_8D3zsKdrEeaYBNGu42EunA" guard="_9WAJ8KdrEeaYBNGu42EunA" source="_oPCzwKdqEeaYBNGu42EunA" target="_30__gKdrEeaYBNGu42EunA">
                 <ownedRule xmi:id="_9WAJ8KdrEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_9WAJ8adrEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-EXC</body>
+                    <body>AGATL-EXC</body>
                   </specification>
                 </ownedRule>
               </transition>
@@ -2687,7 +2736,7 @@
                 </ownedRule>
               </transition>
               <subvertex xmi:type="uml:State" xmi:id="_ndA54KdqEeaYBNGu42EunA" name="Novo"/>
-              <subvertex xmi:type="uml:State" xmi:id="_oPCzwKdqEeaYBNGu42EunA" name="Em Andamento"/>
+              <subvertex xmi:type="uml:State" xmi:id="_oPCzwKdqEeaYBNGu42EunA" name="Aguardando Ato Legal"/>
               <subvertex xmi:type="uml:State" xmi:id="_vBtaYKdqEeaYBNGu42EunA" name="Encerrado"/>
               <subvertex xmi:type="uml:State" xmi:id="_30__gKdrEeaYBNGu42EunA" name="Excluído"/>
             </region>
@@ -2950,6 +2999,27 @@
               <subvertex xmi:type="uml:State" xmi:id="_eucGkKdyEeaYBNGu42EunA" name="Aguardando Início de Exercício"/>
               <subvertex xmi:type="uml:State" xmi:id="_glZBIKdyEeaYBNGu42EunA" name="Encerrado"/>
               <subvertex xmi:type="uml:State" xmi:id="_hxMF4KdyEeaYBNGu42EunA" name="Excluído"/>
+            </region>
+          </packagedElement>
+          <packagedElement xmi:type="uml:StateMachine" xmi:id="_GdsM0LWGEeaWOL3Jbbf16A" name="Previsão de Ingresso">
+            <region xmi:id="_WPFB8LWGEeaWOL3Jbbf16A" name="Region1">
+              <transition xmi:id="_vIjLALWIEeaWOL3Jbbf16A" guard="_xzgVYLWIEeaWOL3Jbbf16A" source="_j0AUoLWIEeaWOL3Jbbf16A" target="_kh2SELWIEeaWOL3Jbbf16A">
+                <ownedRule xmi:id="_xzgVYLWIEeaWOL3Jbbf16A" name="null_transition">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_xzgVYbWIEeaWOL3Jbbf16A" name="null_guard">
+                    <body>NV-ENC</body>
+                  </specification>
+                </ownedRule>
+              </transition>
+              <transition xmi:id="_vui0ALWIEeaWOL3Jbbf16A" guard="_y745wLWIEeaWOL3Jbbf16A" source="_kh2SELWIEeaWOL3Jbbf16A" target="_rXbCwLWIEeaWOL3Jbbf16A">
+                <ownedRule xmi:id="_y745wLWIEeaWOL3Jbbf16A" name="null_transition">
+                  <specification xmi:type="uml:OpaqueExpression" xmi:id="_y745wbWIEeaWOL3Jbbf16A" name="null_guard">
+                    <body>ENC-EXC</body>
+                  </specification>
+                </ownedRule>
+              </transition>
+              <subvertex xmi:type="uml:State" xmi:id="_j0AUoLWIEeaWOL3Jbbf16A" name="Novo"/>
+              <subvertex xmi:type="uml:State" xmi:id="_kh2SELWIEeaWOL3Jbbf16A" name="Encerrado"/>
+              <subvertex xmi:type="uml:State" xmi:id="_rXbCwLWIEeaWOL3Jbbf16A" name="Excluído"/>
             </region>
           </packagedElement>
         </packagedElement>
