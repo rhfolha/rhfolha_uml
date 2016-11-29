@@ -2746,35 +2746,35 @@
               <transition xmi:id="_a8KL8KdrEeaYBNGu42EunA" guard="_fR75YKdrEeaYBNGu42EunA" source="_PGYQwKdrEeaYBNGu42EunA" target="_PxlJ4KdrEeaYBNGu42EunA">
                 <ownedRule xmi:id="_fR75YKdrEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_fR75YadrEeaYBNGu42EunA" name="null_guard">
-                    <body>NV-EMAND</body>
+                    <body>NV-PENDPOS</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_bfdGQKdrEeaYBNGu42EunA" guard="_gUe7gKdrEeaYBNGu42EunA" source="_PxlJ4KdrEeaYBNGu42EunA" target="_Q2VygKdrEeaYBNGu42EunA">
                 <ownedRule xmi:id="_gUe7gKdrEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_gUe7gadrEeaYBNGu42EunA" name="null_guard">
-                    <body>NV-EMAND</body>
+                    <body>PENDPOS-ENC</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_cSGrMKdrEeaYBNGu42EunA" guard="_haPpsKdrEeaYBNGu42EunA" source="_PxlJ4KdrEeaYBNGu42EunA" target="_RsrkoKdrEeaYBNGu42EunA">
                 <ownedRule xmi:id="_haPpsKdrEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_haPpsadrEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-SUSP</body>
+                    <body>PENDPOS-SUSP</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_dpJ9sKdrEeaYBNGu42EunA" guard="_i428wKdrEeaYBNGu42EunA" source="_RsrkoKdrEeaYBNGu42EunA" target="_PxlJ4KdrEeaYBNGu42EunA">
                 <ownedRule xmi:id="_i428wKdrEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_i428wadrEeaYBNGu42EunA" name="null_guard">
-                    <body>SUSP-EMAND</body>
+                    <body>SUSP-PENDPOS</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_nqoCoKdrEeaYBNGu42EunA" guard="_qshGUKdrEeaYBNGu42EunA" source="_PxlJ4KdrEeaYBNGu42EunA" target="_PxlJ4KdrEeaYBNGu42EunA">
                 <ownedRule xmi:id="_qshGUKdrEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_qshGUadrEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-EMAND</body>
+                    <body>PENDPOS-PENDPOS</body>
                   </specification>
                 </ownedRule>
               </transition>
@@ -2795,12 +2795,12 @@
               <transition xmi:id="_Wk9swKdsEeaYBNGu42EunA" guard="_Z7wCYKdsEeaYBNGu42EunA" source="_PxlJ4KdrEeaYBNGu42EunA" target="_IYBF4KdsEeaYBNGu42EunA">
                 <ownedRule xmi:id="_Z7wCYKdsEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_Z7wCYadsEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-EXC</body>
+                    <body>PENDPOS-EXC</body>
                   </specification>
                 </ownedRule>
               </transition>
               <subvertex xmi:type="uml:State" xmi:id="_PGYQwKdrEeaYBNGu42EunA" name="Novo"/>
-              <subvertex xmi:type="uml:State" xmi:id="_PxlJ4KdrEeaYBNGu42EunA" name="Em Andamento"/>
+              <subvertex xmi:type="uml:State" xmi:id="_PxlJ4KdrEeaYBNGu42EunA" name="Pendente de Posse"/>
               <subvertex xmi:type="uml:State" xmi:id="_Q2VygKdrEeaYBNGu42EunA" name="Encerrado"/>
               <subvertex xmi:type="uml:State" xmi:id="_RsrkoKdrEeaYBNGu42EunA" name="Suspenso"/>
               <subvertex xmi:type="uml:State" xmi:id="_IYBF4KdsEeaYBNGu42EunA" name="Excluído"/>
@@ -2811,21 +2811,21 @@
               <transition xmi:id="_4xj48KdsEeaYBNGu42EunA" guard="_ENSVYKdtEeaYBNGu42EunA" source="_wooqAKdsEeaYBNGu42EunA" target="_xdhDkKdsEeaYBNGu42EunA">
                 <ownedRule xmi:id="_ENSVYKdtEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_ENSVYadtEeaYBNGu42EunA" name="null_guard">
-                    <body>NV-EMAND</body>
+                    <body>NV-PENDIEX</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_5gATUKdsEeaYBNGu42EunA" guard="_Gydn4KdtEeaYBNGu42EunA" source="_xdhDkKdsEeaYBNGu42EunA" target="_yh21cKdsEeaYBNGu42EunA">
                 <ownedRule xmi:id="_Gydn4KdtEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_Gydn4adtEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-ENC</body>
+                    <body>PENDIEX-PENDIEX</body>
                   </specification>
                 </ownedRule>
               </transition>
               <transition xmi:id="_56a-cKdsEeaYBNGu42EunA" guard="_FciWwKdtEeaYBNGu42EunA" source="_xdhDkKdsEeaYBNGu42EunA" target="_xdhDkKdsEeaYBNGu42EunA">
                 <ownedRule xmi:id="_FciWwKdtEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_FciWwadtEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-EMAND</body>
+                    <body>PENDIEX-PENDIEX</body>
                   </specification>
                 </ownedRule>
               </transition>
@@ -2839,12 +2839,12 @@
               <transition xmi:id="_CzWuAKdtEeaYBNGu42EunA" guard="_Id2LoKdtEeaYBNGu42EunA" source="_xdhDkKdsEeaYBNGu42EunA" target="_94cTMKdsEeaYBNGu42EunA">
                 <ownedRule xmi:id="_Id2LoKdtEeaYBNGu42EunA" name="null_transition">
                   <specification xmi:type="uml:OpaqueExpression" xmi:id="_Id2LoadtEeaYBNGu42EunA" name="null_guard">
-                    <body>EMAND-EXC</body>
+                    <body>PENDIEX-EXC</body>
                   </specification>
                 </ownedRule>
               </transition>
               <subvertex xmi:type="uml:State" xmi:id="_wooqAKdsEeaYBNGu42EunA" name="Novo"/>
-              <subvertex xmi:type="uml:State" xmi:id="_xdhDkKdsEeaYBNGu42EunA" name="Em Andamento"/>
+              <subvertex xmi:type="uml:State" xmi:id="_xdhDkKdsEeaYBNGu42EunA" name="Pendente de Início de Exercício"/>
               <subvertex xmi:type="uml:State" xmi:id="_yh21cKdsEeaYBNGu42EunA" name="Encerrado"/>
               <subvertex xmi:type="uml:State" xmi:id="_94cTMKdsEeaYBNGu42EunA" name="Excluído"/>
             </region>
